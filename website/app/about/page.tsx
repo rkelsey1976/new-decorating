@@ -37,8 +37,8 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
               <Image
-                src="/services/interior.jpg"
-                alt="Interior painting and decorating work in a Bath home"
+                src="/gallery/629379914_122155306700722526_337082109466497239_n.jpg"
+                alt="Our approach – painting and decorating work in Bath"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"

@@ -171,9 +171,9 @@ export default function ContactPage() {
         </div>
 
         {/* Not sure what you need? – full-width green with brush */}
-        <section className="relative pt-20 sm:pt-28 pb-0 bg-accent text-white">
+        <section className="relative pt-20 sm:pt-28 pb-12 sm:pb-16 bg-accent text-white">
           <BrushStroke position="top" fill="var(--background)" />
-          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-2">
             <h3 className="font-display text-xl sm:text-2xl font-semibold tracking-tight">Not sure what you need?</h3>
             <p className="mt-3 text-white/90 text-sm sm:text-base leading-relaxed max-w-2xl">
               Take a look at our services or browse photos from previous projects to get an idea of what we can do.
