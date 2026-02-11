@@ -25,7 +25,22 @@ export default function GalleryPage() {
           { label: "Home", href: "/" },
           { label: "Gallery" },
         ]}
-      />
+      >
+        <div className="mt-8 flex flex-col sm:flex-row gap-4">
+          <Link
+            href="/contact"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-accent px-6 py-3 text-sm font-semibold shadow-lg hover:bg-white/95 transition-all"
+          >
+            Get a free quote
+          </Link>
+          <Link
+            href="/services"
+            className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+          >
+            Our services
+          </Link>
+        </div>
+      </PageHero>
       <div className="py-16 sm:py-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] text-center">

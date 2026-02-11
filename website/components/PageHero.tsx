@@ -98,58 +98,18 @@ export default function PageHero({
             {children}
           </div>
 
-          {/* Side image with paint-edge mask on all sides */}
+          {/* Side image with border, no paint mask */}
           {image && (
             <div className="hidden lg:block">
-              <svg width="0" height="0" aria-hidden="true" className="absolute">
-                <defs>
-                  <mask id="hero-paint-mask" maskContentUnits="objectBoundingBox">
-                    <path
-                      fill="white"
-                      d="M 0,0.06 Q 0.08,0 0.2,0.03 Q 0.4,0 0.6,0.02 Q 0.8,0 1,0.05 L 1,0.2 Q 1.02,0.35 1,0.5 L 1,0.75 Q 0.98,0.9 0.92,0.98 Q 0.75,1 0.55,1 Q 0.35,1 0.15,0.98 Q 0,1 0,0.92 L 0,0.7 Q 0,0.5 0,0.3 L 0,0.06 Z"
-                    />
-                  </mask>
-                </defs>
-              </svg>
-              <div className="relative aspect-[4/3] overflow-visible shadow-2xl shadow-black/30">
-                {/* Colored border layer – same paint mask, scaled up so edge shows */}
-                <div
-                  className="absolute inset-0 bg-white"
-                  style={{
-                    transform: "scale(1.04)",
-                    maskImage: "url(#hero-paint-mask)",
-                    WebkitMaskImage: "url(#hero-paint-mask)",
-                    maskSize: "100% 100%",
-                    WebkitMaskSize: "100% 100%",
-                    maskRepeat: "no-repeat",
-                    WebkitMaskRepeat: "no-repeat",
-                    maskPosition: "center",
-                    WebkitMaskPosition: "center",
-                  }}
+              <div className="relative aspect-[4/3] overflow-hidden rounded-lg border-4 border-white shadow-2xl shadow-black/30">
+                <Image
+                  src={image}
+                  alt={imageAlt}
+                  fill
+                  priority
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="object-cover"
                 />
-                {/* Image with paint-edge mask */}
-                <div
-                  className="absolute inset-0"
-                  style={{
-                    maskImage: "url(#hero-paint-mask)",
-                    WebkitMaskImage: "url(#hero-paint-mask)",
-                    maskSize: "100% 100%",
-                    WebkitMaskSize: "100% 100%",
-                    maskRepeat: "no-repeat",
-                    WebkitMaskRepeat: "no-repeat",
-                    maskPosition: "center",
-                    WebkitMaskPosition: "center",
-                  }}
-                >
-                  <Image
-                    src={image}
-                    alt={imageAlt}
-                    fill
-                    priority
-                    sizes="(min-width: 1024px) 50vw, 100vw"
-                    className="object-cover"
-                  />
-                </div>
               </div>
             </div>
           )}

@@ -26,7 +26,22 @@ export default function AreaPage() {
           { label: "Home", href: "/" },
           { label: "Areas" },
         ]}
-      />
+      >
+        <div className="mt-8 flex flex-col sm:flex-row gap-4">
+          <Link
+            href="/contact"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-white text-accent px-6 py-3 text-sm font-semibold shadow-lg hover:bg-white/95 transition-all"
+          >
+            Get a free quote
+          </Link>
+          <Link
+            href="/gallery"
+            className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+          >
+            View our work
+          </Link>
+        </div>
+      </PageHero>
 
       <section className="py-16 sm:py-24 bg-background">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
