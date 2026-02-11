@@ -58,45 +58,47 @@ const faqPageJsonLd = {
   ],
 };
 
-/** AggregateRating + individual Review structured data */
+/** AggregateRating + individual Review structured data (LocalBusiness required for Google review snippets) */
 const reviewJsonLd = {
   "@context": "https://schema.org",
-  "@type": "PaintingContractor",
+  "@type": "LocalBusiness",
+  "@id": `${SITE_URL}#localbusiness`,
   name: "New Decorating",
   url: SITE_URL,
+  description: "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Quality finishes, free quotes. 25+ years experience.",
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "5",
-    bestRating: "5",
-    ratingCount: "4",
-    reviewCount: "4",
+    ratingValue: 5,
+    bestRating: 5,
+    ratingCount: 4,
+    reviewCount: 4,
   },
   review: [
     {
       "@type": "Review",
       author: { "@type": "Person", name: "Steve Frankham" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
       reviewBody:
         "New Decorating has worked on a couple of projects for me, some exterior work which needed a lot of preparation before painting. I was kept informed of what was being done all through the stages. Also some interior work where I again cannot fault the work. Jay tidy at all times. In general a good job done, really pleased and 100% will be using him again.",
     },
     {
       "@type": "Review",
       author: { "@type": "Person", name: "Mike Joe Coates" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
       reviewBody:
         "Fantastic painter and decorator. Jay got back to me straight away with a sensible price. The job was to decorate my living room and hallway. He arrived on time every day, everything was covered in dust sheets, there was no mess at the end of the day. All done in one week, and what a great job he did. I would highly recommend Jay with any decorating that needs to be done.",
     },
     {
       "@type": "Review",
       author: { "@type": "Person", name: "Cam New" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
       reviewBody:
         "Highly recommend. New Decorating paint all my bespoke units, top quality finish and fast turnover.",
     },
     {
       "@type": "Review",
       author: { "@type": "Person", name: "Andrew Scappaticci" },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
       reviewBody:
         "I highly recommend New Decorating having worked with him on various projects. Jay completes his work to a very high standard and always hits his deadlines. Very professional, clean and tidy and very competitive with his prices. Always happy to advise you and answer questions before any work is started. Overall 5 star service.",
     },
