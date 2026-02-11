@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
-import { QuoteIcon, PhoneIcon } from "@/components/Icons";
 import { SERVICE_PAGES } from "@/lib/services";
 
 import type { Metadata } from "next";
