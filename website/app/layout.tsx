@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, Fraunces } from "next/font/google";
 import "./globals.css";
+import BackToTop from "@/components/BackToTop";
 import CookieBanner from "@/components/CookieBanner";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
@@ -30,18 +31,18 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "New Decorating | Bath & BANES – Interior Painting & Decorating",
+  title: "Painter & Decorator in Bath | New Decorating – BANES",
   description:
-    "Professional painting and decorating across Bath and North East Somerset (BANES). Bath, Keynsham, Midsomer Norton, Radstock. Quality finishes, free quotes.",
+    "Painter & decorator in Bath. Professional painting and decorating across BANES. Quality finishes, free quotes. 25+ years experience.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     siteName: "New Decorating",
-    title: "New Decorating | Painting & Decorating in Bath & BANES",
+    title: "Painter & Decorator in Bath | New Decorating – BANES",
     description:
-      "Professional painting and decorating across Bath and North East Somerset. Quality finishes, free quotes. 25+ years experience.",
+      "Painter & decorator in Bath. Quality finishes, free quotes. 25+ years experience. Bath, Keynsham, Midsomer Norton, Radstock.",
     url: SITE_URL,
     images: [
       {
@@ -54,9 +55,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "New Decorating | Painting & Decorating in Bath & BANES",
+    title: "Painter & Decorator in Bath | New Decorating – BANES",
     description:
-      "Professional painting and decorating across Bath and North East Somerset. Quality finishes, free quotes.",
+      "Painter & decorator in Bath. Quality finishes, free quotes. 25+ years. Bath, Keynsham, Midsomer Norton, Radstock.",
     images: ["/og-image.jpg"],
   },
   keywords: [...META_KEYWORDS],
@@ -72,7 +73,7 @@ const localBusinessJsonLd = {
   "@type": "PaintingContractor",
   name: "New Decorating",
   description:
-    "Professional painting and decorating across Bath and North East Somerset (BANES). Interior, exterior, wallpaper. Fully insured. Free quotes.",
+    "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Fully insured, free quotes. 25+ years experience.",
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
   image: `${SITE_URL}/hero.jpg`,
@@ -130,6 +131,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <BackToTop />
         <GoogleAnalytics />
         <CookieBanner />
       </body>

@@ -21,9 +21,9 @@ export const BLOG_ARTICLES: BlogArticle[] = [
   {
     slug: "why-preparation-is-the-most-important-part-of-decorating",
     title: "Why Preparation Is the Most Important Part of Decorating",
-    metaTitle: "Why Preparation Is Key to a Great Paint Finish | New Decorating",
+    metaTitle: "Why Preparation Is Key to a Great Paint Finish | Painter & Decorator Bath | New Decorating",
     metaDescription:
-      "Find out why surface preparation is the most important step in any painting job. Filling, sanding and priming explained by a decorator with 25+ years experience.",
+      "Why preparation is key to a great paint finish. Filling, sanding and priming – explained by a Bath decorator. 25+ years. Free quotes.",
     excerpt:
       "Paint only looks as good as the surface underneath. Here's why preparation is the step that separates a professional finish from a DIY one.",
     date: "2026-01-25",
@@ -64,9 +64,9 @@ export const BLOG_ARTICLES: BlogArticle[] = [
   {
     slug: "how-to-choose-the-right-paint-colour",
     title: "How to Choose the Right Paint Colour for Your Room",
-    metaTitle: "How to Choose the Right Paint Colour | New Decorating Bath",
+    metaTitle: "How to Choose the Right Paint Colour | Painter & Decorator Bath | New Decorating",
     metaDescription:
-      "Practical advice on choosing paint colours for your home. How lighting, room size and furnishings affect your choice. Tips from a Bath decorator with 25+ years experience.",
+      "How to choose the right paint colour for your room. Lighting, room size and furnishings. Tips from a Bath decorator. 25+ years.",
     excerpt:
       "Choosing a paint colour can be overwhelming. Here are practical tips to help you pick the right shade for your space.",
     date: "2026-01-18",
@@ -114,9 +114,9 @@ export const BLOG_ARTICLES: BlogArticle[] = [
   {
     slug: "interior-vs-exterior-paint-what-you-need-to-know",
     title: "Interior vs Exterior Paint: What You Need to Know",
-    metaTitle: "Interior vs Exterior Paint Explained | New Decorating Bath",
+    metaTitle: "Interior vs Exterior Paint Explained | Painter & Decorator Bath | New Decorating",
     metaDescription:
-      "What's the difference between interior and exterior paint? A decorator explains the different types, finishes, and when to use each one.",
+      "Interior vs exterior paint – what you need to know. Types, finishes and when to use each. Bath painter & decorator. 25+ years.",
     excerpt:
       "Interior and exterior paints are designed for very different conditions. Here's what you need to know about choosing the right one.",
     date: "2026-01-10",
@@ -164,9 +164,9 @@ export const BLOG_ARTICLES: BlogArticle[] = [
   {
     slug: "how-to-prepare-your-home-for-a-decorator",
     title: "How to Prepare Your Home for a Decorator",
-    metaTitle: "How to Prepare Your Home for a Decorator | New Decorating Bath",
+    metaTitle: "How to Prepare Your Home for a Decorator | Painter & Decorator Bath | New Decorating",
     metaDescription:
-      "What to do before your painter and decorator arrives. Practical tips to help the job run smoothly, save time, and get the best result.",
+      "How to prepare your home for a decorator. Practical tips for a smooth job. Bath painter & decorator. 25+ years, free quotes.",
     excerpt:
       "A few simple things you can do before your decorator arrives to help the job run smoothly and potentially save you money.",
     date: "2026-01-05",

@@ -7,9 +7,9 @@ import { GALLERY_IMAGES } from "@/lib/gallery";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gallery | New Decorating Bath & BANES",
+  title: "Our Work | Painter & Decorator Bath | New Decorating",
   description:
-    "Photos of our painting and decorating work across Bath and North East Somerset. Interior painting, exterior painting, front doors and period properties.",
+    "Our work – painter & decorator Bath. Gallery of painting and decorating projects across BANES. Interior, exterior, period properties. Free quotes.",
   alternates: { canonical: "/gallery" },
 };
 
@@ -17,6 +17,7 @@ export default function GalleryPage() {
   return (
     <div>
       <PageHero
+        locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Our work"
         subtitle={`Browse ${GALLERY_IMAGES.length} photos from our recent projects across Bath and North East Somerset, including period cottage interiors and Georgian exterior work.`}
         image={`/gallery/${GALLERY_IMAGES[0].filename}`}
@@ -25,6 +26,7 @@ export default function GalleryPage() {
           { label: "Home", href: "/" },
           { label: "Gallery" },
         ]}
+        canonicalPath="/gallery"
       >
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Link

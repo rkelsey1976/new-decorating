@@ -73,6 +73,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
       />
 
       <PageHero
+        locationLine={area.nearbyAreas.length > 0 ? `${area.name}, ${area.nearbyAreas.slice(0, 3).join(", ")} & more` : area.name}
         title={`Painter & Decorator in ${area.name}`}
         subtitle={area.heroSubtitle}
         image="/hero-area.jpg"
@@ -82,6 +83,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
           { label: "Areas", href: "/area" },
           { label: area.name },
         ]}
+        canonicalPath={`/area/${area.slug}`}
       />
 
       {/* Intro */}
@@ -113,6 +115,28 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
                 07717 772881
               </a>
             </div>
+
+            {/* Local areas in and around this area */}
+            {area.nearbyAreas.length > 0 && (
+              <div className="mt-12 pt-10 border-t border-black/8">
+                <p className="text-accent text-sm font-medium uppercase tracking-[0.2em]">
+                  Local areas we cover
+                </p>
+                <p className="mt-2 text-muted text-sm">
+                  We work across {area.name} and these nearby areas:
+                </p>
+                <ul className="mt-4 flex flex-wrap gap-2" aria-label={`Local areas near ${area.name}`}>
+                  {area.nearbyAreas.map((place) => (
+                    <li
+                      key={place}
+                      className="rounded-lg bg-accent/10 text-accent px-4 py-2 text-sm font-medium"
+                    >
+                      {place}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </section>

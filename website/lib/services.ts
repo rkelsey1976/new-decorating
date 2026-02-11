@@ -22,9 +22,9 @@ export const SERVICE_PAGES: ServicePage[] = [
   {
     slug: "interior-painting",
     title: "Interior Painting",
-    metaTitle: "Interior Painting | Painter & Decorator Bath & BANES",
+    metaTitle: "Interior Painting Bath | Painter & Decorator | New Decorating",
     metaDescription:
-      "Professional interior painting in Bath and North East Somerset. Walls, ceilings, woodwork, doors and skirting boards. 25+ years experience. Free quotes.",
+      "Interior painting Bath – painter & decorator. Walls, ceilings, woodwork, doors. 25+ years, free quotes. Quality finishes across BANES.",
     heroSubtitle:
       "Transform your home with professional interior painting. Walls, ceilings, woodwork, doors and architraves — all finished to a high standard.",
     image: "/services/interior.jpg",
@@ -78,9 +78,9 @@ export const SERVICE_PAGES: ServicePage[] = [
   {
     slug: "exterior-painting",
     title: "Exterior Painting",
-    metaTitle: "Exterior Painting | Painter & Decorator Bath & BANES",
+    metaTitle: "Exterior Painting Bath | Painter & Decorator | New Decorating",
     metaDescription:
-      "Expert exterior painting in Bath and BANES. Walls, windows, doors, fascias and render. Weather-resistant finishes. 25+ years experience. Free quotes.",
+      "Exterior painting Bath – painter & decorator. Walls, windows, doors, fascias, render. Weather-resistant. 25+ years, free quotes. BANES.",
     heroSubtitle:
       "Protect and refresh the outside of your property with expert exterior painting. Walls, windows, doors, fascias and more.",
     image: "/services/exterior.jpg",
@@ -134,9 +134,9 @@ export const SERVICE_PAGES: ServicePage[] = [
   {
     slug: "wallpaper-hanging",
     title: "Wallpaper Hanging",
-    metaTitle: "Wallpaper Hanging | Decorator Bath & BANES",
+    metaTitle: "Wallpaper Hanging Bath | Painter & Decorator | New Decorating",
     metaDescription:
-      "Professional wallpaper hanging in Bath and BANES. Feature walls, full rooms, textured and patterned wallpaper. 25+ years experience. Free quotes.",
+      "Wallpaper hanging Bath – painter & decorator. Feature walls, full rooms, textured and patterned. 25+ years, free quotes. BANES.",
     heroSubtitle:
       "From subtle textures to bold feature walls, we hang wallpaper with precision for a seamless, professional finish.",
     image: "/services/wallpaper.jpg",
@@ -190,9 +190,9 @@ export const SERVICE_PAGES: ServicePage[] = [
   {
     slug: "decorative-finishes",
     title: "Decorative Finishes",
-    metaTitle: "Decorative Finishes | Painter & Decorator Bath & BANES",
+    metaTitle: "Decorative Finishes Bath | Painter & Decorator | New Decorating",
     metaDescription:
-      "Decorative paint finishes in Bath and BANES. Feature walls, colour washing, specialist techniques. 25+ years experience. Free quotes.",
+      "Decorative finishes Bath – painter & decorator. Feature walls, colour washing, specialist techniques. 25+ years, free quotes. BANES.",
     heroSubtitle:
       "Add character and style to your home with decorative paint techniques — feature walls, colour washing and more.",
     image: "/services/decorative.jpg",
@@ -246,9 +246,9 @@ export const SERVICE_PAGES: ServicePage[] = [
   {
     slug: "preparation-and-repair",
     title: "Preparation & Repair",
-    metaTitle: "Preparation & Repair | Painter & Decorator Bath & BANES",
+    metaTitle: "Preparation & Repair Bath | Painter & Decorator | New Decorating",
     metaDescription:
-      "Surface preparation and repair in Bath and BANES. Filling, sanding, plaster repair, woodwork repair. 25+ years experience. Free quotes.",
+      "Preparation & repair Bath – painter & decorator. Filling, sanding, plaster and woodwork repair. 25+ years, free quotes. BANES.",
     heroSubtitle:
       "Good preparation is the foundation of every great paint job. We fill, sand, repair and prime so your finish looks its best and lasts longer.",
     image: "/services/preparation.jpg",

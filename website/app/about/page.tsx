@@ -5,9 +5,9 @@ import PageHero from "@/components/PageHero";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | New Decorating Bath & BANES",
+  title: "About | Painter & Decorator Bath | New Decorating",
   description:
-    "Professional painting and decorating across Bath and North East Somerset (BANES). Quality work, fair prices, local service.",
+    "About New Decorating – painter & decorator in Bath. Quality painting and decorating across BANES. Fair prices, free quotes. 25+ years.",
   alternates: { canonical: "/about" },
 };
 
@@ -21,6 +21,7 @@ export default function AboutPage() {
   return (
     <div>
       <PageHero
+        locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="About New Decorating"
         subtitle="We're a local painting and decorating business based in Bath, serving homes across Bath and North East Somerset (BANES)."
         image="/hero-about.jpg"
@@ -29,6 +30,7 @@ export default function AboutPage() {
           { label: "Home", href: "/" },
           { label: "About" },
         ]}
+        canonicalPath="/about"
       >
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Link

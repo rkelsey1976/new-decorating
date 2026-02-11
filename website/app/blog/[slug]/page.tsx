@@ -88,6 +88,7 @@ export default async function BlogPostPage({ params }: BlogPostProps) {
           { label: "Blog", href: "/blog" },
           { label: article.title },
         ]}
+        canonicalPath={`/blog/${article.slug}`}
       />
 
       {/* Article body */}

@@ -6,9 +6,9 @@ import { SERVICE_PAGES } from "@/lib/services";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services | New Decorating Bath & BANES",
+  title: "Our Services | Painter & Decorator Bath | New Decorating",
   description:
-    "Interior and exterior painting, wallpapering, and decorating across Bath and North East Somerset (BANES). Quality finishes, free quotes.",
+    "Our services – painter & decorator Bath. Interior, exterior, wallpaper, decorative finishes. Quality work, free quotes. BANES. 25+ years.",
   alternates: { canonical: "/services" },
 };
 
@@ -96,6 +96,7 @@ export default function ServicesPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
       />
       <PageHero
+        locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Our services"
         subtitle="We offer a full range of painting and decorating services for homes across Bath and North East Somerset (BANES). Every job is quoted individually so you know the cost upfront."
         image="/hero-services.jpg"
@@ -104,6 +105,7 @@ export default function ServicesPage() {
           { label: "Home", href: "/" },
           { label: "Services" },
         ]}
+        canonicalPath="/services"
       >
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Link

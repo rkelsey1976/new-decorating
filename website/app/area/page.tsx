@@ -8,9 +8,9 @@ import { AREA_PAGES } from "@/lib/areas-data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Areas we cover | New Decorating Bath & BANES",
+  title: "Areas we cover | Painter & Decorator Bath | New Decorating",
   description:
-    "Painting and decorating across Bath and North East Somerset (BANES): Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages. Free quotes.",
+    "Painter & decorator Bath. Areas we cover: Bath, Keynsham, Midsomer Norton, Radstock and BANES. Free quotes. 25+ years experience.",
   alternates: { canonical: "/area" },
 };
 
@@ -18,6 +18,7 @@ export default function AreaPage() {
   return (
     <div>
       <PageHero
+        locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Areas we cover"
         subtitle="We work across Bath and North East Somerset (BANES). Get in touch with your postcode to confirm we cover your area."
         image="/hero-area.jpg"
@@ -26,6 +27,7 @@ export default function AreaPage() {
           { label: "Home", href: "/" },
           { label: "Areas" },
         ]}
+        canonicalPath="/area"
       >
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Link

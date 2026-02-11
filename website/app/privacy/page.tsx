@@ -4,9 +4,9 @@ import PageHero from "@/components/PageHero";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | New Decorating Bath & BANES",
+  title: "Privacy Policy | Painter & Decorator Bath | New Decorating",
   description:
-    "Privacy policy for New Decorating. How we collect, use, and protect your personal information.",
+    "Privacy policy – New Decorating, painter & decorator Bath. How we collect, use and protect your personal information.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -20,6 +20,7 @@ export default function PrivacyPage() {
           { label: "Home", href: "/" },
           { label: "Privacy Policy" },
         ]}
+        canonicalPath="/privacy"
       />
 
       <article className="py-16 sm:py-24 bg-background">

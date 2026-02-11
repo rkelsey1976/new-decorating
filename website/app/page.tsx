@@ -115,6 +115,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewJsonLd) }}
       />
       <PageHero
+        locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Painter & Decorator in Bath"
         subtitle="Professional painting and decorating across Bath and North East Somerset. 25+ years experience. Free quotes."
         image="/hero-home.jpg"

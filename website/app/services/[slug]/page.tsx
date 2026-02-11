@@ -92,6 +92,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           { label: "Services", href: "/services" },
           { label: service.title },
         ]}
+        canonicalPath={`/services/${service.slug}`}
       >
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <a

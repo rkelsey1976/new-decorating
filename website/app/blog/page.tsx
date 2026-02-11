@@ -6,9 +6,9 @@ import { BLOG_ARTICLES } from "@/lib/blog";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Painting & Decorating Tips | New Decorating Bath",
+  title: "Blog | Painter & Decorator Bath | New Decorating",
   description:
-    "Practical advice on painting and decorating from a Bath decorator with 25+ years experience. Colour tips, preparation guides, cost advice and more.",
+    "Blog – painter & decorator Bath. Painting and decorating tips, colour advice, preparation guides. 25+ years experience. Free quotes.",
   alternates: { canonical: "/blog" },
 };
 
@@ -32,6 +32,7 @@ export default function BlogIndexPage() {
           { label: "Home", href: "/" },
           { label: "Blog" },
         ]}
+        canonicalPath="/blog"
       />
 
       <section className="py-16 sm:py-24 bg-background">

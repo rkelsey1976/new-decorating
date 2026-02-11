@@ -8,9 +8,9 @@ import { SERVICE_AREA_NAME } from "@/lib/area";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | New Decorating Bath & BANES",
+  title: "Contact | Painter & Decorator Bath | New Decorating",
   description:
-    "Get a free quote for painting and decorating across Bath and North East Somerset (BANES). Contact us by message or via Facebook.",
+    "Contact painter & decorator Bath. Get a free quote. Message, form or Facebook. Painting and decorating across BANES. 25+ years.",
   alternates: { canonical: "/contact" },
 };
 
@@ -20,6 +20,7 @@ export default function ContactPage() {
   return (
     <div>
       <PageHero
+        locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Get in touch"
         subtitle="Ready for a quote or have a question? Fill in the form below or message us on Facebook — we'll get back to you as soon as we can."
         image="/hero-contact.jpg"
@@ -28,6 +29,7 @@ export default function ContactPage() {
           { label: "Home", href: "/" },
           { label: "Contact" },
         ]}
+        canonicalPath="/contact"
       />
       <div className="pt-16 sm:pt-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">

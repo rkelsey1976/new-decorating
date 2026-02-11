@@ -21,7 +21,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Bath",
     metaTitle: "Painter & Decorator in Bath | New Decorating",
     metaDescription:
-      "Professional painter and decorator in Bath. Interior and exterior painting, wallpaper hanging, decorative finishes. 25+ years experience. Free quotes.",
+      "Painter & decorator in Bath. Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Bath and BANES.",
     heroSubtitle:
       "Professional painting and decorating across Bath — from the city centre to surrounding suburbs and villages.",
     intro:
@@ -43,7 +43,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Keynsham",
     metaTitle: "Painter & Decorator in Keynsham | New Decorating",
     metaDescription:
-      "Professional painter and decorator in Keynsham. Interior and exterior painting, wallpaper, decorative finishes. 25+ years experience. Free quotes.",
+      "Painter & decorator in Keynsham. Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Bath and BANES.",
     heroSubtitle:
       "Trusted painting and decorating services for homes across Keynsham and the surrounding area.",
     intro:
@@ -65,7 +65,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Midsomer Norton",
     metaTitle: "Painter & Decorator in Midsomer Norton | New Decorating",
     metaDescription:
-      "Professional painter and decorator in Midsomer Norton. Interior, exterior, wallpaper and decorative finishes. 25+ years experience. Free quotes.",
+      "Painter & decorator in Midsomer Norton. Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Somer Valley.",
     heroSubtitle:
       "Local painting and decorating for homes in Midsomer Norton and the surrounding Somer Valley.",
     intro:
@@ -87,7 +87,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Radstock",
     metaTitle: "Painter & Decorator in Radstock | New Decorating",
     metaDescription:
-      "Professional painter and decorator in Radstock. Interior, exterior, wallpaper and decorative finishes. 25+ years experience. Free quotes.",
+      "Painter & decorator in Radstock. Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Somer Valley.",
     heroSubtitle:
       "Quality painting and decorating services for homes in Radstock and the Somer Valley.",
     intro:
