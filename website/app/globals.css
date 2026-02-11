@@ -16,6 +16,8 @@
   --accent: #2d4a2d;
   --accent-soft: #3d6b3d;
   --muted: #494440;
+  /* Solid equivalent of bg-accent/10 on --background (for brush strokes) */
+  --accent-tint: #e4e6e3;
 }
 
 html {

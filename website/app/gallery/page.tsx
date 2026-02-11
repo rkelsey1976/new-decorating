@@ -1,6 +1,7 @@
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import GalleryGrid from "@/components/GalleryGrid";
+import BrushStroke from "@/components/BrushStroke";
 import { GALLERY_IMAGES } from "@/lib/gallery";
 
 import type { Metadata } from "next";
@@ -75,7 +76,8 @@ export default function GalleryPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 sm:py-20 bg-accent text-white">
+      <section className="relative pt-20 sm:pt-28 pb-16 sm:pb-20 bg-accent text-white">
+        <BrushStroke position="top" fill="white" />
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-2xl sm:text-3xl font-semibold tracking-tight">
             Like What You See?

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import AreaMap from "@/components/AreaMap";
+import BrushStroke from "@/components/BrushStroke";
 import { AREAS_COVERED, SERVICE_AREA_NAME } from "@/lib/area";
 import { AREA_PAGES } from "@/lib/areas-data";
 
@@ -92,7 +93,8 @@ export default function AreaPage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-24 bg-accent text-white">
+      <section className="relative pt-20 sm:pt-28 pb-16 sm:pb-24 bg-accent text-white">
+        <BrushStroke position="top" fill="var(--accent-tint)" />
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-2xl sm:text-3xl font-semibold tracking-tight">
             Not sure if we cover your area?

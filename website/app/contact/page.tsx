@@ -2,6 +2,7 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
 import AreaMap from "@/components/AreaMap";
+import BrushStroke from "@/components/BrushStroke";
 import { SERVICE_AREA_NAME } from "@/lib/area";
 
 import type { Metadata } from "next";
@@ -28,7 +29,7 @@ export default function ContactPage() {
           { label: "Contact" },
         ]}
       />
-      <div className="py-16 sm:py-24">
+      <div className="pt-16 sm:pt-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 
         {/* Contact form + sidebar */}
@@ -167,35 +168,38 @@ export default function ContactPage() {
           </p>
         </div>
 
-        {/* Helpful links */}
-        <div className="mt-16 rounded-2xl border border-black/8 bg-white p-6 sm:p-8">
-          <h3 className="font-display text-lg font-semibold text-foreground">Not sure what you need?</h3>
-          <p className="mt-2 text-muted text-sm leading-relaxed">
-            Take a look at our services or browse photos from previous projects to get an idea of what we can do.
-          </p>
-          <div className="mt-4 flex flex-wrap gap-4">
-            <Link
-              href="/services"
-              className="inline-flex items-center gap-1.5 text-accent font-medium text-sm hover:text-accent-soft transition-colors"
-            >
-              Browse our services <span aria-hidden>→</span>
-            </Link>
-            <Link
-              href="/gallery"
-              className="inline-flex items-center gap-1.5 text-accent font-medium text-sm hover:text-accent-soft transition-colors"
-            >
-              See examples of our work <span aria-hidden>→</span>
-            </Link>
-            <Link
-              href="/area"
-              className="inline-flex items-center gap-1.5 text-accent font-medium text-sm hover:text-accent-soft transition-colors"
-            >
-              Areas we cover <span aria-hidden>→</span>
-            </Link>
-          </div>
         </div>
 
-        </div>
+        {/* Not sure what you need? – full-width green with brush */}
+        <section className="relative pt-20 sm:pt-28 pb-0 bg-accent text-white">
+          <BrushStroke position="top" fill="var(--background)" />
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <h3 className="font-display text-xl sm:text-2xl font-semibold tracking-tight">Not sure what you need?</h3>
+            <p className="mt-3 text-white/90 text-sm sm:text-base leading-relaxed max-w-2xl">
+              Take a look at our services or browse photos from previous projects to get an idea of what we can do.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-6">
+              <Link
+                href="/services"
+                className="inline-flex items-center gap-1.5 text-white font-medium text-sm hover:text-white/80 transition-colors underline underline-offset-2"
+              >
+                Browse our services <span aria-hidden>→</span>
+              </Link>
+              <Link
+                href="/gallery"
+                className="inline-flex items-center gap-1.5 text-white font-medium text-sm hover:text-white/80 transition-colors underline underline-offset-2"
+              >
+                See examples of our work <span aria-hidden>→</span>
+              </Link>
+              <Link
+                href="/area"
+                className="inline-flex items-center gap-1.5 text-white font-medium text-sm hover:text-white/80 transition-colors underline underline-offset-2"
+              >
+                Areas we cover <span aria-hidden>→</span>
+              </Link>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
