@@ -1,0 +1,635 @@
+/* ============================================================
+   SEO Kings Ebook - Print-Friendly Stylesheet
+   ============================================================ */
+
+/* --- CSS Variables / Brand Colours --- */
+:root {
+  --brand-primary: #1a3a5c;    /* Deep navy blue */
+  --brand-accent: #e8a838;     /* Gold / amber accent */
+  --brand-accent-light: #fdf3e0;
+  --brand-dark: #0f2640;
+  --brand-light: #f0f4f8;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted: #7a7a7a;
+  --border-color: #d0d5dd;
+  --success: #2e7d32;
+  --warning: #f57c00;
+  --danger: #c62828;
+  --white: #ffffff;
+}
+
+/* --- Page Setup --- */
+@page {
+  size: A4;
+  margin: 22mm 18mm 22mm 18mm;
+}
+
+@page :first {
+  margin: 0;
+}
+
+/* --- Base Typography --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 11pt;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--text-primary);
+  line-height: 1.7;
+  background: var(--white);
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  color: var(--brand-primary);
+  line-height: 1.3;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.6em;
+  border-bottom: 3px solid var(--brand-accent);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+  color: var(--brand-primary);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.4em;
+  margin-bottom: 0.4em;
+  color: var(--brand-dark);
+}
+
+h4 {
+  font-size: 1.1rem;
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+/* --- Paragraphs & Lists --- */
+p {
+  margin-bottom: 0.8em;
+  text-align: justify;
+}
+
+ul, ol {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+li strong {
+  color: var(--brand-primary);
+}
+
+/* --- Links --- */
+a {
+  color: var(--brand-primary);
+  text-decoration: underline;
+}
+
+/* --- Cover Page --- */
+.cover-page {
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(160deg, var(--brand-dark) 0%, var(--brand-primary) 60%, #2a5a8c 100%);
+  color: var(--white);
+  text-align: center;
+  padding: 40mm 25mm;
+  margin: -22mm -18mm 0 -18mm;
+}
+
+.cover-page h1 {
+  font-size: 2.8rem;
+  color: var(--white);
+  border: none;
+  margin-bottom: 0.3em;
+  padding-bottom: 0;
+  letter-spacing: -0.5px;
+}
+
+.cover-page .subtitle {
+  font-size: 1.35rem;
+  color: var(--brand-accent);
+  font-family: Georgia, serif;
+  font-style: italic;
+  margin-bottom: 2em;
+  max-width: 420px;
+}
+
+.cover-page .brand-line {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 2em;
+  border-top: 2px solid var(--brand-accent);
+  padding-top: 1em;
+}
+
+.cover-page .brand-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--brand-accent);
+  letter-spacing: 2px;
+}
+
+.cover-divider {
+  width: 80px;
+  height: 4px;
+  background: var(--brand-accent);
+  margin: 1.5em auto;
+  border-radius: 2px;
+}
+
+/* --- Chapter Title Page --- */
+.chapter-title-page {
+  page-break-before: always;
+  page-break-after: avoid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 45vh;
+  padding: 3em 0;
+}
+
+.chapter-title-page .chapter-number {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--brand-accent);
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.chapter-title-page h1 {
+  font-size: 2.4rem;
+  border-bottom: 3px solid var(--brand-accent);
+  padding-bottom: 0.4em;
+}
+
+.chapter-title-page .chapter-intro {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: 1em;
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+/* --- Page Breaks --- */
+.page-break {
+  page-break-before: always;
+}
+
+.no-break {
+  page-break-inside: avoid;
+}
+
+/* --- Callout Boxes --- */
+.callout {
+  border-left: 4px solid var(--brand-accent);
+  background: var(--brand-accent-light);
+  padding: 1em 1.2em;
+  margin: 1.5em 0;
+  border-radius: 0 6px 6px 0;
+  page-break-inside: avoid;
+}
+
+.callout-title {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--brand-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.4em;
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* Pro Tip variant */
+.callout.pro-tip {
+  border-left-color: var(--success);
+  background: #e8f5e9;
+}
+
+.callout.pro-tip .callout-title {
+  color: var(--success);
+}
+
+/* Warning variant */
+.callout.warning {
+  border-left-color: var(--warning);
+  background: #fff3e0;
+}
+
+.callout.warning .callout-title {
+  color: var(--warning);
+}
+
+/* Danger variant */
+.callout.danger {
+  border-left-color: var(--danger);
+  background: #ffebee;
+}
+
+.callout.danger .callout-title {
+  color: var(--danger);
+}
+
+/* --- Checklist --- */
+.checklist {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.checklist li {
+  position: relative;
+  padding-left: 2em;
+  margin-bottom: 0.6em;
+}
+
+.checklist li::before {
+  content: '\2610';
+  position: absolute;
+  left: 0;
+  font-size: 1.2em;
+  color: var(--brand-primary);
+  top: -0.05em;
+}
+
+/* --- Worksheet Box --- */
+.worksheet {
+  border: 2px dashed var(--border-color);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1.5em 0;
+  background: var(--brand-light);
+  page-break-inside: avoid;
+}
+
+.worksheet-title {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--brand-primary);
+  margin-bottom: 0.8em;
+  text-align: center;
+}
+
+.worksheet .line {
+  border-bottom: 1px solid var(--border-color);
+  height: 2em;
+  margin-bottom: 0.3em;
+}
+
+.worksheet .numbered-line {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--border-color);
+  height: 2em;
+  margin-bottom: 0.3em;
+}
+
+.worksheet .numbered-line .num {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+  color: var(--brand-primary);
+  min-width: 2em;
+  font-size: 0.9rem;
+}
+
+/* --- Tables --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  page-break-inside: avoid;
+}
+
+th {
+  background: var(--brand-primary);
+  color: var(--white);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.7em 1em;
+  text-align: left;
+}
+
+td {
+  padding: 0.6em 1em;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.95rem;
+}
+
+tr:nth-child(even) td {
+  background: var(--brand-light);
+}
+
+/* --- Step-by-step process boxes --- */
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+.step-number {
+  flex-shrink: 0;
+  width: 2.2em;
+  height: 2.2em;
+  border-radius: 50%;
+  background: var(--brand-primary);
+  color: var(--white);
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+  margin-top: 0.15em;
+}
+
+.step-content h4 {
+  margin-top: 0;
+  font-style: normal;
+  color: var(--brand-primary);
+  font-weight: 700;
+}
+
+.step-content p {
+  margin-bottom: 0.3em;
+}
+
+/* --- Stat Highlight --- */
+.stat-highlight {
+  text-align: center;
+  padding: 1.5em;
+  margin: 1.5em 0;
+  background: var(--brand-primary);
+  color: var(--white);
+  border-radius: 8px;
+  page-break-inside: avoid;
+}
+
+.stat-highlight .stat-number {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--brand-accent);
+  display: block;
+  line-height: 1.1;
+}
+
+.stat-highlight .stat-label {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 0.3em;
+}
+
+/* --- Section Divider --- */
+.section-divider {
+  border: none;
+  border-top: 2px solid var(--border-color);
+  margin: 2em 0;
+}
+
+/* --- Table of Contents --- */
+.toc {
+  page-break-after: always;
+}
+
+.toc h1 {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.toc-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.5em 0;
+  border-bottom: 1px dotted var(--border-color);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.toc-item.chapter-entry {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--brand-primary);
+  margin-top: 0.3em;
+}
+
+.toc-item.sub-entry {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  padding-left: 1.5em;
+}
+
+.toc-page {
+  color: var(--brand-accent);
+  font-weight: 700;
+  min-width: 2em;
+  text-align: right;
+}
+
+/* --- Front Matter / About Page --- */
+.front-matter {
+  page-break-after: always;
+}
+
+.front-matter h2 {
+  text-align: center;
+}
+
+.about-box {
+  background: var(--brand-light);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1.5em 0;
+  border-left: 4px solid var(--brand-primary);
+}
+
+/* --- Back Matter --- */
+.glossary-term {
+  font-weight: 700;
+  color: var(--brand-primary);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.glossary-def {
+  margin-bottom: 0.8em;
+  padding-left: 1em;
+}
+
+/* --- CTA Box --- */
+.cta-box {
+  background: linear-gradient(135deg, var(--brand-dark), var(--brand-primary));
+  color: var(--white);
+  padding: 2em;
+  border-radius: 10px;
+  text-align: center;
+  margin: 2em 0;
+  page-break-inside: avoid;
+}
+
+.cta-box h2 {
+  color: var(--brand-accent);
+  margin-top: 0;
+}
+
+.cta-box p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+.cta-box .cta-url {
+  display: inline-block;
+  background: var(--brand-accent);
+  color: var(--brand-dark);
+  padding: 0.6em 1.5em;
+  border-radius: 6px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 0.8em;
+  font-size: 1.1rem;
+}
+
+/* --- Action Plan Week Boxes --- */
+.week-box {
+  border: 2px solid var(--brand-primary);
+  border-radius: 8px;
+  padding: 1.2em;
+  margin: 1em 0;
+  page-break-inside: avoid;
+}
+
+.week-box .week-label {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--white);
+  background: var(--brand-primary);
+  display: inline-block;
+  padding: 0.2em 0.8em;
+  border-radius: 4px;
+  margin-bottom: 0.6em;
+}
+
+/* --- Code / Technical Snippets --- */
+code {
+  font-family: 'Consolas', 'Courier New', monospace;
+  background: var(--brand-light);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: var(--brand-dark);
+}
+
+pre {
+  background: var(--brand-light);
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1em 0;
+  border-left: 3px solid var(--brand-primary);
+  page-break-inside: avoid;
+}
+
+pre code {
+  padding: 0;
+  background: none;
+}
+
+/* --- Comparison Boxes --- */
+.comparison {
+  display: flex;
+  gap: 1em;
+  margin: 1.5em 0;
+  page-break-inside: avoid;
+}
+
+.comparison .good, .comparison .bad {
+  flex: 1;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.comparison .good {
+  background: #e8f5e9;
+  border: 2px solid var(--success);
+}
+
+.comparison .bad {
+  background: #ffebee;
+  border: 2px solid var(--danger);
+}
+
+.comparison .label {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.comparison .good .label {
+  color: var(--success);
+}
+
+.comparison .bad .label {
+  color: var(--danger);
+}
+
+/* --- Print Overrides --- */
+@media print {
+  body {
+    font-size: 11pt;
+  }
+
+  .cover-page {
+    margin: 0;
+    padding: 40mm 25mm;
+  }
+
+  .no-print {
+    display: none;
+  }
+}

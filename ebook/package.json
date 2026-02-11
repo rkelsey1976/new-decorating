@@ -1,0 +1,11 @@
+{
+  "name": "seo-kings-ebook",
+  "version": "1.0.0",
+  "description": "The Small Business SEO Blueprint - SEO Kings Ebook",
+  "scripts": {
+    "build": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}

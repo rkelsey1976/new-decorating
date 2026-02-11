@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Next.js
+website/.next/
+website/out/
+
+# Build / misc
+.DS_Store
+*.pem
+.env*
+!.env.example
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Ebook
+ebook/node_modules/
