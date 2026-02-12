@@ -1,0 +1,34 @@
+# URLs for Bing to index – New Decorating
+#
+# Easiest: In Bing Webmaster Tools, add your SITEMAP: https://new-decorating.co.uk/sitemap.xml
+# (Bing will then crawl all URLs in the sitemap.)
+#
+# Or paste the URLs below into Bing Webmaster Tools → URL Submission (one URL per line).
+# --- COPY FROM HERE (no # lines) ---
+
+https://new-decorating.co.uk
+https://new-decorating.co.uk/about
+https://new-decorating.co.uk/contact
+https://new-decorating.co.uk/gallery
+https://new-decorating.co.uk/privacy
+https://new-decorating.co.uk/services
+https://new-decorating.co.uk/services/interior-painting
+https://new-decorating.co.uk/services/exterior-painting
+https://new-decorating.co.uk/services/wallpaper-hanging
+https://new-decorating.co.uk/services/preparation-and-repair
+https://new-decorating.co.uk/area
+https://new-decorating.co.uk/area/bath
+https://new-decorating.co.uk/area/keynsham
+https://new-decorating.co.uk/area/midsomer-norton
+https://new-decorating.co.uk/area/radstock
+https://new-decorating.co.uk/area/trowbridge
+https://new-decorating.co.uk/area/chippenham
+https://new-decorating.co.uk/area/rode
+https://new-decorating.co.uk/area/melksham
+https://new-decorating.co.uk/area/bradford-on-avon
+https://new-decorating.co.uk/area/frome
+https://new-decorating.co.uk/blog
+https://new-decorating.co.uk/blog/why-preparation-is-the-most-important-part-of-decorating
+https://new-decorating.co.uk/blog/how-to-choose-the-right-paint-colour
+https://new-decorating.co.uk/blog/interior-vs-exterior-paint-what-you-need-to-know
+https://new-decorating.co.uk/blog/how-to-prepare-your-home-for-a-decorator

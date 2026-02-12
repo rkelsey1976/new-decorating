@@ -10,6 +10,14 @@ import { BLOG_ARTICLES } from "@/lib/blog";
 
 import { SITE_URL } from "@/lib/site";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Property Decorator in Bath | New Decorating",
+  description: "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Quality finishes, free quotes. 25+ years experience.",
+  alternates: { canonical: "/" },
+};
+
 /** FAQPage structured data (must match FAQ component text exactly) */
 const faqPageJsonLd = {
   "@context": "https://schema.org",
@@ -118,10 +126,10 @@ export default function Home() {
       />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
-        title="Painter & Decorator in Bath"
+        title="Property Decorator in Bath"
         subtitle="Professional painting and decorating across Bath and North East Somerset. 25+ years experience. Free quotes."
         image="/hero-home.jpg"
-        imageAlt="Painter and decorator in Bath — New Decorating"
+        imageAlt="Property decorator in Bath — New Decorating"
       >
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Link
