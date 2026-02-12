@@ -19,7 +19,12 @@ export default function ContactForm() {
     const data = new FormData(form);
 
     try {
-      const response = await fetch("/", {
+      // On localhost use API route so form shows success; on Netlify POST to static form file so Forms receive it
+      const action =
+        typeof window !== "undefined" && window.location.hostname === "localhost"
+          ? "/api/contact"
+          : "/__forms.html";
+      const response = await fetch(action, {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(data as unknown as Record<string, string>).toString(),
