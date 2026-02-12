@@ -19,6 +19,56 @@ export interface BlogArticle {
 
 export const BLOG_ARTICLES: BlogArticle[] = [
   {
+    slug: "bath-painter-and-decorator-25-years-local-experience",
+    title: "Bath Painter and Decorator: 25 Years' Experience in the Area",
+    metaTitle: "Bath Painter and Decorator | 25+ Years in BANES | New Decorating",
+    metaDescription:
+      "Bath painter and decorator with 25+ years' experience. Interior, exterior, wallpaper across Bath, Keynsham, Midsomer Norton, Radstock and surrounding areas. Free quotes.",
+    excerpt:
+      "I've been working as a painter and decorator in and around Bath for over 25 years. Here's what that experience means for your project — and the local areas I cover.",
+    date: "2026-02-09",
+    readTime: "4 min read",
+    image: "/jason-working-window.png",
+    imageAlt: "New Decorating painter and decorator at work on a window — preparation and painting in Bath and the surrounding area",
+    sections: [
+      {
+        heading: "25 years of painting and decorating in Bath",
+        body: [
+          "I've been working as a painter and decorator in Bath and the surrounding area for over 25 years. In that time I've painted everything from single rooms to full house interiors and exteriors — period cottages, Georgian townhouses, modern homes, and everything in between.",
+          "That experience means I know how to prepare surfaces properly, choose the right products for the job, and work cleanly and efficiently so your home looks its best and the finish lasts. I'm not in a rush to get on to the next job — I take the time to do each one right.",
+        ],
+      },
+      {
+        heading: "Working in the area — why local experience matters",
+        body: [
+          "Working in Bath and North East Somerset for so long means I know the area and its properties. Many homes here are period or character properties with lime plaster, exposed beams, sash windows, and older woodwork. They need a different approach to modern new-builds.",
+          "I'm used to the challenges that come with Bath's older housing stock: making good uneven walls, working with heritage colours and finishes, and matching existing paintwork where only part of a room is being redecorated. I also know the practical side — parking, access, and how to work around your routine.",
+        ],
+      },
+      {
+        heading: "Areas I cover — Bath and beyond",
+        body: [
+          "I'm based in the Bath area and work across Bath and North East Somerset (BANES) and into Wiltshire and Somerset. I regularly work in Bath itself, Keynsham, Midsomer Norton, Radstock, Trowbridge, Chippenham, Rode, Melksham, Bradford on Avon, Frome, and the surrounding villages.",
+          "If you're not sure whether I cover your postcode, just get in touch. I'm happy to confirm and, where it makes sense, I'll come and quote in person so you know exactly what's included and what it will cost.",
+        ],
+      },
+      {
+        heading: "What I offer — interior, exterior, and more",
+        body: [
+          "I offer a full range of painting and decorating: interior painting (walls, ceilings, woodwork, doors), exterior painting (walls, windows, doors, fascias), wallpaper hanging, and preparation and repair. Every job is quoted individually so you know the cost upfront.",
+          "I use quality paints from brands I trust — including Dulux, Farrow & Ball, and Little Greene — and I'm happy to work with paints you've chosen yourself. I provide free, no-obligation quotes and can work around your schedule where possible.",
+        ],
+      },
+      {
+        heading: "Get in touch for a free quote",
+        body: [
+          "If you're looking for a reliable painter and decorator in Bath or the surrounding area, I'd be happy to help. Tell me roughly what you need — a single room, a full redecoration, or exterior work — and your location, and I'll arrange a visit to quote.",
+          "You can get in touch via my contact page or by phone. I'll give you a clear, fixed price and honest advice on what's needed. No obligation — just a straightforward quote from someone who's been doing this in your area for over 25 years.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "why-preparation-is-the-most-important-part-of-decorating",
     title: "Why Preparation Is the Most Important Part of Decorating",
     metaTitle: "Why Preparation Is Key to a Great Paint Finish | Painter & Decorator Bath | New Decorating",
