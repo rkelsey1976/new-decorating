@@ -8,7 +8,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Header from "@/components/Header";
 import { META_KEYWORDS } from "@/lib/seo-keywords";
 
-const SITE_URL = "https://newdecorating.co.uk";
+import { SITE_URL } from "@/lib/site";
 
 /*
  * Display font options (swap import + variable, then set --font-display in globals.css):

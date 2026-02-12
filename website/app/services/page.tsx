@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/services" },
 };
 
-const SITE_URL = "https://newdecorating.co.uk";
+import { SITE_URL } from "@/lib/site";
 
 const serviceJsonLd = {
   "@context": "https://schema.org",

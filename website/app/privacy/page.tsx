@@ -1,5 +1,6 @@
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
+import { SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
@@ -33,8 +34,8 @@ export default function PrivacyPage() {
               <p className="mt-4">
                 New Decorating is a painting and decorating business based in Bath, serving
                 Bath and North East Somerset (BANES). Our website address is{" "}
-                <a href="https://newdecorating.co.uk" className="text-accent font-medium hover:text-accent-soft transition-colors">
-                  https://newdecorating.co.uk
+                <a href={SITE_URL} className="text-accent font-medium hover:text-accent-soft transition-colors">
+                  {SITE_URL}
                 </a>.
               </p>
             </section>

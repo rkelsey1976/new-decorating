@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: BlogPostProps): Promise<Metad
   };
 }
 
-const SITE_URL = "https://newdecorating.co.uk";
+import { SITE_URL } from "@/lib/site";
 
 function formatDate(dateStr: string) {
   return new Date(dateStr).toLocaleDateString("en-GB", {

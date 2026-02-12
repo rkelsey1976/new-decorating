@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: AreaPageProps): Promise<Metad
   };
 }
 
-const SITE_URL = "https://newdecorating.co.uk";
+import { SITE_URL } from "@/lib/site";
 
 export default async function AreaDetailPage({ params }: AreaPageProps) {
   const { slug } = await params;

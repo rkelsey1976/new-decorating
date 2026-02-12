@@ -2,8 +2,7 @@ import type { MetadataRoute } from "next";
 import { getServiceSlugs } from "@/lib/services";
 import { getAreaSlugs } from "@/lib/areas-data";
 import { getBlogSlugs } from "@/lib/blog";
-
-const SITE_URL = "https://newdecorating.co.uk";
+import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

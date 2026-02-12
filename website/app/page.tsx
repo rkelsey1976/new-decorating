@@ -8,7 +8,7 @@ import { AREAS_COVERED, SERVICE_AREA_NAME } from "@/lib/area";
 import AreaMap from "@/components/AreaMap";
 import { BLOG_ARTICLES } from "@/lib/blog";
 
-const SITE_URL = "https://newdecorating.co.uk";
+import { SITE_URL } from "@/lib/site";
 
 /** FAQPage structured data (must match FAQ component text exactly) */
 const faqPageJsonLd = {

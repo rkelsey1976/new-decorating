@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   };
 }
 
-const SITE_URL = "https://newdecorating.co.uk";
+import { SITE_URL } from "@/lib/site";
 const PHONE_NUMBER = "07717 772881";
 const PHONE_HREF = "tel:+447717772881";
 
