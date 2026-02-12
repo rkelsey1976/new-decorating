@@ -10,24 +10,24 @@ type FAQItem = {
 const faqs: FAQItem[] = [
   {
     question: "How do I get a quote?",
-    answer: "Get in touch via our contact page or Facebook. Tell us roughly what you need (e.g. one room, full house, interior or exterior) and your location. We'll arrange a visit to quote in person where needed.",
+    answer: "Get in touch via my contact page or Facebook. Tell me roughly what you need (e.g. one room, full house, interior or exterior) and your location. I'll arrange a visit to quote in person where needed.",
   },
   {
     question: "Do you provide the paint and materials?",
-    answer: "We can either supply materials as part of the job or work with paint and materials you provide. We're happy to advise on what to buy if you'd prefer to source it yourself.",
+    answer: "I can either supply materials as part of the job or work with paint and materials you provide. I'm happy to advise on what to buy if you'd prefer to source it yourself.",
   },
   {
     question: "How long does a typical job take?",
-    answer: "It depends on the size of the project. A single room might take a few days; a full interior can take several weeks. We'll give you a timeframe when we quote and work cleanly to minimise disruption.",
+    answer: "It depends on the size of the project. A single room might take a few days; a full interior can take several weeks. I'll give you a timeframe when I quote and work cleanly to minimise disruption.",
   },
   {
     question: "What areas do you cover?",
     answer:
-      "We work across Bath and North East Somerset (BANES), including Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages. Get in touch with your postcode and we'll confirm we cover your area.",
+      "I work across Bath and North East Somerset (BANES), including Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages. Get in touch with your postcode and I'll confirm I cover your area.",
   },
   {
     question: "Do you do small jobs?",
-    answer: "Yes. Whether it's a single room, a touch-up, or a full redecoration, we're happy to quote. No job is too small.",
+    answer: "Yes. Whether it's a single room, a touch-up, or a full redecoration, I'm happy to quote. No job is too small.",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function FAQ() {
           Frequently asked questions
         </h2>
         <p className="mt-4 text-muted text-center max-w-xl mx-auto leading-relaxed">
-          Common questions about our painting and decorating services.
+          Common questions about my painting and decorating services.
         </p>
         <dl className="mt-12 [&>dt]:first:mt-0 [&>dt]:mt-4">
           {faqs.map((faq, index) => (

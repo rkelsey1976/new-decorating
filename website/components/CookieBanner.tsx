@@ -57,7 +57,7 @@ export default function CookieBanner() {
     >
       <div className="mx-auto max-w-4xl flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <p className="text-sm leading-relaxed">
-          We use cookies to understand how visitors use our site (Google Analytics).
+          I use cookies to understand how visitors use my site (Google Analytics).
           No personal data is shared with advertisers. You can accept or reject analytics cookies.
           <Link
             href="/privacy"

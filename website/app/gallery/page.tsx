@@ -7,9 +7,9 @@ import { GALLERY_IMAGES } from "@/lib/gallery";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Work | Painter & Decorator Bath | New Decorating",
+  title: "My Work | Painter & Decorator Bath | New Decorating",
   description:
-    "Our work – painter & decorator Bath. Gallery of painting and decorating projects across BANES. Interior, exterior, period properties. Free quotes.",
+    "My work – painter & decorator Bath. Gallery of painting and decorating projects across BANES. Interior, exterior, period properties. Free quotes.",
   alternates: { canonical: "/gallery" },
 };
 
@@ -18,8 +18,8 @@ export default function GalleryPage() {
     <div>
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
-        title="Our work"
-        subtitle={`Browse ${GALLERY_IMAGES.length} photos from our recent projects across Bath and North East Somerset, including period cottage interiors and Georgian exterior work.`}
+        title="My work"
+        subtitle={`Browse ${GALLERY_IMAGES.length} photos from my recent projects across Bath and North East Somerset, including period cottage interiors and Georgian exterior work.`}
         image={`/gallery/${GALLERY_IMAGES[0].filename}`}
         imageAlt="Recent decorating project"
         breadcrumbs={[
@@ -39,7 +39,7 @@ export default function GalleryPage() {
             href="/services"
             className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
           >
-            Our services
+            My services
           </Link>
         </div>
       </PageHero>
@@ -64,17 +64,16 @@ export default function GalleryPage() {
       <section className="py-16 sm:py-24 bg-white border-t border-black/5">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground tracking-tight">
-            Our Services
+            My services
           </h2>
           <p className="mt-3 text-muted max-w-xl mx-auto leading-relaxed">
-            We offer a full range of painting and decorating services across Bath and BANES.
+            I offer a full range of painting and decorating services across Bath and BANES.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             {[
               { label: "Interior Painting", href: "/services/interior-painting" },
               { label: "Exterior Painting", href: "/services/exterior-painting" },
               { label: "Wallpaper Hanging", href: "/services/wallpaper-hanging" },
-              { label: "Decorative Finishes", href: "/services/decorative-finishes" },
               { label: "Preparation & Repair", href: "/services/preparation-and-repair" },
             ].map((svc) => (
               <Link
@@ -100,7 +99,7 @@ export default function GalleryPage() {
             Like What You See?
           </h2>
           <p className="mt-4 text-white/80 max-w-xl mx-auto leading-relaxed">
-            Get in touch for a free, no-obligation quote. We provide professional painting and decorating across Bath and BANES.
+            Get in touch for a free, no-obligation quote. I provide professional painting and decorating across Bath and BANES.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link

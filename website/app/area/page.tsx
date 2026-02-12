@@ -8,9 +8,9 @@ import { AREA_PAGES } from "@/lib/areas-data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Areas we cover | Painter & Decorator Bath | New Decorating",
+  title: "Areas I cover | Painter & Decorator Bath | New Decorating",
   description:
-    "Painter & decorator Bath. Areas we cover: Bath, Keynsham, Midsomer Norton, Radstock and BANES. Free quotes. 25+ years experience.",
+    "Painter & decorator Bath. Areas I cover: Bath, Keynsham, Midsomer Norton, Radstock and BANES. Free quotes. 25+ years experience.",
   alternates: { canonical: "/area" },
 };
 
@@ -19,8 +19,8 @@ export default function AreaPage() {
     <div>
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
-        title="Areas we cover"
-        subtitle="We work across Bath and North East Somerset (BANES). Get in touch with your postcode to confirm we cover your area."
+        title="Areas I cover"
+        subtitle="I work across Bath and North East Somerset (BANES). Get in touch with your postcode to confirm I cover your area."
         image="/hero-area.jpg"
         imageAlt="Bath and North East Somerset"
         breadcrumbs={[
@@ -40,7 +40,7 @@ export default function AreaPage() {
             href="/gallery"
             className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
           >
-            View our work
+            View my work
           </Link>
         </div>
       </PageHero>
@@ -54,7 +54,7 @@ export default function AreaPage() {
             Bath and North East Somerset (BANES)
           </h2>
           <p className="mt-6 text-muted text-center max-w-2xl mx-auto leading-relaxed">
-            We&apos;re a local painting and decorating business based in Bath. We serve homes across the whole of {SERVICE_AREA_NAME} — from Bath city and the surrounding villages to Keynsham, Midsomer Norton, Radstock and beyond. Get in touch with your postcode and we&apos;ll confirm we can cover your area.
+            I&apos;m a local painting and decorating business based in Bath. I serve homes across the whole of {SERVICE_AREA_NAME} — from Bath city and the surrounding villages to Keynsham, Midsomer Norton, Radstock and beyond. Get in touch with your postcode and I&apos;ll confirm I can cover your area.
           </p>
 
           {/* Area page links */}
@@ -83,7 +83,7 @@ export default function AreaPage() {
           </div>
 
           {/* Original area list for other areas */}
-          <ul className="mt-10 flex flex-wrap justify-center gap-4 sm:gap-6" aria-label="Towns and areas we cover">
+          <ul className="mt-10 flex flex-wrap justify-center gap-4 sm:gap-6" aria-label="Towns and areas I cover">
             {AREAS_COVERED.map((area) => (
               <li
                 key={area}
@@ -99,10 +99,10 @@ export default function AreaPage() {
       <section className="py-16 sm:py-24 bg-accent/10 border-t border-accent/20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground text-center tracking-tight">
-            Where we work
+            Where I work
           </h2>
           <p className="mt-4 text-muted text-center max-w-xl mx-auto">
-            See our service area on the map below. We cover Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages in BANES.
+            See my service area on the map below. I cover Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages in BANES.
           </p>
           <div className="mt-10 max-w-4xl mx-auto">
             <AreaMap title="" height="400" />
@@ -114,10 +114,10 @@ export default function AreaPage() {
         <BrushStroke position="top" fill="var(--accent-tint)" />
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-2xl sm:text-3xl font-semibold tracking-tight">
-            Not sure if we cover your area?
+            Not sure if I cover your area?
           </h2>
           <p className="mt-4 text-white/90 max-w-xl mx-auto leading-relaxed">
-            Send us your postcode and we&apos;ll let you know. We offer free, no-obligation quotes for painting and decorating across BANES.
+            Send me your postcode and I&apos;ll let you know. I offer free, no-obligation quotes for painting and decorating across BANES.
           </p>
           <Link
             href="/contact"

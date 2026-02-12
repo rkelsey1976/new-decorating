@@ -11,7 +11,7 @@ export default function FacebookReviews() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-foreground">
-            What our customers say
+            What my customers say
           </h2>
           <p className="mt-4 text-muted max-w-xl mx-auto">
             See what people are saying about New Decorating on Facebook. Read reviews and leave your own.

@@ -6,9 +6,9 @@ import { SERVICE_PAGES } from "@/lib/services";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Services | Painter & Decorator Bath | New Decorating",
+  title: "My Services | Painter & Decorator Bath | New Decorating",
   description:
-    "Our services – painter & decorator Bath. Interior, exterior, wallpaper, decorative finishes. Quality work, free quotes. BANES. 25+ years.",
+    "My services – painter & decorator Bath. Interior, exterior, wallpaper, preparation & repair. Quality work, free quotes. BANES. 25+ years.",
   alternates: { canonical: "/services" },
 };
 
@@ -25,7 +25,7 @@ const serviceJsonLd = {
         "@type": "Service",
         name: "Interior painting",
         description:
-          "Full interior painting including walls, ceilings, skirting boards, doors, and architraves. We use quality paints and thorough preparation for a lasting, professional finish.",
+          "Full interior painting including walls, ceilings, skirting boards, doors, and architraves. I use quality paints and thorough preparation for a lasting, professional finish.",
         provider: { "@type": "PaintingContractor", name: "New Decorating", url: SITE_URL },
         areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
       },
@@ -37,7 +37,7 @@ const serviceJsonLd = {
         "@type": "Service",
         name: "Exterior painting",
         description:
-          "Exterior walls, windows, doors, and fascias. We use weather-resistant products and techniques suited to UK conditions to protect and refresh your property.",
+          "Exterior walls, windows, doors, and fascias. I use weather-resistant products and techniques suited to UK conditions to protect and refresh your property.",
         provider: { "@type": "PaintingContractor", name: "New Decorating", url: SITE_URL },
         areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
       },
@@ -49,7 +49,7 @@ const serviceJsonLd = {
         "@type": "Service",
         name: "Wallpaper hanging",
         description:
-          "Standard and feature wallpaper, including textured and patterned designs. We handle preparation and finishing for a seamless result.",
+          "Standard and feature wallpaper, including textured and patterned designs. I handle preparation and finishing for a seamless result.",
         provider: { "@type": "PaintingContractor", name: "New Decorating", url: SITE_URL },
         areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
       },
@@ -57,18 +57,6 @@ const serviceJsonLd = {
     {
       "@type": "ListItem",
       position: 4,
-      item: {
-        "@type": "Service",
-        name: "Decorative finishes",
-        description:
-          "Feature walls, colour washing, and other decorative techniques to give your rooms character and style.",
-        provider: { "@type": "PaintingContractor", name: "New Decorating", url: SITE_URL },
-        areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
-      },
-    },
-    {
-      "@type": "ListItem",
-      position: 5,
       item: {
         "@type": "Service",
         name: "Preparation & repair",
@@ -97,10 +85,10 @@ export default function ServicesPage() {
       />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
-        title="Our services"
-        subtitle="We offer a full range of painting and decorating services for homes across Bath and North East Somerset (BANES). Every job is quoted individually so you know the cost upfront."
-        image="/hero-services.jpg"
-        imageAlt="Interior painting and decorating"
+        title="My services"
+        subtitle="I offer a full range of painting and decorating services for homes across Bath and North East Somerset (BANES). Every job is quoted individually so you know the cost upfront."
+        image="/painter-decorator-bath.jpg"
+        imageAlt="Painter and decorator in Bath"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },
@@ -172,7 +160,7 @@ export default function ServicesPage() {
               Ready for a free quote?
             </h2>
             <p className="mt-4 text-white/90 max-w-xl mx-auto leading-relaxed">
-              Contact us to discuss your project and arrange a free, no-obligation quote. We&apos;re happy to advise on colours, finishes, and timing.
+              Contact me to discuss your project and arrange a free, no-obligation quote. I&apos;m happy to advise on colours, finishes, and timing.
             </p>
             <Link
               href="/contact"

@@ -24,7 +24,7 @@ type AreaMapProps = {
 };
 
 export default function AreaMap({
-  title = "Our service area",
+  title = "My service area",
   className = "",
   height = "320px",
 }: AreaMapProps) {

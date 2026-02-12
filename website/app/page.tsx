@@ -20,7 +20,7 @@ const faqPageJsonLd = {
       name: "How do I get a quote?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Get in touch via our contact page or Facebook. Tell us roughly what you need (e.g. one room, full house, interior or exterior) and your location. We'll arrange a visit to quote in person where needed.",
+        text: "Get in touch via my contact page or Facebook. Tell me roughly what you need (e.g. one room, full house, interior or exterior) and your location. I'll arrange a visit to quote in person where needed.",
       },
     },
     {
@@ -28,7 +28,7 @@ const faqPageJsonLd = {
       name: "Do you provide the paint and materials?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We can either supply materials as part of the job or work with paint and materials you provide. We're happy to advise on what to buy if you'd prefer to source it yourself.",
+        text: "I can either supply materials as part of the job or work with paint and materials you provide. I'm happy to advise on what to buy if you'd prefer to source it yourself.",
       },
     },
     {
@@ -36,7 +36,7 @@ const faqPageJsonLd = {
       name: "How long does a typical job take?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "It depends on the size of the project. A single room might take a few days; a full interior can take several weeks. We'll give you a timeframe when we quote and work cleanly to minimise disruption.",
+        text: "It depends on the size of the project. A single room might take a few days; a full interior can take several weeks. I'll give you a timeframe when I quote and work cleanly to minimise disruption.",
       },
     },
     {
@@ -44,7 +44,7 @@ const faqPageJsonLd = {
       name: "What areas do you cover?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We work across Bath and North East Somerset (BANES), including Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages. Get in touch with your postcode and we'll confirm we cover your area.",
+        text: "I work across Bath and North East Somerset (BANES), including Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages. Get in touch with your postcode and I'll confirm I cover your area.",
       },
     },
     {
@@ -52,7 +52,7 @@ const faqPageJsonLd = {
       name: "Do you do small jobs?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Whether it's a single room, a touch-up, or a full redecoration, we're happy to quote. No job is too small.",
+        text: "Yes. Whether it's a single room, a touch-up, or a full redecoration, I'm happy to quote. No job is too small.",
       },
     },
   ],
@@ -134,7 +134,7 @@ export default function Home() {
             href="/gallery"
             className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
           >
-            View Our Work
+            View my work
           </Link>
         </div>
       </PageHero>
@@ -189,10 +189,10 @@ export default function Home() {
       <section className="py-16 sm:py-24 bg-accent text-white">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <p className="text-white/80 text-sm font-medium uppercase tracking-[0.2em] text-center">
-            Our services
+            My services
           </p>
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-center mt-2 tracking-tight">
-            What we offer
+            What I offer
           </h2>
           <p className="mt-4 text-white/90 text-center max-w-2xl mx-auto leading-relaxed">
             Professional painting and decorating services tailored to your home and budget.
@@ -201,7 +201,7 @@ export default function Home() {
             {[
               {
                 title: "Interior painting",
-                description: "Walls, ceilings, woodwork — we deliver a flawless finish with quality paints and careful preparation.",
+                description: "Walls, ceilings, woodwork — I deliver a flawless finish with quality paints and careful preparation.",
                 image: "/services/interior.jpg",
                 alt: "Interior painting and decorating",
               },
@@ -213,7 +213,7 @@ export default function Home() {
               },
               {
                 title: "Wallpaper & feature walls",
-                description: "From subtle textures to bold patterns, we help you create the look you want.",
+                description: "From subtle textures to bold patterns, I help you create the look you want.",
                 image: "/services/wallpaper.jpg",
                 alt: "Wallpaper and feature walls",
               },
@@ -261,10 +261,10 @@ export default function Home() {
             Service area
           </p>
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-center mt-2 tracking-tight">
-            Areas we cover
+            Areas I cover
           </h2>
           <p className="mt-4 text-white/90 text-center max-w-2xl mx-auto leading-relaxed">
-            We work across {SERVICE_AREA_NAME}. Get in touch with your postcode to confirm we cover your area.
+            I work across {SERVICE_AREA_NAME}. Get in touch with your postcode to confirm I cover your area.
           </p>
           <ul className="mt-8 flex flex-wrap justify-center gap-4 sm:gap-6" aria-label="Service areas">
             {AREAS_COVERED.map((area) => (
@@ -284,7 +284,7 @@ export default function Home() {
               href="/area"
               className="inline-flex items-center text-white font-medium hover:text-white/90 transition-colors underline underline-offset-2 text-sm"
             >
-              View all areas we cover →
+              View all areas I cover →
             </Link>
           </div>
           <div className="mt-10 max-w-4xl mx-auto">
@@ -364,7 +364,7 @@ export default function Home() {
             Ready to refresh your home?
           </h2>
           <p className="mt-5 opacity-90 max-w-xl mx-auto leading-relaxed">
-            Get in touch for a free, no-obligation quote. We serve Bath, Keynsham, Midsomer Norton, Radstock and across BANES.
+            Get in touch for a free, no-obligation quote. I serve Bath, Keynsham, Midsomer Norton, Radstock and across BANES.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link

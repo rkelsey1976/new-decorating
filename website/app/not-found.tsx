@@ -11,7 +11,7 @@ export default function NotFound() {
           404
         </h1>
         <p className="mt-4 text-muted leading-relaxed">
-          Sorry, we couldn&apos;t find the page you&apos;re looking for. It may have been moved or no longer exists.
+          Sorry, I couldn&apos;t find the page you&apos;re looking for. It may have been moved or no longer exists.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Link
@@ -24,7 +24,7 @@ export default function NotFound() {
             href="/services"
             className="inline-flex items-center justify-center rounded-xl border-2 border-accent/30 px-6 py-3 text-sm font-semibold text-accent hover:bg-accent/5 transition-colors"
           >
-            View our services
+            View my services
           </Link>
           <Link
             href="/contact"

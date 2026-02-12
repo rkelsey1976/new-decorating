@@ -92,7 +92,7 @@ export default function BlogIndexPage() {
             Need a painter & decorator in Bath?
           </h2>
           <p className="mt-4 text-white/90 max-w-xl mx-auto leading-relaxed">
-            We offer free, no-obligation quotes for all painting and decorating work across Bath and North East Somerset.
+            I offer free, no-obligation quotes for all painting and decorating work across Bath and North East Somerset.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link

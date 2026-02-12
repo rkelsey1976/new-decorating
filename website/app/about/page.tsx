@@ -5,7 +5,7 @@ import PageHero from "@/components/PageHero";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | Painter & Decorator Bath | New Decorating",
+  title: "About Jason New | Painter & Decorator Bath | New Decorating",
   description:
     "About New Decorating – painter & decorator in Bath. Quality painting and decorating across BANES. Fair prices, free quotes. 25+ years.",
   alternates: { canonical: "/about" },
@@ -22,8 +22,8 @@ export default function AboutPage() {
     <div>
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
-        title="About New Decorating"
-        subtitle="We're a local painting and decorating business based in Bath, serving homes across Bath and North East Somerset (BANES)."
+        title="About Jason New"
+        subtitle="I'm a local painting and decorating business based in Bath, serving homes across Bath and North East Somerset (BANES)."
         image="/hero-about.jpg"
         imageAlt="Professional painting and decorating work"
         breadcrumbs={[
@@ -43,7 +43,7 @@ export default function AboutPage() {
             href="/gallery"
             className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
           >
-            View our work
+            View my work
           </Link>
         </div>
       </PageHero>
@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
               <Image
                 src="/gallery/629379914_122155306700722526_337082109466497239_n.jpg"
-                alt="Our approach – painting and decorating work in Bath"
+                alt="My approach – painting and decorating work in Bath"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -67,17 +67,17 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="order-1 lg:order-2">
-              <p className="text-accent text-sm font-medium uppercase tracking-[0.2em]">Our approach</p>
+              <p className="text-accent text-sm font-medium uppercase tracking-[0.2em]">My approach</p>
               <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground mt-2 tracking-tight">
                 Quality finishes, on time and at a fair price
               </h2>
               <div className="mt-6 space-y-4 text-muted leading-relaxed">
                 <p>
-                  With over 25 years of experience in painting and decorating, our aim is simple: to deliver a high-quality finish, on time and at a fair price.
-                  We&apos;re fully insured, take care of <Link href="/services/preparation-and-repair" className="text-accent font-medium hover:text-accent-soft transition-colors">preparation</Link>, use good materials, and work cleanly so your home is left looking great with minimal disruption.
+                  With over 25 years of experience in painting and decorating, my aim is simple: to deliver a high-quality finish, on time and at a fair price.
+                  I&apos;m fully insured, take care of <Link href="/services/preparation-and-repair" className="text-accent font-medium hover:text-accent-soft transition-colors">preparation</Link>, use good materials, and work cleanly so your home is left looking great with minimal disruption.
                 </p>
                 <p>
-                  Whether you need a <Link href="/services/interior-painting" className="text-accent font-medium hover:text-accent-soft transition-colors">single room refreshed</Link>, a full interior redecoration, or <Link href="/services/exterior-painting" className="text-accent font-medium hover:text-accent-soft transition-colors">exterior work</Link>, we&apos;re happy to quote and advise. We offer free, no-obligation quotes and can work around your schedule where possible.
+                  Whether you need a <Link href="/services/interior-painting" className="text-accent font-medium hover:text-accent-soft transition-colors">single room refreshed</Link>, a full interior redecoration, or <Link href="/services/exterior-painting" className="text-accent font-medium hover:text-accent-soft transition-colors">exterior work</Link>, I&apos;m happy to quote and advise. I offer free, no-obligation quotes and can work around your schedule where possible.
                 </p>
               </div>
               <div className="mt-6 flex flex-wrap gap-4">
@@ -91,7 +91,7 @@ export default function AboutPage() {
                   href="/gallery"
                   className="inline-flex items-center gap-1.5 text-accent font-medium text-sm hover:text-accent-soft transition-colors"
                 >
-                  See examples of our work <span aria-hidden>→</span>
+                  See examples of my work <span aria-hidden>→</span>
                 </Link>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function AboutPage() {
       {/* Image strip */}
       <section className="py-12 sm:py-16 bg-accent/10 border-y border-accent/20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] text-center">What we do</p>
+          <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] text-center">What I do</p>
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground text-center mt-2 tracking-tight">
             Interior, exterior & preparation
           </h2>
@@ -151,22 +151,22 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="p-6">
-                <h2 className="font-display text-xl font-semibold text-foreground tracking-tight">Our area</h2>
+                <h2 className="font-display text-xl font-semibold text-foreground tracking-tight">My area</h2>
                 <p className="mt-2 text-muted leading-relaxed">
-                  We work across Bath and North East Somerset (BANES): <Link href="/area/bath" className="text-accent font-medium hover:text-accent-soft transition-colors">Bath</Link>, <Link href="/area/keynsham" className="text-accent font-medium hover:text-accent-soft transition-colors">Keynsham</Link>, <Link href="/area/midsomer-norton" className="text-accent font-medium hover:text-accent-soft transition-colors">Midsomer Norton</Link>, <Link href="/area/radstock" className="text-accent font-medium hover:text-accent-soft transition-colors">Radstock</Link> and surrounding villages.
+                  I work across Bath and North East Somerset (BANES): <Link href="/area/bath" className="text-accent font-medium hover:text-accent-soft transition-colors">Bath</Link>, <Link href="/area/keynsham" className="text-accent font-medium hover:text-accent-soft transition-colors">Keynsham</Link>, <Link href="/area/midsomer-norton" className="text-accent font-medium hover:text-accent-soft transition-colors">Midsomer Norton</Link>, <Link href="/area/radstock" className="text-accent font-medium hover:text-accent-soft transition-colors">Radstock</Link> and surrounding villages.
                 </p>
                 <Link
                   href="/area"
                   className="mt-4 inline-flex items-center gap-1.5 text-accent font-medium text-sm hover:text-accent-soft transition-colors"
                 >
-                  View all areas we cover <span aria-hidden>→</span>
+                  View all areas I cover <span aria-hidden>→</span>
                 </Link>
               </div>
             </div>
             <div className="rounded-2xl border border-black/8 bg-white overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="relative aspect-[2/1] bg-muted/20">
                 <Image
-                  src="/services/decorative.jpg"
+                  src="/services/wallpaper.jpg"
                   alt="Get in touch for a free quote"
                   fill
                   sizes="(max-width: 640px) 100vw, 50vw"
@@ -180,13 +180,13 @@ export default function AboutPage() {
               <div className="p-6">
                 <h2 className="font-display text-xl font-semibold text-foreground tracking-tight">Get in touch</h2>
                 <p className="mt-2 text-muted leading-relaxed">
-                  The easiest way to reach us is via our contact page or through Facebook. We&apos;ll get back to you as soon as we can.
+                  The easiest way to reach me is via my contact page or through Facebook. I&apos;ll get back to you as soon as I can.
                 </p>
                 <Link
                   href="/contact"
                   className="mt-4 inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-soft transition-colors"
                 >
-                  Contact us
+                  Contact me
                   <span aria-hidden>→</span>
                 </Link>
               </div>

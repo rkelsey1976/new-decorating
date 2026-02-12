@@ -70,7 +70,7 @@ export default function Testimonials() {
           Testimonials
         </p>
         <h2 className="font-display text-3xl sm:text-4xl font-semibold text-foreground text-center mt-2 tracking-tight">
-          What our customers say
+          What my customers say
         </h2>
         <p className="mt-4 text-muted text-center max-w-2xl mx-auto leading-relaxed">
           Real reviews from customers across Bath and North East Somerset.

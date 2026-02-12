@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy | Painter & Decorator Bath | New Decorating",
   description:
-    "Privacy policy – New Decorating, painter & decorator Bath. How we collect, use and protect your personal information.",
+    "Privacy policy – New Decorating, painter & decorator Bath. How I collect, use and protect your personal information.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -16,7 +16,7 @@ export default function PrivacyPage() {
     <div>
       <PageHero
         title="Privacy Policy"
-        subtitle="How we collect, use, and protect your personal information."
+        subtitle="How I collect, use, and protect your personal information."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Privacy Policy" },
@@ -29,11 +29,11 @@ export default function PrivacyPage() {
           <div className="space-y-10 text-muted leading-relaxed">
             <section>
               <h2 className="font-display text-xl sm:text-2xl font-semibold text-foreground tracking-tight">
-                Who we are
+                Who I am
               </h2>
               <p className="mt-4">
                 New Decorating is a painting and decorating business based in Bath, serving
-                Bath and North East Somerset (BANES). Our website address is{" "}
+                Bath and North East Somerset (BANES). My website address is{" "}
                 <a href={SITE_URL} className="text-accent font-medium hover:text-accent-soft transition-colors">
                   {SITE_URL}
                 </a>.
@@ -42,45 +42,45 @@ export default function PrivacyPage() {
 
             <section>
               <h2 className="font-display text-xl sm:text-2xl font-semibold text-foreground tracking-tight">
-                What personal data we collect and why
+                What personal data I collect and why
               </h2>
               <h3 className="mt-6 font-display text-lg font-semibold text-foreground">
                 Contact form
               </h3>
               <p className="mt-3">
-                When you submit our contact form, we collect your name, email address,
+                When you submit my contact form, I collect your name, email address,
                 phone number (optional), location, type of work required, and your message.
-                We use this information solely to respond to your enquiry and provide you
-                with a quote. We do not use this data for marketing purposes.
+                I use this information solely to respond to your enquiry and provide you
+                with a quote. I do not use this data for marketing purposes.
               </p>
               <h3 className="mt-6 font-display text-lg font-semibold text-foreground">
                 Phone and email
               </h3>
               <p className="mt-3">
-                If you contact us by phone or email, we will keep a record of your
-                communication so we can respond to your enquiry and manage your project.
+                If you contact me by phone or email, I will keep a record of your
+                communication so I can respond to your enquiry and manage your project.
               </p>
             </section>
 
             <section>
               <h2 className="font-display text-xl sm:text-2xl font-semibold text-foreground tracking-tight">
-                How we protect your data
+                How I protect your data
               </h2>
               <p className="mt-4">
                 Contact form submissions are processed securely through Netlify Forms and
-                sent to us via email notification. We do not store your personal data in
-                any public database. Your data is only accessible to us and is not shared
+                sent to me via email notification. I do not store your personal data in
+                any public database. Your data is only accessible to me and is not shared
                 with any third parties.
               </p>
             </section>
 
             <section>
               <h2 className="font-display text-xl sm:text-2xl font-semibold text-foreground tracking-tight">
-                Who we share your data with
+                Who I share your data with
               </h2>
               <p className="mt-4">
-                We do not sell, trade, or share your personal information with any third
-                parties. Form submissions are processed by Netlify (our hosting provider)
+                I do not sell, trade, or share your personal information with any third
+                parties. Form submissions are processed by Netlify (my hosting provider)
                 in accordance with their{" "}
                 <a
                   href="https://www.netlify.com/privacy/"
@@ -98,21 +98,21 @@ export default function PrivacyPage() {
                 Cookies
               </h2>
               <p className="mt-4">
-                We use Google Analytics to understand how visitors use our website (e.g. which pages are viewed). Analytics cookies are only set if you click &ldquo;Accept&rdquo; on the cookie banner. You can choose &ldquo;Reject analytics&rdquo; to use the site without analytics cookies. Your choice is stored so we do not ask again on each visit. We do not use advertising cookies or share your data with advertisers.
+                I use Google Analytics to understand how visitors use my website (e.g. which pages are viewed). Analytics cookies are only set if you click &ldquo;Accept&rdquo; on the cookie banner. You can choose &ldquo;Reject analytics&rdquo; to use the site without analytics cookies. Your choice is stored so I do not ask again on each visit. I do not use advertising cookies or share your data with advertisers.
               </p>
               <p className="mt-4">
-                Essential cookies may be set by our hosting provider (Netlify) for serving the website securely. These are strictly necessary and do not track your browsing activity.
+                Essential cookies may be set by my hosting provider (Netlify) for serving the website securely. These are strictly necessary and do not track your browsing activity.
               </p>
             </section>
 
             <section>
               <h2 className="font-display text-xl sm:text-2xl font-semibold text-foreground tracking-tight">
-                How long we retain your data
+                How long I retain your data
               </h2>
               <p className="mt-4">
-                We retain contact form submissions and project-related communications for
+                I retain contact form submissions and project-related communications for
                 as long as necessary to respond to your enquiry and manage any resulting
-                work. You can request deletion of your data at any time by contacting us.
+                work. You can request deletion of your data at any time by contacting me.
               </p>
             </section>
 
@@ -124,7 +124,7 @@ export default function PrivacyPage() {
                 Under UK data protection law (UK GDPR), you have the right to:
               </p>
               <ul className="mt-3 space-y-2 list-disc list-inside">
-                <li>Request access to the personal data we hold about you</li>
+                <li>Request access to the personal data I hold about you</li>
                 <li>Request correction of any inaccurate data</li>
                 <li>Request deletion of your personal data</li>
                 <li>Object to the processing of your data</li>
@@ -132,7 +132,7 @@ export default function PrivacyPage() {
               <p className="mt-4">
                 To exercise any of these rights, please{" "}
                 <Link href="/contact" className="text-accent font-medium hover:text-accent-soft transition-colors">
-                  contact us
+                  contact me
                 </Link>.
               </p>
             </section>
@@ -142,7 +142,7 @@ export default function PrivacyPage() {
                 Contact
               </h2>
               <p className="mt-4">
-                If you have any questions about this privacy policy or how we handle your
+                If you have any questions about this privacy policy or how I handle your
                 data, please get in touch:
               </p>
               <ul className="mt-3 space-y-1">
@@ -153,7 +153,7 @@ export default function PrivacyPage() {
                   </a>
                 </li>
                 <li>
-                  Or via our{" "}
+                  Or via my{" "}
                   <Link href="/contact" className="text-accent font-medium hover:text-accent-soft transition-colors">
                     contact form
                   </Link>

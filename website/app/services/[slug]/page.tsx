@@ -165,7 +165,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             {/* Process steps */}
             <div>
               <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground tracking-tight">
-                Our Process
+                My process
               </h2>
               <div className="mt-8 space-y-6">
                 {service.process.map((step, i) => (
@@ -295,8 +295,8 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             {service.title} Across Bath & Beyond
           </h2>
           <p className="mt-4 text-muted leading-relaxed max-w-2xl">
-            We provide {service.title.toLowerCase()} services across Bath and all surrounding areas.
-            Whether you are in the city centre or a nearby town, we can help.
+            I provide {service.title.toLowerCase()} services across Bath and all surrounding areas.
+            Whether you are in the city centre or a nearby town, I can help.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             {AREA_PAGES.map((area) => (
@@ -316,7 +316,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             href="/area"
             className="mt-6 inline-flex items-center gap-2 text-accent font-medium hover:text-accent-soft transition-colors text-sm"
           >
-            View all areas we cover
+            View all areas I cover
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

@@ -164,14 +164,13 @@ export default async function BlogPostPage({ params }: BlogPostProps) {
       <section className="py-12 sm:py-16 bg-white border-t border-black/5">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-xl font-semibold text-foreground tracking-tight">
-            Our Services
+            My services
           </h2>
           <div className="mt-4 flex flex-wrap gap-3">
             {[
               { label: "Interior Painting", href: "/services/interior-painting" },
               { label: "Exterior Painting", href: "/services/exterior-painting" },
               { label: "Wallpaper Hanging", href: "/services/wallpaper-hanging" },
-              { label: "Decorative Finishes", href: "/services/decorative-finishes" },
               { label: "Preparation & Repair", href: "/services/preparation-and-repair" },
             ].map((svc) => (
               <Link

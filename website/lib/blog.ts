@@ -48,15 +48,15 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       {
         heading: "How professionals approach preparation",
         body: [
-          "A professional decorator will spend a significant portion of the job on preparation — sometimes as much time as the actual painting. We inspect every surface, identify what needs attention, and work methodically through filling, sanding, and priming.",
-          "We use dust sheets to protect floors and furniture, and we clean up at the end of each day. The goal is to create a perfectly smooth, clean surface so the paint goes on evenly and lasts for years.",
+          "A professional decorator will spend a significant portion of the job on preparation — sometimes as much time as the actual painting. I inspect every surface, identify what needs attention, and work methodically through filling, sanding, and priming.",
+          "I use dust sheets to protect floors and furniture, and I clean up at the end of each day. The goal is to create a perfectly smooth, clean surface so the paint goes on evenly and lasts for years.",
         ],
       },
       {
         heading: "Preparation for different surfaces",
         body: [
           "New plaster needs a mist coat (diluted emulsion) before full-strength paint. Old plaster with cracks needs filling and sanding. Woodwork needs sanding between coats. Previously wallpapered walls need stripping and lining in most cases.",
-          "Exterior surfaces face additional challenges: weathering, moss, mould, and UV damage all need addressing before painting. We use appropriate treatments and primers for each surface type to ensure the best result.",
+          "Exterior surfaces face additional challenges: weathering, moss, mould, and UV damage all need addressing before painting. I use appropriate treatments and primers for each surface type to ensure the best result.",
         ],
       },
     ],
@@ -71,7 +71,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       "Choosing a paint colour can be overwhelming. Here are practical tips to help you pick the right shade for your space.",
     date: "2026-01-18",
     readTime: "4 min read",
-    image: "/services/decorative.jpg",
+    image: "/services/interior.jpg",
     imageAlt: "Freshly decorated room with carefully chosen paint colours",
     sections: [
       {
@@ -96,10 +96,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         ],
       },
       {
-        heading: "Popular colour choices we see in Bath",
+        heading: "Popular colour choices I see in Bath",
         body: [
-          "In the period properties and character homes we work on across Bath, we see a lot of heritage colours performing well. Sage greens, deep navy blues, warm whites, and soft greys are consistently popular choices that suit both traditional and modern interiors.",
-          "Farrow & Ball colours like Hague Blue, Pigeon, and Cornforth White remain popular in Bath homes. Dulux Heritage and Little Greene are also excellent ranges for character properties. We're happy to advise on colours and can colour-match to any shade.",
+          "In the period properties and character homes I work on across Bath, I see a lot of heritage colours performing well. Sage greens, deep navy blues, warm whites, and soft greys are consistently popular choices that suit both traditional and modern interiors.",
+          "Farrow & Ball colours like Hague Blue, Pigeon, and Cornforth White remain popular in Bath homes. Dulux Heritage and Little Greene are also excellent ranges for character properties. I'm happy to advise on colours and can colour-match to any shade.",
         ],
       },
       {
@@ -155,8 +155,8 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       {
         heading: "Choosing the right products",
         body: [
-          "We use quality products from brands we trust — Dulux Weathershield for exterior masonry, Dulux Trade and Farrow & Ball for interior work, and specialist primers where needed. The right product for the right surface makes all the difference.",
-          "If you're unsure what your walls or woodwork need, we can advise. Every quote from New Decorating includes a recommendation on products and finishes suited to your specific property.",
+          "I use quality products from brands I trust — Dulux Weathershield for exterior masonry, Dulux Trade and Farrow & Ball for interior work, and specialist primers where needed. The right product for the right surface makes all the difference.",
+          "If you're unsure what your walls or woodwork need, I can advise. Every quote from New Decorating includes a recommendation on products and finishes suited to your specific property.",
         ],
       },
     ],
@@ -177,36 +177,36 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       {
         heading: "Move what you can",
         body: [
-          "If you're able to move smaller items of furniture, ornaments, and pictures off the walls before we arrive, it saves time — and time is money. We'll move and cover larger items ourselves, but clearing the small stuff makes a real difference.",
-          "Take down curtains and blinds if you can, and remove light fittings or lampshades that might be in the way. Don't worry about moving heavy wardrobes or bookcases — we'll work around those or shift them as needed.",
+          "If you're able to move smaller items of furniture, ornaments, and pictures off the walls before I arrive, it saves time — and time is money. I'll move and cover larger items myself, but clearing the small stuff makes a real difference.",
+          "Take down curtains and blinds if you can, and remove light fittings or lampshades that might be in the way. Don't worry about moving heavy wardrobes or bookcases — I'll work around those or shift them as needed.",
         ],
       },
       {
         heading: "Decide on your colours in advance",
         body: [
-          "Having your paint colours chosen before the start date avoids delays. If you're supplying the paint yourself, make sure you have enough — we can advise on quantities when we quote. If we're supplying it, we'll confirm the colours with you beforehand.",
+          "Having your paint colours chosen before the start date avoids delays. If you're supplying the paint yourself, make sure you have enough — I can advise on quantities when I quote. If I'm supplying it, I'll confirm the colours with you beforehand.",
           "If you're still undecided, buy a few tester pots and paint sample patches on the wall a week before the job starts. Live with them for a few days and see how they look in different light before making your final choice.",
         ],
       },
       {
-        heading: "Let us know about any issues",
+        heading: "Let me know about any issues",
         body: [
-          "If you know about damp patches, cracked plaster, mould, or other problems, let us know before the job starts. This helps us plan the right preparation and bring the right materials. It's much better to flag issues upfront than to discover them on day one.",
-          "Similarly, if there are areas you don't want painted, or specific things you need us to work around (a home office you need to use, a room that needs to stay accessible), tell us in advance and we'll plan the job accordingly.",
+          "If you know about damp patches, cracked plaster, mould, or other problems, let me know before the job starts. This helps me plan the right preparation and bring the right materials. It's much better to flag issues upfront than to discover them on day one.",
+          "Similarly, if there are areas you don't want painted, or specific things you need me to work around (a home office you need to use, a room that needs to stay accessible), tell me in advance and I'll plan the job accordingly.",
         ],
       },
       {
         heading: "Access and parking",
         body: [
-          "If you live in a flat or a property with restricted access, let us know how to get in and where we can park. For exterior work, we may need to access side passages or gardens — make sure gates are unlocked and paths are clear.",
-          "If you're in central Bath where parking is limited, let us know and we can plan around it. We're local and know the area well, so we'll find a way to make it work.",
+          "If you live in a flat or a property with restricted access, let me know how to get in and where I can park. For exterior work, I may need to access side passages or gardens — make sure gates are unlocked and paths are clear.",
+          "If you're in central Bath where parking is limited, let me know and I can plan around it. I'm local and know the area well, so I'll find a way to make it work.",
         ],
       },
       {
-        heading: "What we'll take care of",
+        heading: "What I'll take care of",
         body: [
-          "Don't worry about laying dust sheets, masking edges, or prepping surfaces — that's our job. We bring all our own equipment and materials. We'll protect your floors, furniture, and fittings, and we clean up at the end of every day.",
-          "If you have pets or young children, just let us know so we can keep doors closed and paint tins out of reach. We always work cleanly and safely, and we're used to working in family homes.",
+          "Don't worry about laying dust sheets, masking edges, or prepping surfaces — that's my job. I bring all my own equipment and materials. I'll protect your floors, furniture, and fittings, and I clean up at the end of every day.",
+          "If you have pets or young children, just let me know so I can keep doors closed and paint tins out of reach. I always work cleanly and safely, and I'm used to working in family homes.",
         ],
       },
     ],

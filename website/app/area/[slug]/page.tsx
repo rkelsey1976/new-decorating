@@ -120,10 +120,10 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
             {area.nearbyAreas.length > 0 && (
               <div className="mt-12 pt-10 border-t border-black/8">
                 <p className="text-accent text-sm font-medium uppercase tracking-[0.2em]">
-                  Local areas we cover
+                  Local areas I cover
                 </p>
                 <p className="mt-2 text-muted text-sm">
-                  We work across {area.name} and these nearby areas:
+                  I work across {area.name} and these nearby areas:
                 </p>
                 <ul className="mt-4 flex flex-wrap gap-2" aria-label={`Local areas near ${area.name}`}>
                   {area.nearbyAreas.map((place) => (
@@ -145,10 +145,10 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
       <section className="py-16 sm:py-24 bg-accent/10 border-y border-accent/20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] text-center">
-            What we offer
+            What I offer
           </p>
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground text-center mt-2 tracking-tight">
-            Our services in {area.name}
+            My services in {area.name}
           </h2>
           <div className="mt-12 grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
             {area.services.map((service, i) => (
@@ -186,10 +186,10 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
       <section className="py-16 sm:py-24 bg-background">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground text-center tracking-tight">
-            Nearby areas we also cover
+            Nearby areas I also cover
           </h2>
           <p className="mt-4 text-muted text-center max-w-xl mx-auto">
-            As well as {area.name}, we work across these nearby towns and villages.
+            As well as {area.name}, I work across these nearby towns and villages.
           </p>
           <ul className="mt-10 flex flex-wrap justify-center gap-3" aria-label={`Areas near ${area.name}`}>
             {area.nearbyAreas.map((nearby) => (
@@ -208,7 +208,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
       <section className="py-16 sm:py-24 bg-accent/10 border-y border-accent/20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground text-center tracking-tight">
-            Where we work
+            Where I work
           </h2>
           <div className="mt-10 max-w-4xl mx-auto">
             <AreaMap title={`New Decorating — ${area.name}`} height="360" />
@@ -219,7 +219,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
       {/* Other area links */}
       <section className="py-12 sm:py-16 bg-background border-b border-black/5">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-muted text-sm mb-4">We also cover:</p>
+          <p className="text-muted text-sm mb-4">I also cover:</p>
           <div className="flex flex-wrap justify-center gap-3">
             {otherAreas.map((other) => (
               <Link
@@ -247,7 +247,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
             Need a painter & decorator in {area.name}?
           </h2>
           <p className="mt-4 text-white/90 max-w-xl mx-auto leading-relaxed">
-            Get in touch for a free, no-obligation quote. We&apos;re local, experienced and ready to help with your next decorating project.
+            Get in touch for a free, no-obligation quote. I&apos;m local, experienced and ready to help with your next decorating project.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link

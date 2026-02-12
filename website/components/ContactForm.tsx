@@ -51,7 +51,7 @@ export default function ContactForm() {
           Message sent
         </h2>
         <p className="mt-3 text-muted leading-relaxed max-w-md mx-auto">
-          Thanks for getting in touch. We&apos;ll get back to you as soon as we can &mdash; usually within a day or two.
+          Thanks for getting in touch. I&apos;ll get back to you as soon as I can &mdash; usually within a day or two.
         </p>
         <button
           type="button"

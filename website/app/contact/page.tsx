@@ -22,7 +22,7 @@ export default function ContactPage() {
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Get in touch"
-        subtitle="Ready for a quote or have a question? Fill in the form below or message us on Facebook — we'll get back to you as soon as we can."
+        subtitle="Ready for a quote or have a question? Fill in the form below or message me on Facebook — I'll get back to you as soon as I can."
         image="/hero-contact.jpg"
         imageAlt="Get in touch for a free quote"
         breadcrumbs={[
@@ -44,7 +44,7 @@ export default function ContactPage() {
               Send us a message
             </h2>
             <p className="mt-3 text-muted leading-relaxed">
-              Tell us about your project and we&apos;ll get back to you with a free, no-obligation quote.
+              Tell me about your project and I&apos;ll get back to you with a free, no-obligation quote.
             </p>
             <div className="mt-8">
               <ContactForm />
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 Message us on Facebook
               </h3>
               <p className="mt-1.5 text-muted text-sm leading-relaxed">
-                Send a message or post on our page. We check regularly and reply as soon as possible.
+                Send a message or post on my page. I check regularly and reply as soon as possible.
               </p>
               <span className="mt-3 text-accent font-medium group-hover:text-accent-soft transition-colors text-sm">
                 Open Facebook →
@@ -88,11 +88,11 @@ export default function ContactPage() {
               <ol className="mt-4 space-y-3 text-muted text-sm">
                 <li className="flex items-start gap-3">
                   <span className="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 text-accent font-display font-semibold text-xs flex items-center justify-center mt-0.5">1</span>
-                  <span>We&apos;ll review your message and get back to you within a day or two.</span>
+                  <span>I&apos;ll review your message and get back to you within a day or two.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 text-accent font-display font-semibold text-xs flex items-center justify-center mt-0.5">2</span>
-                  <span>If needed, we&apos;ll arrange a visit to see the job and give an accurate quote.</span>
+                  <span>If needed, I&apos;ll arrange a visit to see the job and give an accurate quote.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 text-accent font-display font-semibold text-xs flex items-center justify-center mt-0.5">3</span>
@@ -161,12 +161,12 @@ export default function ContactPage() {
         {/* Map */}
         <div className="mt-16">
           <AreaMap
-            title="Where we work"
+            title="Where I work"
             height="360"
             className="max-w-4xl mx-auto"
           />
           <p className="mt-3 text-center text-sm text-muted">
-            We cover Bath, Keynsham, Midsomer Norton, Radstock and across {SERVICE_AREA_NAME}.
+            I cover Bath, Keynsham, Midsomer Norton, Radstock and across {SERVICE_AREA_NAME}.
           </p>
         </div>
 
@@ -178,26 +178,26 @@ export default function ContactPage() {
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-2">
             <h3 className="font-display text-xl sm:text-2xl font-semibold tracking-tight">Not sure what you need?</h3>
             <p className="mt-3 text-white/90 text-sm sm:text-base leading-relaxed max-w-2xl">
-              Take a look at our services or browse photos from previous projects to get an idea of what we can do.
+              Take a look at my services or browse photos from previous projects to get an idea of what I can do.
             </p>
             <div className="mt-6 flex flex-wrap gap-6">
               <Link
                 href="/services"
                 className="inline-flex items-center gap-1.5 text-white font-medium text-sm hover:text-white/80 transition-colors underline underline-offset-2"
               >
-                Browse our services <span aria-hidden>→</span>
+                Browse my services <span aria-hidden>→</span>
               </Link>
               <Link
                 href="/gallery"
                 className="inline-flex items-center gap-1.5 text-white font-medium text-sm hover:text-white/80 transition-colors underline underline-offset-2"
               >
-                See examples of our work <span aria-hidden>→</span>
+                See examples of my work <span aria-hidden>→</span>
               </Link>
               <Link
                 href="/area"
                 className="inline-flex items-center gap-1.5 text-white font-medium text-sm hover:text-white/80 transition-colors underline underline-offset-2"
               >
-                Areas we cover <span aria-hidden>→</span>
+                Areas I cover <span aria-hidden>→</span>
               </Link>
             </div>
           </div>

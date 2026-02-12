@@ -1,12 +1,12 @@
 /**
  * Service area for SEO and customer-facing copy.
- * We work across Bath and North East Somerset (BANES).
+ * I work across Bath and North East Somerset (BANES).
  */
 
 export const SERVICE_AREA_NAME = "Bath and North East Somerset";
 export const SERVICE_AREA_SHORT = "BANES";
 
-/** Main towns/areas we cover (BANES) for display and JSON-LD */
+/** Main towns/areas I cover (BANES) for display and JSON-LD */
 export const AREAS_COVERED = [
   "Bath",
   "Keynsham",
