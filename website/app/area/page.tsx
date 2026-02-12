@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Areas I cover | Painter & Decorator Bath | New Decorating",
   description:
-    "Painter & decorator Bath. Areas I cover: Bath, Keynsham, Midsomer Norton, Radstock and BANES. Free quotes. 25+ years experience.",
+    "Painter & decorator Bath. Areas I cover: Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge, Chippenham, Rode, Melksham, Bradford on Avon, Frome and surrounding areas. Free quotes. 25+ years.",
   alternates: { canonical: "/area" },
 };
 
@@ -18,9 +18,9 @@ export default function AreaPage() {
   return (
     <div>
       <PageHero
-        locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
+        locationLine="Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge, Chippenham, Rode, Melksham, Bradford on Avon, Frome & more"
         title="Areas I cover"
-        subtitle="I work across Bath and North East Somerset (BANES). Get in touch with your postcode to confirm I cover your area."
+        subtitle="I work across Bath, BANES, Wiltshire and Somerset. Get in touch with your postcode to confirm I cover your area."
         image="/hero-area.jpg"
         imageAlt="Bath and North East Somerset"
         breadcrumbs={[
@@ -51,10 +51,19 @@ export default function AreaPage() {
             Service area
           </p>
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-foreground text-center mt-2 tracking-tight">
-            Bath and North East Somerset (BANES)
+            Bath, BANES, Wiltshire & Somerset
           </h2>
           <p className="mt-6 text-muted text-center max-w-2xl mx-auto leading-relaxed">
-            I&apos;m a local painting and decorating business based in Bath. I serve homes across the whole of {SERVICE_AREA_NAME} — from Bath city and the surrounding villages to Keynsham, Midsomer Norton, Radstock and beyond. Get in touch with your postcode and I&apos;ll confirm I can cover your area.
+            I&apos;m a painting and decorating business based in Bath. I serve homes across {SERVICE_AREA_NAME}, Wiltshire and Somerset — from{" "}
+            {AREA_PAGES.map((a, i) => (
+              <span key={a.slug}>
+                {i > 0 && ", "}
+                <Link href={`/area/${a.slug}`} className="text-accent font-medium hover:text-accent-soft transition-colors">
+                  {a.name}
+                </Link>
+              </span>
+            ))}{" "}
+            and surrounding villages. Get in touch with your postcode and I&apos;ll confirm I can cover your area.
           </p>
 
           {/* Area page links */}
@@ -82,16 +91,25 @@ export default function AreaPage() {
             ))}
           </div>
 
-          {/* Original area list for other areas */}
+          {/* Area list with links to each location page */}
           <ul className="mt-10 flex flex-wrap justify-center gap-4 sm:gap-6" aria-label="Towns and areas I cover">
-            {AREAS_COVERED.map((area) => (
-              <li
-                key={area}
-                className="rounded-xl bg-white border border-black/8 px-6 py-4 text-foreground font-medium shadow-sm"
-              >
-                {area}
-              </li>
-            ))}
+            {AREAS_COVERED.map((area) => {
+              const areaPage = AREA_PAGES.find((a) => a.name === area);
+              return (
+                <li
+                  key={area}
+                  className="rounded-xl bg-white border border-black/8 px-6 py-4 text-foreground font-medium shadow-sm"
+                >
+                  {areaPage ? (
+                    <Link href={`/area/${areaPage.slug}`} className="text-accent hover:text-accent-soft transition-colors">
+                      {area}
+                    </Link>
+                  ) : (
+                    area
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>
@@ -102,7 +120,16 @@ export default function AreaPage() {
             Where I work
           </h2>
           <p className="mt-4 text-muted text-center max-w-xl mx-auto">
-            See my service area on the map below. I cover Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages in BANES.
+            See my service area on the map below. I cover{" "}
+            {AREA_PAGES.map((a, i) => (
+              <span key={a.slug}>
+                {i > 0 && ", "}
+                <Link href={`/area/${a.slug}`} className="text-accent font-medium hover:text-accent-soft transition-colors">
+                  {a.name}
+                </Link>
+              </span>
+            ))}{" "}
+            and surrounding villages.
           </p>
           <div className="mt-10 max-w-4xl mx-auto">
             <AreaMap title="" height="400" />

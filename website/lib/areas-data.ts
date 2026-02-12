@@ -104,6 +104,138 @@ export const AREA_PAGES: AreaPage[] = [
     ],
     nearbyAreas: ["Midsomer Norton", "Westfield", "Writhlington", "Kilmersdon", "Coleford", "Holcombe"],
   },
+  {
+    slug: "trowbridge",
+    name: "Trowbridge",
+    metaTitle: "Painter & Decorator in Trowbridge | New Decorating",
+    metaDescription:
+      "Painter & decorator in Trowbridge. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Trowbridge and the surrounding Wiltshire area.",
+    intro:
+      "Trowbridge is the county town of Wiltshire and has a mix of period properties, Victorian terraces and modern homes. I cover Trowbridge and the surrounding villages, from a single room refresh to full house redecoration. I'm based in Bath and regularly work across the border into Wiltshire — reliable, tidy and always happy to give a free, no-obligation quote.",
+    localInfo:
+      "Trowbridge has grown from its historic cloth-making roots into a busy market town with a diverse housing stock. Many homes have character features that benefit from an experienced decorator — from older cottages to newer estates. I understand the different surfaces and building styles you'll find across the area and deliver a lasting finish.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation, filling and repair",
+      "Period and character property decoration",
+      "Full house redecoration",
+    ],
+    nearbyAreas: ["Bradford on Avon", "Melksham", "Westbury", "Warminster", "Hilperton", "Staverton"],
+  },
+  {
+    slug: "chippenham",
+    name: "Chippenham",
+    metaTitle: "Painter & Decorator in Chippenham | New Decorating",
+    metaDescription:
+      "Painter & decorator in Chippenham. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+    heroSubtitle:
+      "Quality painting and decorating services for homes in Chippenham and north Wiltshire.",
+    intro:
+      "Chippenham sits on the edge of the Cotswolds and has a great mix of Georgian and Victorian homes alongside modern developments. I cover Chippenham and the surrounding area, offering everything from interior refreshes to full exterior work. I'm based in Bath and work across into Wiltshire — 25+ years of experience, free quotes and a focus on quality finishes.",
+    localInfo:
+      "Chippenham's position between Bath and Swindon means many homeowners look for a decorator who can deliver a high standard. The town has plenty of period features — sash windows, cornices, period mouldings — and I'm experienced in working with older properties as well as new builds.",
+    services: [
+      "Interior and exterior painting",
+      "Wallpaper hanging and feature walls",
+      "Period property and character home decoration",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Corsham", "Melksham", "Calne", "Malmesbury", "Box", "Lacock"],
+  },
+  {
+    slug: "rode",
+    name: "Rode",
+    metaTitle: "Painter & Decorator in Rode | New Decorating",
+    metaDescription:
+      "Painter & decorator in Rode. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somerset.",
+    heroSubtitle:
+      "Local painting and decorating for Rode, Frome and the surrounding Somerset villages.",
+    intro:
+      "Rode is a village in Somerset, close to Frome and within easy reach of Bath. I cover Rode and the surrounding villages — Norton St Philip, Beckington, Woolverton and beyond. Whether you have a period cottage, a family home or a modern property, I offer a full range of painting and decorating with a free, no-obligation quote.",
+    localInfo:
+      "The villages around Rode and Frome have a strong character — stone-built cottages, thatched properties and period homes are common. I'm used to working with older building materials and the kind of surfaces you find in this part of Somerset, and I deliver careful preparation and a quality finish every time.",
+    services: [
+      "Interior painting for houses and cottages",
+      "Exterior painting and stonework",
+      "Wallpaper hanging and stripping",
+      "Period and character property decoration",
+      "Preparation and repair of older surfaces",
+      "Full redecoration and single room projects",
+    ],
+    nearbyAreas: ["Frome", "Norton St Philip", "Beckington", "Woolverton", "Tellisford", "Farleigh Hungerford"],
+  },
+  {
+    slug: "melksham",
+    name: "Melksham",
+    metaTitle: "Painter & Decorator in Melksham | New Decorating",
+    metaDescription:
+      "Painter & decorator in Melksham. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+    heroSubtitle:
+      "Painting and decorating for homes in Melksham and the surrounding area — between Bath and Trowbridge.",
+    intro:
+      "Melksham sits between Bath and Trowbridge with easy access to Chippenham and the M4. I cover Melksham and the surrounding villages, from a single room to a full house redecoration. I'm based in Bath and work across into Wiltshire — 25+ years of experience, free quotes and a reliable, tidy service.",
+    localInfo:
+      "Melksham has a mix of older terraces, period homes and modern estates. Many properties benefit from an experienced decorator who can handle both character features and newer builds. I'm used to working with the range of surfaces and building styles you find in this part of Wiltshire.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation, filling and repair",
+      "Period and modern property decoration",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Trowbridge", "Bradford on Avon", "Chippenham", "Broughton Gifford", "Lacock", "Shaw"],
+  },
+  {
+    slug: "bradford-on-avon",
+    name: "Bradford on Avon",
+    metaTitle: "Painter & Decorator in Bradford on Avon | New Decorating",
+    metaDescription:
+      "Painter & decorator in Bradford on Avon. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Bradford on Avon and the surrounding Wiltshire villages.",
+    intro:
+      "Bradford on Avon is a historic Wiltshire town with a wealth of period properties — from medieval weavers' cottages to Georgian townhouses. I cover Bradford on Avon and the surrounding area, offering a full range of painting and decorating. I'm based in Bath and regularly work in Wiltshire — experienced with older buildings and always happy to give a free, no-obligation quote.",
+    localInfo:
+      "The town's character homes often need a decorator who understands lime plaster, stone and period features. I have extensive experience working on properties of all ages and deliver careful preparation and quality finishes that suit both traditional and modern interiors.",
+    services: [
+      "Interior painting for period and character homes",
+      "Exterior painting including stone and render",
+      "Wallpaper hanging and feature walls",
+      "Sash window and woodwork painting",
+      "Preparation and repair of older surfaces",
+      "Full redecoration and single room projects",
+    ],
+    nearbyAreas: ["Bath", "Melksham", "Trowbridge", "Limpley Stoke", "Winsley", "Westwood"],
+  },
+  {
+    slug: "frome",
+    name: "Frome",
+    metaTitle: "Painter & Decorator in Frome | New Decorating",
+    metaDescription:
+      "Painter & decorator in Frome. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somerset.",
+    heroSubtitle:
+      "Quality painting and decorating for homes in Frome and the surrounding Somerset villages.",
+    intro:
+      "Frome is a Somerset market town with a strong character — independent shops, period buildings and a mix of cottages and family homes. I cover Frome and the surrounding villages including Rode, Mells, Nunney and Beckington. I'm based in Bath and work across into Somerset — 25+ years of experience, free quotes and a focus on quality finishes.",
+    localInfo:
+      "Frome has plenty of older properties that benefit from careful preparation and an experienced hand. Stone-built cottages, Victorian terraces and period features are common. I'm used to working with the surfaces and building styles you find in this part of Somerset and deliver a lasting finish every time.",
+    services: [
+      "Interior and exterior painting",
+      "Wallpaper hanging and stripping",
+      "Period and character property decoration",
+      "Stone and older surface preparation",
+      "Full house redecoration",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Rode", "Mells", "Nunney", "Beckington", "Norton St Philip", "Woolverton"],
+  },
 ];
 
 export function getAreaBySlug(slug: string): AreaPage | undefined {

@@ -27,7 +27,7 @@ export const SERVICE_PAGES: ServicePage[] = [
       "Interior painting Bath – painter & decorator. Walls, ceilings, woodwork, doors. 25+ years, free quotes. Quality finishes across BANES.",
     heroSubtitle:
       "Transform your home with professional interior painting. Walls, ceilings, woodwork, doors and architraves — all finished to a high standard.",
-    image: "/services/interior.jpg",
+    image: "/gallery/629379914_122155306700722526_337082109466497239_n.jpg",
     image2: "/services/interior-2.jpg",
     intro:
       "A fresh coat of paint is one of the simplest ways to transform a room. Whether you need a single bedroom refreshed or a full house repainted, I deliver clean, lasting results with minimal disruption. With over 25 years of experience, I know how to prepare surfaces properly so the finish looks great and lasts for years.",
