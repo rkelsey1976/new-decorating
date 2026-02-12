@@ -13,7 +13,7 @@ import { SITE_URL } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Property Decorator in Bath | New Decorating",
+  title: "Painter & Decorator in Bath | New Decorating",
   description: "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Quality finishes, free quotes. 25+ years experience.",
   alternates: { canonical: "/" },
 };
