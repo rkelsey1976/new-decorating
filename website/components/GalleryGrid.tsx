@@ -80,10 +80,12 @@ export default function GalleryGrid() {
                     className={`inline-block rounded-md px-2.5 py-0.5 text-xs font-semibold ${
                       img.tag === "before"
                         ? "bg-slate-100 text-slate-700"
-                        : "bg-emerald-50 text-emerald-700"
+                        : img.tag === "in progress"
+                          ? "bg-amber-50 text-amber-700"
+                          : "bg-emerald-50 text-emerald-700"
                     }`}
                   >
-                    {img.tag === "before" ? "Before" : "After"}
+                    {img.tag === "before" ? "Before" : img.tag === "in progress" ? "In progress" : "After"}
                   </span>
                 )}
               </div>
