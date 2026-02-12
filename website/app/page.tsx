@@ -216,7 +216,7 @@ export default function Home() {
               {
                 title: "Exterior painting",
                 description: "Protect and refresh the outside of your property with weather-resistant finishes.",
-                image: "/services/exterior.jpg",
+                image: "/services/exterior.png",
                 alt: "Exterior painting",
               },
               {

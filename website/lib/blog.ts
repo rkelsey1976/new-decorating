@@ -121,7 +121,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       "Interior and exterior paints are designed for very different conditions. Here's what you need to know about choosing the right one.",
     date: "2026-01-10",
     readTime: "3 min read",
-    image: "/services/exterior.jpg",
+    image: "/services/exterior.png",
     imageAlt: "Exterior of a property being painted with weather-resistant paint",
     sections: [
       {

@@ -83,7 +83,7 @@ export const SERVICE_PAGES: ServicePage[] = [
       "Exterior painting Bath – painter & decorator. Walls, windows, doors, fascias, render. Weather-resistant. 25+ years, free quotes. BANES.",
     heroSubtitle:
       "Protect and refresh the outside of your property with expert exterior painting. Walls, windows, doors, fascias and more.",
-    image: "/services/exterior.jpg",
+    image: "/services/exterior.png",
     image2: "/services/exterior-2.jpg",
     intro:
       "The exterior of your home is the first thing people see, and it takes the brunt of the British weather. I use high-quality, weather-resistant paints and coatings to protect your property and keep it looking its best. From a front door refresh to a full exterior repaint, I handle preparation carefully so the finish lasts.",

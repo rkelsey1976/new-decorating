@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const ABOUT_IMAGES = [
   { src: "/services/interior.jpg", alt: "Interior painting and decorating", label: "Interior", href: "/services/interior-painting" },
   { src: "/services/preparation.jpg", alt: "Preparation and quality finish", label: "Preparation", href: "/services/preparation-and-repair" },
-  { src: "/services/exterior.jpg", alt: "Exterior painting", label: "Exterior", href: "/services/exterior-painting" },
+  { src: "/services/exterior.png", alt: "Exterior painting", label: "Exterior", href: "/services/exterior-painting" },
 ];
 
 export default function AboutPage() {
