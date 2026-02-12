@@ -311,6 +311,42 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       },
     ],
   },
+  {
+    slug: "painter-and-decorator-in-keynsham-what-to-expect",
+    title: "Painter & Decorator in Keynsham: What to Expect",
+    metaTitle: "Painter & Decorator in Keynsham (BS31) | New Decorating",
+    metaDescription:
+      "What to expect when hiring a painter and decorator in Keynsham. Interior, exterior, wallpaper. 25+ years, free quotes. Keynsham, Saltford, Bitton.",
+    excerpt:
+      "Keynsham sits between Bath and Bristol with a mix of period homes and new builds. Here's what to expect when you hire a painter and decorator in Keynsham — and how to get a free quote.",
+    date: "2026-02-13",
+    readTime: "3 min read",
+    image: "/services/interior.jpg",
+    imageAlt: "Interior painting and decorating in Keynsham and BANES — quality finishes for local homes",
+    sections: [
+      {
+        heading: "Why use a painter and decorator in Keynsham who knows the area?",
+        body: [
+          "Keynsham (BS31) has a mix of Victorian and inter-war housing, newer estates, and character homes on the High Street and in the surrounding villages. A decorator who works in Keynsham regularly will know the common property types, access and parking, and how to get the best finish on the surfaces you have.",
+          "I've been painting and decorating in Keynsham and the surrounding area for years. I cover Saltford, Whitchurch, Bitton, Charlton and the rest of the BS31 area, and I'm happy to quote in person so you get a fixed price and clear advice.",
+        ],
+      },
+      {
+        heading: "What I offer in Keynsham — interior, exterior, wallpaper",
+        body: [
+          "I offer a full range of painting and decorating: interior painting (walls, ceilings, woodwork, doors), exterior painting (walls, windows, doors, fascias), wallpaper hanging and stripping, and preparation and repair. Whether you need a single room, a full redecoration, or exterior work, I quote each job individually so you know the cost upfront.",
+          "I use quality paints from brands I trust and I'm happy to work with paints you've chosen yourself. Every job gets proper preparation so the finish looks good and lasts.",
+        ],
+      },
+      {
+        heading: "Getting a free quote in Keynsham",
+        body: [
+          "Tell me roughly what you need and your postcode (BS31 or nearby). I'll confirm I cover your area and, where it makes sense, come and quote in person. You'll get a fixed price and honest advice on what's needed — no obligation.",
+          "You can get in touch via my contact page or by phone. I'll get back to you within a day or two and arrange a visit to quote. Free quote, no obligation — just straightforward service from a painter and decorator who knows Keynsham.",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Blog articles sorted by date, newest first (for homepage and blog index). */

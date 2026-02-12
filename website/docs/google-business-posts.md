@@ -111,8 +111,8 @@ If you’ve been happy with the work and have a moment, a short review on Google
 And if you’re new here — I offer free quotes for interior and exterior painting across Bath and the surrounding area. Just get in touch.
 
 **Button:** “Leave a review” or “Write a review”  
-**URL:** Your GBP review link (e.g. from “Share review form” in GBP):  
-`https://share.google/G7dS2fLtDuKhTUvZV`  
+**URL:** Your GBP review link (from “Share review form” in GBP):  
+`https://share.google/fUJXUr6TOncvERdQA`  
 **Image:** Logo or a happy customer / finished project photo.
 
 ---
@@ -151,6 +151,25 @@ Whether you need prep before a full redecoration or small repairs before a refre
 
 ---
 
+## 9. Widcombe in Bath
+
+**Title:**  
+Painter and decorator in Widcombe, Bath
+
+**Post text:**
+
+Widcombe has a great mix of period homes — Georgian and Victorian terraces, cottages, sash windows and character properties. I’ve been painting and decorating in Widcombe and the surrounding Bath area for over 25 years.
+
+I work with heritage colours, careful preparation and finishes that suit older buildings. Interior and exterior painting, wallpaper, woodwork and preparation — every job is quoted in person so you know the cost upfront.
+
+If you’re in Widcombe and thinking about redecorating, get in touch for a free quote. I cover Widcombe, Twerton and across Bath and BANES.
+
+**Button:** “Get a quote” or “Learn more”  
+**URL:** `https://new-decorating.co.uk/contact` or `https://new-decorating.co.uk/blog/decorating-in-widcombe-and-twerton-two-bath-neighbourhoods`  
+**Image:** Job photo from Widcombe or a Bath period property (e.g. interior or exterior), or your logo.
+
+---
+
 ## Short versions (when character count is tight)
 
 If GBP limits the post length, use these shorter versions (under ~280 characters):
@@ -159,6 +178,7 @@ If GBP limits the post length, use these shorter versions (under ~280 characters
 - **Exterior:** Best time for exterior painting? Spring and early autumn. I paint walls, windows, doors and fascias with weather-resistant paint. Free quotes across BANES.
 - **Interior:** Refresh your home with a professional paint job. Walls, ceilings, woodwork — I prepare properly and leave your home tidy. Free quotes in Bath and the surrounding area.
 - **Reviews:** If you’re happy with my work, a Google review helps other local homeowners find a reliable painter. Thank you. (Add “Leave a review” button with your review link.)
+- **Widcombe:** Painter and decorator in Widcombe, Bath. Period homes, heritage colours, 25+ years. Free quotes — Widcombe, Twerton and across BANES.
 
 ---
 

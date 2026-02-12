@@ -46,6 +46,7 @@ Side-by-side comparison of your site against other Bath painter/decorator busine
 
 | Business | Positioning | Notable on site |
 |----------|-------------|-----------------|
+| **Wild Fern Decorating** ([wildferndecorating.co.uk](https://wildferndecorating.co.uk/)) | Small Bath company, “personally tailored”, consultation & project management | 6 named testimonials with locations, Instagram embed, Farrow & Ball / Little Greene / Morris & Co. No area pages. See `comparison-new-decorating-vs-wild-fern.md`. |
 | **Paintr** (paintr.uk) | Local Bath, 10+ years, premium paints (Farrow & Ball) | Strong CTA, testimonials, project images |
 | **J Hudson** (jessicahudson.co.uk) | Residential & commercial, Bath area | Insurance, H&S, testimonials |
 | **Bath Painters** (bathpainters.co.uk) | Team, residential + commercial + plastering/joinery | Multiple service pages, big gallery, Instagram |

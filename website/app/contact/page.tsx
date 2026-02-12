@@ -1,9 +1,7 @@
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
-import AreaMap from "@/components/AreaMap";
 import BrushStroke from "@/components/BrushStroke";
-import { SERVICE_AREA_NAME } from "@/lib/area";
 import { GBP_REVIEW_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
@@ -183,18 +181,6 @@ export default function ContactPage() {
             Leave a review on Google
           </a>
         </section>
-
-        {/* Map */}
-        <div className="mt-16">
-          <AreaMap
-            title="Where I work"
-            height="360"
-            className="max-w-4xl mx-auto"
-          />
-          <p className="mt-3 text-center text-sm text-muted">
-            I cover Bath, Keynsham, Midsomer Norton, Radstock and across {SERVICE_AREA_NAME}.
-          </p>
-        </div>
 
         </div>
 

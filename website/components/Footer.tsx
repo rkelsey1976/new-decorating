@@ -8,9 +8,16 @@ const footerLinks = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/gallery", label: "Gallery" },
-  { href: "/area", label: "Area" },
+  { href: "/area", label: "Areas" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
+];
+
+const areaLinks = [
+  { href: "/area/bath", label: "Bath" },
+  { href: "/area/keynsham", label: "Keynsham" },
+  { href: "/area/midsomer-norton", label: "Midsomer Norton" },
+  { href: "/area/radstock", label: "Radstock" },
 ];
 
 export default function Footer() {
@@ -47,16 +54,29 @@ export default function Footer() {
             </a>
           </div>
 
-          <nav className="flex flex-wrap gap-8" aria-label="Footer navigation">
-            {footerLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-[#e5e3e0] hover:text-white transition-colors tracking-wide"
-              >
-                {link.label}
-              </Link>
-            ))}
+          <nav className="flex flex-col gap-4" aria-label="Footer navigation">
+            <div className="flex flex-wrap gap-8">
+              {footerLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm font-medium text-[#e5e3e0] hover:text-white transition-colors tracking-wide"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+            <p className="text-xs text-[#c4c2bf] mt-1">
+              Areas:{" "}
+              {areaLinks.map((a, i) => (
+                <span key={a.href}>
+                  {i > 0 && " · "}
+                  <Link href={a.href} className="text-[#e5e3e0] hover:text-white transition-colors">
+                    {a.label}
+                  </Link>
+                </span>
+              ))}
+            </p>
             <a
               href={GBP_REVIEW_URL}
               target="_blank"

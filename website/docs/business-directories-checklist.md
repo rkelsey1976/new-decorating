@@ -4,6 +4,37 @@ A practical list of directories worth adding your painting and decorating busine
 
 ---
 
+## Free listing options
+
+These directories are **free** to list on (or have a free basic listing). Good starting point if you want maximum visibility with no cost.
+
+| Directory | Link | Notes |
+|-----------|------|--------|
+| **Google Business Profile** | [business.google.com](https://business.google.com) | Free. Essential for Maps and local search. |
+| **Bing Places** | [bingplaces.com](https://www.bingplaces.com) | Free. Copy details from Google. |
+| **Apple Maps** | [register.apple.com/business](https://register.apple.com/business) or Apple Business Connect | Free. Good for iPhone users. |
+| **Yelp** | [yelp.co.uk](https://www.yelp.co.uk) | Free to create and manage listing. See `yelp-business-listing.md`. |
+| **FreeIndex** | [freeindex.co.uk](https://www.freeindex.co.uk) | Free UK directory. See `freeindex-business-listing.md`. |
+| **Trustpilot** | [business.trustpilot.com](https://business.trustpilot.com) | Free to create; reviews can be collected and displayed. |
+| **Facebook** | You’re already on it | Free. Optimise About and service areas (Bath, Keynsham, etc.). |
+| **Find Your Local** | [findyourlocal.co.uk](https://findyourlocal.co.uk) | Free. Covers Keynsham, Saltford, Bath and surrounding areas. |
+| **2day Keynsham** | [keynsham.2day.uk](https://keynsham.2day.uk) | Free to add listing under Local services & trades. |
+| **Hi Keynsham (Keynsham HAZ)** | [hikeynsham.co.uk/directory](https://www.hikeynsham.co.uk/directory/) | Free local directory (Keynsham High Street Heritage Action Zone). Check site for how to submit. |
+| **Thomson Local** | [thomsonlocal.com](https://www.thomsonlocal.com) | Free basic listing; paid options for more visibility. Add Bath, Keynsham, Saltford. |
+| **Yell.com** | [yell.com](https://www.yell.com) | Free basic listing; paid for enhanced. Add areas in description. |
+| **Touch Local** | [touchlocal.com](https://www.touchlocal.com) | Free to add business. Bath, Keynsham, etc. |
+| **Somerset Live Directory** | [directory.somersetlive.co.uk](https://directory.somersetlive.co.uk) | Free. Bath / Somerset – add under painters and decorators. |
+| **The Trades of Bath** | [tradesofbath.co.uk](https://www.tradesofbath.co.uk) | Check site – many local trade directories are free to list. |
+| **360North (BS31)** | [360north.co.uk](http://www.360north.co.uk/Keynsham-BS31-Directory.html) | Check if they accept free submissions for Keynsham/Saltford/BS31. |
+| **Buy With Confidence (BANES)** | B&NES Trading Standards | Free to apply; vetted scheme. Search “Buy With Confidence BANES” to apply. |
+| **Scoot** | [scoot.co.uk](https://www.scoot.co.uk) | Free UK local directory. |
+| **Houzz** | [houzz.com](https://www.houzz.com) | Free profile; good for decorators and painters. |
+| **Nextdoor** | [nextdoor.com](https://www.nextdoor.com) | Free (join as business or personal). Local recommendations. |
+
+**Paid options** (only if you want extra leads): Checkatrade, TrustATrader, MyBuilder, Bark, Rated People. Saltford Business Network is ~£20/year for membership and directory listing.
+
+---
+
 ## Priority 1 – Do these first
 
 | Directory | Why | Status / link |

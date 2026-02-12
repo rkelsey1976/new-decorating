@@ -43,13 +43,13 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Keynsham",
     metaTitle: "Painter & Decorator in Keynsham | New Decorating",
     metaDescription:
-      "Painter & decorator in Keynsham. Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Bath and BANES.",
+      "Painter & decorator in Keynsham (BS31). Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Keynsham, Saltford, Bitton and BANES.",
     heroSubtitle:
-      "Trusted painting and decorating services for homes across Keynsham and the surrounding area.",
+      "Trusted painter and decorator for homes across Keynsham, Saltford and the surrounding area.",
     intro:
-      "Keynsham sits between Bath and Bristol and has a great mix of older character homes and modern developments. I've been decorating properties across Keynsham for years and know the area well. Whether you need a full house repaint, a single room freshened up, or exterior work on your property, I deliver reliable, professional results at fair prices.",
+      "I'm a painter and decorator covering Keynsham (BS31) and the surrounding area between Bath and Bristol. I've been decorating properties in Keynsham for years and know the mix of older character homes and newer developments well. Whether you need a full house repaint, a single room freshened up, or exterior work on your property, I deliver reliable, professional results at fair prices.",
     localInfo:
-      "Keynsham has grown significantly in recent years with new housing developments alongside its established Victorian and inter-war homes. Whether your property is a period cottage on the High Street, a 1930s semi, or a brand new build on one of the newer estates, I tailor my approach to suit the property and your requirements.",
+      "Keynsham has grown significantly in recent years with new housing alongside its established Victorian and inter-war homes. As a local painter and decorator I work on period cottages on the High Street, 1930s semis, and new builds on the newer estates — and in Saltford, Whitchurch, Bitton and nearby. I tailor my approach to suit the property and your requirements.",
     services: [
       "Interior painting for all property types",
       "Exterior painting and masonry coatings",
