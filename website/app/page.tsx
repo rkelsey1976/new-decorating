@@ -126,10 +126,10 @@ export default function Home() {
       />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
-        title="Property Decorator in Bath"
+        title="Painter & Decorator for Your Properties in Bath"
         subtitle="Professional painting and decorating across Bath and North East Somerset. 25+ years experience. Free quotes."
         image="/hero-home.jpg"
-        imageAlt="Property decorator in Bath — New Decorating"
+        imageAlt="Painter and decorator for your properties in Bath — New Decorating"
       >
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Link
