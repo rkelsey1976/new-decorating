@@ -19,7 +19,7 @@ export default function GalleryPage() {
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="My work"
-        subtitle={`Browse ${GALLERY_IMAGES.length} photos from my recent projects across Bath and North East Somerset, including period cottage interiors and Georgian exterior work.`}
+        subtitle="Browse photos from my recent projects across Bath and North East Somerset, including period cottage interiors and Georgian exterior work."
         image={`/gallery/${GALLERY_IMAGES[0].filename}`}
         imageAlt="Recent decorating project"
         breadcrumbs={[
