@@ -5,6 +5,7 @@ import Testimonials from "@/components/Testimonials";
 import PageHero from "@/components/PageHero";
 import BrushStroke from "@/components/BrushStroke";
 import { AREAS_COVERED, SERVICE_AREA_NAME } from "@/lib/area";
+import { AREA_PAGES } from "@/lib/areas-data";
 import AreaMap from "@/components/AreaMap";
 import { BLOG_ARTICLES_LATEST_FIRST } from "@/lib/blog";
 
@@ -275,17 +276,36 @@ export default function Home() {
             I work across {SERVICE_AREA_NAME}. Get in touch with your postcode to confirm I cover your area.
           </p>
           <ul className="mt-8 flex flex-wrap justify-center gap-4 sm:gap-6" aria-label="Service areas">
-            {AREAS_COVERED.map((area) => (
-              <li
-                key={area}
-                className="rounded-lg bg-white/15 border border-white/25 px-5 py-3 text-white font-medium shadow-sm backdrop-blur-sm"
-              >
-                {area}
-              </li>
-            ))}
+            {AREAS_COVERED.map((area) => {
+              const areaPage = AREA_PAGES.find((a) => a.name === area);
+              return (
+                <li
+                  key={area}
+                  className="rounded-lg bg-white/15 border border-white/25 px-5 py-3 text-white font-medium shadow-sm backdrop-blur-sm"
+                >
+                  {areaPage ? (
+                    <Link
+                      href={`/area/${areaPage.slug}`}
+                      className="text-white hover:text-white/90 transition-colors underline underline-offset-2"
+                    >
+                      {area}
+                    </Link>
+                  ) : (
+                    area
+                  )}
+                </li>
+              );
+            })}
           </ul>
           <p className="mt-6 text-center text-sm text-white/80">
-            Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages in BANES.
+            <Link href="/area/bath" className="text-white/90 hover:text-white underline underline-offset-1">Bath</Link>
+            ,{" "}
+            <Link href="/area/keynsham" className="text-white/90 hover:text-white underline underline-offset-1">Keynsham</Link>
+            ,{" "}
+            <Link href="/area/midsomer-norton" className="text-white/90 hover:text-white underline underline-offset-1">Midsomer Norton</Link>
+            ,{" "}
+            <Link href="/area/radstock" className="text-white/90 hover:text-white underline underline-offset-1">Radstock</Link>
+            {" "}and surrounding villages in BANES.
           </p>
           <div className="mt-4 text-center">
             <Link
