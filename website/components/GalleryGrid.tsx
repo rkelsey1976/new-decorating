@@ -65,7 +65,7 @@ export default function GalleryGrid() {
               />
             </div>
             <div className="p-4">
-              <div className="flex items-center gap-2 mb-1.5">
+              <div className="flex items-center gap-2 mb-1.5 flex-wrap">
                 <span
                   className={`inline-block rounded-md px-2.5 py-0.5 text-xs font-semibold ${
                     img.category === "Interior"
@@ -75,6 +75,17 @@ export default function GalleryGrid() {
                 >
                   {img.category}
                 </span>
+                {img.tag && (
+                  <span
+                    className={`inline-block rounded-md px-2.5 py-0.5 text-xs font-semibold ${
+                      img.tag === "before"
+                        ? "bg-slate-100 text-slate-700"
+                        : "bg-emerald-50 text-emerald-700"
+                    }`}
+                  >
+                    {img.tag === "before" ? "Before" : "After"}
+                  </span>
+                )}
               </div>
               <p className="text-foreground text-sm font-medium leading-snug">{img.caption}</p>
             </div>
