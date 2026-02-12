@@ -1,6 +1,44 @@
-# New Decorating vs Other Painters in Bath — Comparison
+# New Decorating vs Competitors — Bath Painter & Decorator Comparison
 
-Quick comparison of your site against other Bath painter/decorator businesses that appear for "painter decorator Bath" and similar searches.
+Side-by-side comparison of your site against other Bath painter/decorator businesses that appear for "painter decorator Bath" and similar searches.
+
+---
+
+## Your site at a glance (New Decorating)
+
+| Aspect | What you have |
+|--------|----------------|
+| **Title / brand** | "Painter & Decorator in Bath \| New Decorating – BANES" ✓ |
+| **H1 (homepage)** | "Painter & Decorator in Bath" ✓ |
+| **Location in hero** | Bath, Keynsham, Midsomer Norton, Radstock & BANES ✓ |
+| **Service pages** | 5 (interior, exterior, wallpaper, decorative, preparation) ✓ |
+| **Area pages** | 10 (Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge, Chippenham, Rode, Melksham, Bradford on Avon, Frome) ✓ |
+| **Blog** | 5+ articles, latest-first on homepage ✓ |
+| **Gallery** | Project photos with categories ✓ |
+| **Contact** | Form, phone, Facebook, CTAs on every page ✓ |
+| **Trust** | 25+ years, fully insured, free quotes in copy and schema ✓ |
+| **Testimonials** | Facebook reviews on homepage ✓ |
+| **FAQ** | Homepage + service FAQs ✓ |
+| **Technical** | LocalBusiness schema, sitemap, canonical, OG/Twitter ✓ |
+| **Mobile** | Responsive, click-to-call ✓ |
+
+---
+
+## Side-by-side: New Decorating vs competitors
+
+| Feature | New Decorating | Typical Bath competitors |
+|---------|----------------|---------------------------|
+| **Main title** | "Painter & Decorator in Bath \| New Decorating – BANES" | "Painter and Decorator Bath" or similar in &lt;title&gt; |
+| **Local SEO** | 10 area pages + BANES in hero | Area pages or location in hero; some fewer areas |
+| **Service depth** | 5 dedicated service pages + benefits, process, FAQs | 3–5 service pages; some add plastering/joinery |
+| **Blog / content** | 5+ advice articles (prep, colour, interior vs exterior, etc.) | Some have guides; many have little or none |
+| **Gallery** | Project photos, categorised | Large galleries common (Bath Painters, etc.); some use Instagram |
+| **Reviews** | Facebook reviews on site | Often Google reviews + GBP; some show both |
+| **Google Business Profile** | Ensure claimed, NAP matches, reviews | Most rely on GBP for maps and review snippets |
+| **Before/after** | Gallery only (no sliders) | Some use before/after sliders |
+| **Commercial work** | Not highlighted | J Hudson, Bath Painters, RK mention commercial |
+| **Schema** | LocalBusiness, FAQPage, reviews, areaServed | Varies; many have basic LocalBusiness |
+| **Speed / tech** | Next.js, fast load, canonical, OG | Mixed; some older or slower sites |
 
 ---
 
@@ -16,29 +54,12 @@ Quick comparison of your site against other Bath painter/decorator businesses th
 
 ---
 
-## What you already have (strong points)
-
-| Area | New Decorating |
-|------|----------------|
-| **Title / H1** | "Painter & Decorator in Bath" on homepage ✓ |
-| **Location** | Bath, Keynsham, Midsomer Norton, Radstock & BANES in hero and area pages ✓ |
-| **Service pages** | 5 dedicated pages (interior, exterior, wallpaper, decorative, preparation) ✓ |
-| **Area pages** | Bath, Keynsham, Midsomer Norton, Radstock with local copy ✓ |
-| **Gallery** | Project photos with categories ✓ |
-| **Contact** | Form, phone, Facebook, CTAs on every page ✓ |
-| **Trust** | 25+ years, fully insured, free quotes in copy and schema ✓ |
-| **Testimonials** | Facebook reviews on homepage ✓ |
-| **FAQ** | Homepage + service FAQs ✓ |
-| **Technical** | localBusiness schema, sitemap, canonical, OG/Twitter ✓ |
-| **Mobile** | Responsive, click-to-call ✓ |
-
----
-
 ## Where you compare well
 
-- **Local SEO**: Area pages (Bath + nearby villages) and "Bath, Keynsham… & BANES" in hero match what competitors do.
-- **Service depth**: Five service pages with benefits, process, FAQs is on a par or better than many.
-- **Trust**: Years, insurance, free quotes, testimonials are all present and in schema.
+- **Local SEO**: 10 area pages and "Bath, Keynsham… & BANES" in hero match or exceed what many competitors do.
+- **Service depth**: Five service pages with benefits, process, and FAQs is on a par or better than most.
+- **Blog**: Regular advice content (prep, colour, interior vs exterior) — many competitors have little or no blog.
+- **Trust**: Years, insurance, free quotes, testimonials, and schema are all present.
 - **Technical**: Next.js, fast load, structured data, proper meta/OG.
 
 ---
@@ -47,27 +68,25 @@ Quick comparison of your site against other Bath painter/decorator businesses th
 
 | Gap | What others do | Suggestion for New Decorating |
 |-----|----------------|-------------------------------|
-| **"Painter" in main title** | Many use "Painter and Decorator in Bath" in `<title>`. | Your site title is "New Decorating \| Bath & BANES – Interior Painting & Decorating". Consider adding "Painter & Decorator in Bath" nearer the start for the main keyword (e.g. "Painter & Decorator in Bath \| New Decorating"). |
-| **Google Business Profile** | Competitors rely on GBP for maps and reviews. | Ensure GBP exists, NAP matches site, and you collect Google reviews (and optionally surface them on site). |
-| **Gallery size / alt text** | Bath Painters etc. use large galleries and descriptive filenames/alt. | You have a good gallery; keep adding projects and use descriptive alt (e.g. "Interior painting Bath living room", "Exterior painting Bath stone"). |
-| **Before/after** | Some competitors use before/after sliders. | Optional: add a small before/after section or captions to gallery for key projects. |
-| **Blog / guides** | A few have colour/finish guides or local case studies. | You already have a blog; keep short local/advice posts (e.g. "Decorating period homes in Bath"). |
-| **Commercial** | J Hudson / Bath Painters mention commercial. | If you do commercial work, add a line and/or a small "Commercial" service or section; if not, no change. |
+| **Google Business Profile** | Competitors rely on GBP for maps and review snippets. | Ensure GBP exists, NAP matches site, collect Google reviews (optionally surface on site). |
+| **Gallery size / alt text** | Bath Painters etc. use large galleries and descriptive filenames/alt. | Keep adding projects; use descriptive alt (e.g. "Interior painting Bath living room", "Exterior painting Bath stone"). |
+| **Before/after** | Some use before/after sliders. | Optional: small before/after section or captions in gallery for key projects. |
+| **Commercial** | J Hudson / Bath Painters mention commercial. | If you do commercial work, add a line or small "Commercial" section; if not, no change. |
 
 ---
 
 ## Quick SEO checklist (Bath focus)
 
-- [ ] **Title tag**: Include "Painter & Decorator in Bath" (or "Painting and Decorating Bath") in the main site/page title.
-- [ ] **H1**: Keep "Painter & Decorator in Bath" on homepage (already done).
-- [ ] **Location in hero**: Keep pin + "Bath, Keynsham… & BANES" (already done).
-- [ ] **Area pages**: Keep Bath (and others) with local areas; add more villages/areas if you serve them.
+- [x] **Title tag**: Include "Painter & Decorator in Bath" in the main site/page title.
+- [x] **H1**: "Painter & Decorator in Bath" on homepage.
+- [x] **Location in hero**: Pin + "Bath, Keynsham… & BANES".
+- [x] **Area pages**: Bath and other towns with local copy.
 - [ ] **Google Business Profile**: Create/claim, consistent NAP, request reviews.
-- [ ] **Gallery**: More project photos over time; descriptive file names and alt text.
-- [ ] **Schema**: Keep LocalBusiness/PaintingContractor and areaServed (already in place).
+- [ ] **Gallery**: Add more project photos over time; descriptive file names and alt text.
+- [x] **Schema**: LocalBusiness/PaintingContractor and areaServed.
 
 ---
 
 ## Summary
 
-You’re already strong on structure (service pages, area pages, schema, trust, CTAs). The main levers to compare better with other Bath painters are: (1) tightening the main title/H1 for "painter decorator Bath", (2) Google Business Profile and reviews, and (3) continuing to grow the gallery and blog with local, descriptive content.
+Your site is strong on structure (service pages, area pages, schema, trust, CTAs) and compares well on local SEO and content (blog). The main levers to compare better with other Bath painters are: (1) **Google Business Profile** and reviews, (2) continuing to grow the **gallery** with descriptive alt text, and (3) optionally adding **before/after** or commercial if relevant.

@@ -6,7 +6,7 @@ import PageHero from "@/components/PageHero";
 import BrushStroke from "@/components/BrushStroke";
 import { AREAS_COVERED, SERVICE_AREA_NAME } from "@/lib/area";
 import AreaMap from "@/components/AreaMap";
-import { BLOG_ARTICLES } from "@/lib/blog";
+import { BLOG_ARTICLES_LATEST_FIRST } from "@/lib/blog";
 
 import { SITE_URL } from "@/lib/site";
 
@@ -319,7 +319,7 @@ export default function Home() {
             Practical decorating advice from 25+ years of experience.
           </p>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {BLOG_ARTICLES.slice(0, 3).map((article) => (
+            {BLOG_ARTICLES_LATEST_FIRST.slice(0, 3).map((article) => (
               <Link
                 key={article.slug}
                 href={`/blog/${article.slug}`}

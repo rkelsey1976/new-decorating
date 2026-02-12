@@ -261,7 +261,62 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       },
     ],
   },
+  {
+    slug: "decorating-in-widcombe-and-twerton-two-bath-neighbourhoods",
+    title: "Decorating in Widcombe and Twerton: Two Bath Neighbourhoods, Different Characters",
+    metaTitle: "Painter & Decorator Widcombe & Twerton | Bath Neighbourhoods | New Decorating",
+    metaDescription:
+      "What it's like decorating in Widcombe and Twerton — two Bath neighbourhoods with different character. Painter & decorator in both areas. 25+ years, free quotes.",
+    excerpt:
+      "Widcombe and Twerton are both part of Bath, but they feel different — and the decorating jobs I do in each reflect that. Here's a local decorator's view of both neighbourhoods.",
+    date: "2026-02-12",
+    readTime: "4 min read",
+    image: "/services/interior.jpg",
+    imageAlt: "Interior painting and decorating in Bath — quality finishes for period and modern homes in Widcombe, Twerton and across BANES",
+    sections: [
+      {
+        heading: "Two corners of Bath — and why I'm writing about both",
+        body: [
+          "Widcombe and Twerton sit on different sides of Bath, and they have different characters. I've been working as a painter and decorator in both for years. Rather than write a generic 'I cover your area' page, I thought it would be more useful to share what I actually see: the types of homes, the kind of jobs people ask for, and the practical side of working in each place.",
+          "If you're in Widcombe or Twerton and thinking about redecorating, this might help you know what to expect — and that you're dealing with someone who knows your neighbourhood.",
+        ],
+      },
+      {
+        heading: "Widcombe — period housing, village feel, and what that means for decorating",
+        body: [
+          "Widcombe has a strong village feel even though it's minutes from the city centre. A lot of the housing is period: Georgian and Victorian terraces, cottages, and houses with sash windows, original cornices, and lime plaster. Many are listed or in conservation areas, so the approach has to be sympathetic — the right products, careful preparation, and finishes that suit the building.",
+          "I often get asked for heritage colours (Farrow & Ball, Little Greene and similar), woodwork that's been stripped back or needs careful filling and sanding, and exterior work on Bath stone or rendered walls. Parking can be tight on some streets, but I'm used to it; I'll work around your routine and protect your belongings while I'm in.",
+        ],
+      },
+      {
+        heading: "Twerton — suburban Bath, mix of housing, and common jobs",
+        body: [
+          "Twerton is more suburban: a mix of inter-war and post-war semis and terraces, some ex-local authority housing, and a range of sizes and ages. The jobs I do there are often full-room or full-house repaints, exterior work on pebbledash or render, and wallpaper stripping and hanging. Homeowners are often after a fresh, clean finish that will last — good preparation and quality paint matter just as much as in period properties.",
+          "Access and parking are usually straightforward, and I'm used to working in family homes where we need to keep disruption to a minimum. I'll give you a clear timeframe and quote so you know what to expect.",
+        ],
+      },
+      {
+        heading: "What's the same in both — quality, clarity, and working around you",
+        body: [
+          "Whether you're in a Georgian terrace in Widcombe or a 1930s semi in Twerton, the basics don't change: proper preparation, the right products for the surface, and a finish that looks good and lasts. I don't cut corners, and I quote honestly so there are no surprises.",
+          "I'm happy to work in either area — and across the rest of Bath and BANES. If you're in Widcombe or Twerton and want a painter and decorator who knows the patch, get in touch with what you need and your postcode, and I'll arrange a visit to quote.",
+        ],
+      },
+      {
+        heading: "Getting a quote in Widcombe or Twerton",
+        body: [
+          "Tell me roughly what you need — a single room, a full redecoration, exterior work, or something else — and where you are. I'll confirm I cover your postcode and, where it makes sense, come and quote in person so you get a fixed price and clear advice.",
+          "You can reach me via my contact page or by phone. Free quote, no obligation — just straightforward advice from someone who's been decorating in Widcombe, Twerton and across Bath for over 25 years.",
+        ],
+      },
+    ],
+  },
 ];
+
+/** Blog articles sorted by date, newest first (for homepage and blog index). */
+export const BLOG_ARTICLES_LATEST_FIRST: BlogArticle[] = [...BLOG_ARTICLES].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+);
 
 export function getBlogBySlug(slug: string): BlogArticle | undefined {
   return BLOG_ARTICLES.find((a) => a.slug === slug);

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
-import { BLOG_ARTICLES } from "@/lib/blog";
+import { BLOG_ARTICLES_LATEST_FIRST } from "@/lib/blog";
 
 import type { Metadata } from "next";
 
@@ -48,7 +48,7 @@ export default function BlogIndexPage() {
           </p>
 
           <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {BLOG_ARTICLES.map((article) => (
+            {BLOG_ARTICLES_LATEST_FIRST.map((article) => (
               <Link
                 key={article.slug}
                 href={`/blog/${article.slug}`}
