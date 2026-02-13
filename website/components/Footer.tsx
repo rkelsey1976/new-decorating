@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { GBP_REVIEW_URL } from "@/lib/site";
+import { GBP_MAPS_URL } from "@/lib/site";
 
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61571675780751";
 
@@ -78,11 +78,23 @@ export default function Footer() {
               ))}
             </p>
             <a
-              href={GBP_REVIEW_URL}
+              href={GBP_MAPS_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-[#e5e3e0] hover:text-white transition-colors flex items-center gap-2"
-              aria-label="Leave a review on Google"
+              aria-label="View New Decorating on Google Maps"
+            >
+              Google Maps
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              </svg>
+            </a>
+            <a
+              href={GBP_MAPS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-[#e5e3e0] hover:text-white transition-colors flex items-center gap-2"
+              aria-label="Leave a review on Google (opens Google Maps)"
             >
               Leave a review
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

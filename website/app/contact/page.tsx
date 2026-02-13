@@ -2,7 +2,7 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
 import BrushStroke from "@/components/BrushStroke";
-import { GBP_REVIEW_URL, SITE_URL } from "@/lib/site";
+import { GBP_MAPS_URL, SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
@@ -203,11 +203,11 @@ export default function ContactPage() {
             Your feedback helps other customers and means a lot. If you&apos;re happy with the work, a quick review on Google would be brilliant.
           </p>
           <a
-            href={GBP_REVIEW_URL}
+            href={GBP_MAPS_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center justify-center gap-2 rounded-xl bg-white text-accent px-8 py-4 text-base font-semibold shadow-lg hover:bg-white/95 transition-colors"
-            aria-label="Leave a review on Google"
+            aria-label="Leave a review on Google (opens Google Maps)"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />

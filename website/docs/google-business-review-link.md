@@ -1,6 +1,8 @@
 # Google Business Profile – Review link
 
-The site has a **“Leave a review”** link in the footer. The URL is set in **`website/lib/site.ts`** as `GBP_REVIEW_URL`.
+The site has **“Leave a review”** links in the **footer** and on the **contact page** (big “Leave a review on Google” button). They open your **Google Maps listing** (`GBP_MAPS_URL` in `lib/site.ts`) so visitors land on your map page and can click **“Write a review”** there.
+
+**Maps URL:** If your Maps listing URL changes, update **`GBP_MAPS_URL`** in **`website/lib/site.ts`**. The “Leave a review” and “Google Maps” links both use it.
 
 **Important:** The numeric **Store ID** / Location ID (e.g. 07088259107804097575) does **not** work in the review URL. Google’s “Write a review” link uses a **Place ID** (e.g. `ChIJ...`). You must use the link from your GBP dashboard or a Place ID tool.
 
@@ -43,4 +45,5 @@ Use a tool like [BrightLocal’s Google ID and Review Link Generator](https://ww
 
 ## Where the link appears
 
-- **Footer** – “Leave a review” with a Google-style icon (next to Facebook), opens in a new tab.
+- **Footer** – “Leave a review” with Google icon (next to Google Maps and Facebook), opens in a new tab.
+- **Contact page** – “Leave a review on Google” button in the green CTA section, opens in a new tab.
