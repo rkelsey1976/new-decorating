@@ -25,12 +25,32 @@ const galleryPageJsonLd = {
   isPartOf: { "@type": "WebSite", name: "New Decorating", url: SITE_URL },
 };
 
+/** ImageObject schema with contentLocation – gives search engines location context for each image (image SEO) */
+function getGalleryImagesJsonLd() {
+  return GALLERY_IMAGES.map((img) => ({
+    "@type": "ImageObject",
+    contentUrl: `${SITE_URL}/gallery/${img.filename}`,
+    name: img.alt,
+    description: img.caption,
+    contentLocation: {
+      "@type": "Place",
+      name: img.location ?? "Bath and North East Somerset",
+    },
+  }));
+}
+
 export default function GalleryPage() {
+  const galleryImagesJsonLd = getGalleryImagesJsonLd();
+
   return (
     <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(galleryPageJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(galleryImagesJsonLd) }}
       />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"

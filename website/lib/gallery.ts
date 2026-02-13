@@ -13,6 +13,8 @@ export interface GalleryImage {
   caption: string;
   category: GalleryCategory;
   project: string;
+  /** Optional location for SEO (e.g. "Bath", "Keynsham") – used in ImageObject schema and can be shown in captions */
+  location?: string;
   tag?: GalleryTag;
 }
 
@@ -82,6 +84,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: "Front door fully prepared and a Dulux Weathershield primer undercoat applied.",
     category: "Exterior",
     project: "Georgian Exterior in Bath",
+    location: "Bath",
     tag: "before",
   },
   {
@@ -90,6 +93,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: "Front door freshly undercoated in Dulux Weathershield Oil Based Exterior Paint.",
     category: "Exterior",
     project: "Georgian Exterior in Bath",
+    location: "Bath",
     tag: "in progress",
   },
   {
@@ -98,6 +102,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: "Finished front door painted in Dulux Weathershield Oil Based Exterior High Gloss. Porch surround painted in Sandtex Smooth Masonry White.",
     category: "Exterior",
     project: "Georgian Exterior in Bath",
+    location: "Bath",
     tag: "after",
   },
   {
@@ -106,6 +111,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: "Exterior wall preparation — scraping and filling",
     category: "Exterior",
     project: "Georgian Exterior in Bath",
+    location: "Bath",
     tag: "before",
   },
   {
@@ -114,6 +120,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: "Exterior wall painted white below Bath stone",
     category: "Exterior",
     project: "Georgian Exterior in Bath",
+    location: "Bath",
     tag: "after",
   },
 
