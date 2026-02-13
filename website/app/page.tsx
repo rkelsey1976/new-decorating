@@ -15,7 +15,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Painter & Decorator in Bath | New Decorating",
-  description: "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Quality finishes, free quotes. 25+ years experience.",
+  description:
+    "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured. Get a free quote today!",
   alternates: { canonical: "/" },
 };
 

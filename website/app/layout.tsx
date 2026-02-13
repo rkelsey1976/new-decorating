@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Painter & Decorator in Bath | New Decorating – BANES",
   description:
-    "Painter & decorator in Bath. Professional painting and decorating across BANES. Quality finishes, free quotes. 25+ years experience.",
+    "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured. Get a free quote today!",
   alternates: {
     canonical: "/",
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "New Decorating",
     title: "Painter & Decorator in Bath | New Decorating – BANES",
     description:
-      "Painter & decorator in Bath. Quality finishes, free quotes. 25+ years experience. Bath, Keynsham, Midsomer Norton, Radstock.",
+      "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured.",
     url: SITE_URL,
     images: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Painter & Decorator in Bath | New Decorating – BANES",
     description:
-      "Painter & decorator in Bath. Quality finishes, free quotes. 25+ years. Bath, Keynsham, Midsomer Norton, Radstock.",
+      "Professional painter & decorator in Bath & BANES. 25+ years in interior/exterior painting, wallpaper & more. Free quotes, fully insured.",
     images: ["/og-image.jpg"],
   },
   keywords: [...META_KEYWORDS],
@@ -71,9 +71,10 @@ export const metadata: Metadata = {
 /** Canonical entity ID – use this same @id everywhere so Google merges all references into one entity */
 const ORGANIZATION_ID = `${SITE_URL}#organization`;
 
+/** LocalBusiness + ProfessionalService – PaintingContractor is specific; ProfessionalService boosts professional-service rich results */
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
-  "@type": "PaintingContractor",
+  "@type": ["PaintingContractor", "ProfessionalService"],
   "@id": ORGANIZATION_ID,
   name: "New Decorating",
   description:

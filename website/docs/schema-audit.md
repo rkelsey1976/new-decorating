@@ -8,7 +8,7 @@ A checklist of what’s in place, what Google expects, and what to fix or add.
 
 | Page / component | Schema type | Purpose |
 |------------------|-------------|---------|
-| **Layout** (every page) | `PaintingContractor` (LocalBusiness) | Business name, phone, areaServed, geo, hasOfferCatalog, address, openingHoursSpecification. Powers knowledge panel / local understanding. |
+| **Layout** (every page) | `PaintingContractor` + `ProfessionalService` (LocalBusiness) | JSON-LD in layout; business name, phone, areaServed, geo, hasOfferCatalog, address, openingHoursSpecification. Boosts local and professional-service rich results. |
 | **Layout** (every page) | `WebSite` | Site entity with name, url, description, publisher (Organization). Helps Google understand the site and brand. |
 | **Homepage** | `FAQPage` | 5 Q&As – must match the visible FAQ component text exactly. ✓ |
 | **Homepage** | `LocalBusiness` + `aggregateRating` + `review[]` | Star rating and review snippets. Use real customer reviews only; keep count/rating in sync. |
