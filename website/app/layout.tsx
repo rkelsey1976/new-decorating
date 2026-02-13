@@ -68,9 +68,13 @@ export const metadata: Metadata = {
   },
 };
 
+/** Canonical entity ID – use this same @id everywhere so Google merges all references into one entity */
+const ORGANIZATION_ID = `${SITE_URL}#organization`;
+
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": "PaintingContractor",
+  "@id": ORGANIZATION_ID,
   name: "New Decorating",
   description:
     "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Fully insured, free quotes. 25+ years experience.",
@@ -120,13 +124,7 @@ const websiteJsonLd = {
   name: "New Decorating",
   url: SITE_URL,
   description: "Painter & decorator in Bath. Professional painting and decorating across BANES. Quality finishes, free quotes. 25+ years experience.",
-  publisher: {
-    "@type": "Organization",
-    name: "New Decorating",
-    url: SITE_URL,
-    logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
-    telephone: "+447717772881",
-  },
+  publisher: { "@id": ORGANIZATION_ID },
 };
 
 export default function RootLayout({

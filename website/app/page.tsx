@@ -67,11 +67,11 @@ const faqPageJsonLd = {
   ],
 };
 
-/** AggregateRating + individual Review structured data (LocalBusiness required for Google review snippets) */
+/** AggregateRating + reviews – same @id as layout so Google merges into one entity */
 const reviewJsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": `${SITE_URL}#localbusiness`,
+  "@id": `${SITE_URL}#organization`,
   name: "New Decorating",
   url: SITE_URL,
   description: "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Quality finishes, free quotes. 25+ years experience.",

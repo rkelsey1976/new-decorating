@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61571675780751";
 
-/** ContactPage + ContactPoint schema – marks this as the contact page and gives Google structured contact/hours */
+/** ContactPage – mainEntity references canonical organization so Google merges entity signals */
 const contactPageJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -24,16 +24,9 @@ const contactPageJsonLd = {
   url: `${SITE_URL}/contact`,
   description: "Contact painter & decorator Bath. Get a free quote. Message, form or Facebook. Painting and decorating across BANES. 25+ years.",
   mainEntity: {
+    "@id": `${SITE_URL}#organization`,
     "@type": "LocalBusiness",
-    name: "New Decorating",
-    url: SITE_URL,
     telephone: "+447717772881",
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "07:30",
-      closes: "16:30",
-    },
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+447717772881",
