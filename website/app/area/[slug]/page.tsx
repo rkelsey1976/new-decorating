@@ -126,14 +126,25 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
                   I work across {area.name} and these nearby areas:
                 </p>
                 <ul className="mt-4 flex flex-wrap gap-2" aria-label={`Local areas near ${area.name}`}>
-                  {area.nearbyAreas.map((place) => (
-                    <li
-                      key={place}
-                      className="rounded-lg bg-accent/10 text-accent px-4 py-2 text-sm font-medium"
-                    >
-                      {place}
-                    </li>
-                  ))}
+                  {area.nearbyAreas.map((place) => {
+                    const areaPage = AREA_PAGES.find((a) => a.name === place);
+                    return (
+                      <li key={place}>
+                        {areaPage ? (
+                          <Link
+                            href={`/area/${areaPage.slug}`}
+                            className="inline-block rounded-lg bg-accent/10 text-accent px-4 py-2 text-sm font-medium hover:bg-accent/20 transition-colors"
+                          >
+                            {place}
+                          </Link>
+                        ) : (
+                          <span className="rounded-lg bg-accent/10 text-accent px-4 py-2 text-sm font-medium">
+                            {place}
+                          </span>
+                        )}
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             )}
@@ -192,14 +203,25 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
             As well as {area.name}, I work across these nearby towns and villages.
           </p>
           <ul className="mt-10 flex flex-wrap justify-center gap-3" aria-label={`Areas near ${area.name}`}>
-            {area.nearbyAreas.map((nearby) => (
-              <li
-                key={nearby}
-                className="rounded-xl bg-white border border-black/8 px-5 py-3 text-foreground font-medium shadow-sm text-sm"
-              >
-                {nearby}
-              </li>
-            ))}
+            {area.nearbyAreas.map((nearby) => {
+              const areaPage = AREA_PAGES.find((a) => a.name === nearby);
+              return (
+                <li key={nearby}>
+                  {areaPage ? (
+                    <Link
+                      href={`/area/${areaPage.slug}`}
+                      className="inline-block rounded-xl bg-white border border-black/8 px-5 py-3 text-foreground font-medium shadow-sm text-sm hover:border-accent/30 hover:text-accent transition-colors"
+                    >
+                      {nearby}
+                    </Link>
+                  ) : (
+                    <span className="inline-block rounded-xl bg-white border border-black/8 px-5 py-3 text-foreground font-medium shadow-sm text-sm">
+                      {nearby}
+                    </span>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>
