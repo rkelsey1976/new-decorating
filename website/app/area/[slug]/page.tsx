@@ -45,7 +45,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
     name: "New Decorating",
     url: SITE_URL,
     telephone: "+447717772881",
-    description: `Professional painter and decorator in ${area.name}. Interior and exterior painting, wallpaper hanging and decorative finishes.`,
+    description: `Professional painter and decorator in ${area.name}. Interior and exterior painting, wallpaper hanging and preparation & repair.`,
     areaServed: {
       "@type": "City",
       name: area.name,

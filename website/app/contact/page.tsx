@@ -2,7 +2,7 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
 import BrushStroke from "@/components/BrushStroke";
-import { GBP_REVIEW_URL } from "@/lib/site";
+import { GBP_REVIEW_URL, SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
@@ -15,9 +15,48 @@ export const metadata: Metadata = {
 
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61571675780751";
 
+/** ContactPage + ContactPoint schema – marks this as the contact page and gives Google structured contact/hours */
+const contactPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": `${SITE_URL}/contact#webpage`,
+  name: "Contact | Painter & Decorator Bath | New Decorating",
+  url: `${SITE_URL}/contact`,
+  description: "Contact painter & decorator Bath. Get a free quote. Message, form or Facebook. Painting and decorating across BANES. 25+ years.",
+  mainEntity: {
+    "@type": "LocalBusiness",
+    name: "New Decorating",
+    url: SITE_URL,
+    telephone: "+447717772881",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "07:30",
+      closes: "16:30",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+447717772881",
+      contactType: "customer service",
+      areaServed: "GB",
+      availableLanguage: "English",
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "07:30",
+        closes: "16:30",
+      },
+    },
+  },
+};
+
 export default function ContactPage() {
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageJsonLd) }}
+      />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Get in touch"
@@ -128,6 +167,11 @@ export default function ContactPage() {
               </p>
               <p className="text-sm text-white/80 mt-1">
                 Bath & North East Somerset
+              </p>
+              <p className="mt-3 text-sm text-white/80">
+                <span className="font-medium text-white/90">Opening hours</span>
+                <br />
+                Mon–Fri 7:30am–4:30pm
               </p>
               <a
                 href="tel:+447717772881"

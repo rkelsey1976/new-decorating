@@ -43,7 +43,7 @@ I focus on quality finishes, thorough preparation and working cleanly with minim
 - Door painting  
 - Woodwork painting  
 - Surface preparation and repair  
-- Decorative finishes / feature walls  
+- Feature walls  
 
 ---
 

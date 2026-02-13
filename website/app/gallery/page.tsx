@@ -3,6 +3,7 @@ import PageHero from "@/components/PageHero";
 import GalleryGrid from "@/components/GalleryGrid";
 import BrushStroke from "@/components/BrushStroke";
 import { GALLERY_IMAGES } from "@/lib/gallery";
+import { SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
@@ -13,9 +14,24 @@ export const metadata: Metadata = {
   alternates: { canonical: "/gallery" },
 };
 
+/** CollectionPage schema – signals a gallery/collection of project images for search */
+const galleryPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "My Work | Painter & Decorator Bath | New Decorating",
+  url: `${SITE_URL}/gallery`,
+  description: "Gallery of painting and decorating projects across Bath and BANES. Interior, exterior, period properties.",
+  numberOfItems: GALLERY_IMAGES.length,
+  isPartOf: { "@type": "WebSite", name: "New Decorating", url: SITE_URL },
+};
+
 export default function GalleryPage() {
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(galleryPageJsonLd) }}
+      />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="My work"

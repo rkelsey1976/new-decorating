@@ -23,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Pages
 
 - **Home** – Hero, services preview, contact CTA
-- **Services** – Painting, wallpapering, decorative finishes, etc.
+- **Services** – Painting, wallpapering, preparation & repair, etc.
 - **Gallery** – Project photos (downloaded from Facebook or live embed)
 - **About** – Business overview and area
 - **Contact** – Facebook link and what to include when getting in touch

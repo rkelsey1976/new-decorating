@@ -24,6 +24,8 @@ These directories are **free** to list on (or have a free basic listing). Good s
 | **Yell.com** | [yell.com](https://www.yell.com) | Free basic listing; paid for enhanced. Add areas in description. |
 | **Touch Local** | [touchlocal.com](https://www.touchlocal.com) | Free to add business. Bath, Keynsham, etc. |
 | **Somerset Live Directory** | [directory.somersetlive.co.uk](https://directory.somersetlive.co.uk) | Free. Bath / Somerset – add under painters and decorators. |
+| **Bath Chamber of Commerce** | [businesswest.co.uk/chambers/bath-chamber-of-commerce](https://www.businesswest.co.uk/chambers/bath-chamber-of-commerce) | Membership org; may focus on retail/hospitality/offices rather than trades – check if they list painters/decorators. |
+| **Bath BID (Business Improvement District)** | [bathbid.co.uk/directory](https://www.bathbid.co.uk/directory/) | Bath business directory; categories tend to be Facility, Hospitality, Office, Retail – may not include trades. Check if relevant. |
 | **The Trades of Bath** | [tradesofbath.co.uk](https://www.tradesofbath.co.uk) | Check site – many local trade directories are free to list. |
 | **360North (BS31)** | [360north.co.uk](http://www.360north.co.uk/Keynsham-BS31-Directory.html) | Check if they accept free submissions for Keynsham/Saltford/BS31. |
 | **Buy With Confidence (BANES)** | B&NES Trading Standards | Free to apply; vetted scheme. Search “Buy With Confidence BANES” to apply. |
@@ -68,6 +70,8 @@ These directories are **free** to list on (or have a free basic listing). Good s
 | **Yell.com** | UK business directory; good for consistency (name, address, phone, website). | [yell.com](https://www.yell.com) |
 | **FreeIndex** | Free UK directory; quick to add. | [freeindex.co.uk](https://www.freeindex.co.uk) |
 | **Scoot** | UK local directory. | [scoot.co.uk](https://www.scoot.co.uk) |
+| **Bath Chamber of Commerce** | Members directory; often retail/hospitality/office-focused – may not list trades like painters. Optional; check first. | [Business West](https://www.businesswest.co.uk/chambers/bath-chamber-of-commerce) |
+| **Bath BID directory** | Bath directory; categories are typically Facility, Hospitality, Office, Retail – may not include trades. | [bathbid.co.uk/directory](https://www.bathbid.co.uk/directory/) – check if relevant |
 | **Bath-specific / BANES** | Any “Best of Bath”, “BANES trades” or local council/business lists. Search “Bath business directory” or “painter decorator Bath list”. | Search locally |
 
 ---

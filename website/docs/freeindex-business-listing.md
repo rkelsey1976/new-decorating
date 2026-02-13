@@ -37,7 +37,7 @@ New Decorating is a property decorator in Bath. Interior and exterior painting, 
 
 New Decorating is a painting and decorating business run by Jason New, based in Bath. I provide a full range of services for homeowners across Bath and North East Somerset (BANES), Wiltshire and Somerset.
 
-**Services include:** interior and exterior painting, wallpaper hanging and stripping, door and woodwork painting, surface preparation and repair, and decorative finishes. I work on everything from single rooms to full house redecorations, period properties and new builds.
+**Services include:** interior and exterior painting, wallpaper hanging and stripping, door and woodwork painting, and surface preparation and repair. I work on everything from single rooms to full house redecorations, period properties and new builds.
 
 I focus on quality finishes, thorough preparation and working cleanly with minimal disruption. All work is quoted upfront with free, no-obligation quotes. I’m fully insured and have over 25 years of experience.
 
@@ -56,7 +56,7 @@ Get in touch via the website or phone for a free quote.
 - Door Painting  
 - Woodwork Painting  
 - Surface Preparation  
-- Decorative Painting  
+- Feature walls / woodwork painting  
 - Painter & Decorator  
 
 ---

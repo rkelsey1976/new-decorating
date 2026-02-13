@@ -41,7 +41,7 @@ Choose the closest option the directory offers:
 Property decorator in Bath. Interior and exterior painting, wallpaper, preparation & repair. 25+ years. Free quotes. Bath, Keynsham, Midsomer Norton, Radstock & BANES.
 
 **Option B (painter and decorator):**  
-Painter and decorator in Bath. Interior, exterior, wallpaper. 25+ years, free quotes. Bath, Keynsham, Midsomer Norton, Radstock and across BANES.
+Property decorator in Bath
 
 ---
 
@@ -57,7 +57,7 @@ New Decorating is a painter and decorator based in Bath. I offer interior and ex
 
 New Decorating is a painting and decorating business run by Jason New, based in Bath. I work as a painter and decorator across Bath and North East Somerset (BANES), Wiltshire and Somerset.
 
-**What I offer:** interior and exterior painting, wallpaper hanging and stripping, door and woodwork painting, surface preparation and repair, and decorative finishes. I work on single rooms, full house redecorations, period properties and new builds. I use quality paints (including Dulux, Farrow & Ball and Little Greene) and quote every job upfront.
+**What I offer:** interior and exterior painting, wallpaper hanging and stripping, door and woodwork painting, and surface preparation and repair. I work on single rooms, full house redecorations, period properties and new builds. I use quality paints (including Dulux, Farrow & Ball and Little Greene) and quote every job upfront.
 
 **Areas I cover:** Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge, Chippenham, Rode, Melksham, Bradford on Avon, Frome and surrounding villages. 25+ years experience. Fully insured. Free, no-obligation quotes.
 
@@ -72,7 +72,7 @@ Get in touch via my website or phone for a free quote.
 - Wallpaper hanging and stripping  
 - Door and woodwork painting  
 - Surface preparation and repair  
-- Decorative finishes / feature walls  
+- Feature walls  
 
 ---
 

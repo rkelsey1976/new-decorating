@@ -97,6 +97,9 @@ const localBusinessJsonLd = {
     addressCountry: "GB",
   },
   telephone: "+447717772881",
+  openingHoursSpecification: [
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "07:30", closes: "16:30" },
+  ],
   sameAs: ["https://www.facebook.com/profile.php?id=61571675780751"],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
@@ -105,9 +108,24 @@ const localBusinessJsonLd = {
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Interior painting" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Exterior painting" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Wallpaper hanging" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Decorative finishes" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Preparation & repair" } },
     ],
+  },
+};
+
+/** WebSite schema – helps Google understand the site entity and can support sitelinks/brand panel */
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "New Decorating",
+  url: SITE_URL,
+  description: "Painter & decorator in Bath. Professional painting and decorating across BANES. Quality finishes, free quotes. 25+ years experience.",
+  publisher: {
+    "@type": "Organization",
+    name: "New Decorating",
+    url: SITE_URL,
+    logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+    telephone: "+447717772881",
   },
 };
 
@@ -122,6 +140,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <a href="#main-content" className="skip-link">
           Skip to main content

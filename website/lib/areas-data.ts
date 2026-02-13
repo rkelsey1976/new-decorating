@@ -21,7 +21,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Bath",
     metaTitle: "Painter & Decorator in Bath | New Decorating",
     metaDescription:
-      "Painter & decorator in Bath. Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Bath and BANES.",
+      "Painter & decorator in Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bath and BANES.",
     heroSubtitle:
       "Professional painting and decorating across Bath — from the city centre to surrounding suburbs and villages.",
     intro:
@@ -43,7 +43,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Keynsham",
     metaTitle: "Painter & Decorator in Keynsham | New Decorating",
     metaDescription:
-      "Painter & decorator in Keynsham (BS31). Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Keynsham, Saltford, Bitton and BANES.",
+      "Painter & decorator in Keynsham (BS31). Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Keynsham, Saltford, Bitton and BANES.",
     heroSubtitle:
       "Trusted painter and decorator for homes across Keynsham, Saltford and the surrounding area.",
     intro:
@@ -54,7 +54,7 @@ export const AREA_PAGES: AreaPage[] = [
       "Interior painting for all property types",
       "Exterior painting and masonry coatings",
       "Wallpaper hanging and removal",
-      "Decorative finishes and feature walls",
+      "Feature walls and woodwork painting",
       "Full house and new build decoration",
       "Surface preparation and repair",
     ],
@@ -65,7 +65,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Midsomer Norton",
     metaTitle: "Painter & Decorator in Midsomer Norton | New Decorating",
     metaDescription:
-      "Painter & decorator in Midsomer Norton. Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Somer Valley.",
+      "Painter & decorator in Midsomer Norton. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
     heroSubtitle:
       "Local painting and decorating for homes in Midsomer Norton and the surrounding Somer Valley.",
     intro:
@@ -76,7 +76,7 @@ export const AREA_PAGES: AreaPage[] = [
       "Interior and exterior painting",
       "Stone cottage and period property decoration",
       "Wallpaper hanging and stripping",
-      "Decorative and specialist finishes",
+      "Woodwork and specialist painting",
       "Full redecoration for move-in or sale",
       "Woodwork, skirting and door painting",
     ],
@@ -87,7 +87,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Radstock",
     metaTitle: "Painter & Decorator in Radstock | New Decorating",
     metaDescription:
-      "Painter & decorator in Radstock. Interior, exterior, wallpaper, decorative finishes. 25+ years, free quotes. Somer Valley.",
+      "Painter & decorator in Radstock. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
     heroSubtitle:
       "Quality painting and decorating services for homes in Radstock and the Somer Valley.",
     intro:
@@ -98,7 +98,7 @@ export const AREA_PAGES: AreaPage[] = [
       "Interior painting — single rooms to full houses",
       "Exterior painting and weather protection",
       "Wallpaper hanging, stripping and lining",
-      "Decorative and feature wall finishes",
+      "Feature walls and woodwork",
       "Landlord and rental property redecorations",
       "Preparation, filling and repair",
     ],
