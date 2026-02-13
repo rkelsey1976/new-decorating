@@ -39,6 +39,204 @@ export const AREA_PAGES: AreaPage[] = [
     nearbyAreas: ["Batheaston", "Bathford", "Combe Down", "Odd Down", "Larkhall", "Widcombe", "Weston", "Twerton"],
   },
   {
+    slug: "widcombe",
+    name: "Widcombe",
+    metaTitle: "Painter & Decorator in Widcombe, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Widcombe, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Widcombe and BANES.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Widcombe and the south-east Bath area.",
+    intro:
+      "Widcombe is one of Bath's most sought-after neighbourhoods, with a mix of Georgian terraces, Victorian villas and period cottages. I've been working as a painter and decorator in Widcombe and the surrounding Bath area for over 25 years. Whether you're on Widcombe Hill, in the valley or near the canal, I offer a full range of painting and decorating with free, no-obligation quotes.",
+    localInfo:
+      "Widcombe has a strong community and many character properties that benefit from careful preparation and quality finishes. From sash windows and period mouldings to modern interiors, I'm used to working with the range of property types you find here. I'm local, reliable and always happy to discuss your project.",
+    services: [
+      "Interior painting for period and modern homes",
+      "Exterior painting including Bath stone and render",
+      "Wallpaper hanging and feature walls",
+      "Sash window and woodwork painting",
+      "Period property decoration",
+      "Preparation and repair",
+    ],
+    nearbyAreas: ["Bath city centre", "Bathwick", "Combe Down", "Larkhall", "Twerton", "Batheaston"],
+  },
+  {
+    slug: "twerton",
+    name: "Twerton",
+    metaTitle: "Painter & Decorator in Twerton, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Twerton, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Twerton and BANES.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Twerton and west Bath.",
+    intro:
+      "Twerton is a well-established part of Bath with a mix of Victorian terraces, family homes and modern housing. I cover Twerton and the wider Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, tidy and always provide a free quote before starting any job.",
+    localInfo:
+      "Twerton has a strong sense of community and many homes that benefit from an experienced decorator. I'm used to working with the property types you find here — from older terraces to newer builds — and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your street.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Bath city centre", "Widcombe", "Oldfield Park", "Weston", "Keynsham"],
+  },
+  {
+    slug: "larkhall",
+    name: "Larkhall",
+    metaTitle: "Painter & Decorator in Larkhall, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Larkhall, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Larkhall and BANES.",
+    heroSubtitle:
+      "Local painting and decorating for homes in Larkhall and north Bath.",
+    intro:
+      "Larkhall is a popular neighbourhood in north Bath with a thriving high street and a mix of Victorian and Edwardian homes. I've been decorating properties in Larkhall and the surrounding area for years. Whether you need a full redecoration or a single room refresh, I offer quality work, thorough preparation and free quotes.",
+    localInfo:
+      "Larkhall has a strong village feel and many character properties. I'm experienced in working with period features, sash windows and the kind of surfaces you find in older Bath homes. I work cleanly, quote fairly and always leave the job tidy. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for period and modern homes",
+      "Exterior painting including Bath stone",
+      "Wallpaper hanging and feature walls",
+      "Sash window and woodwork painting",
+      "Preparation and repair of older surfaces",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Bath city centre", "Widcombe", "Combe Down", "Batheaston", "Bathford", "St Saviour's"],
+  },
+  {
+    slug: "combe-down",
+    name: "Combe Down",
+    metaTitle: "Painter & Decorator in Combe Down, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Combe Down, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Combe Down and BANES.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Combe Down and south Bath.",
+    intro:
+      "Combe Down sits on the southern edge of Bath with stunning views and a mix of stone-built cottages, Victorian villas and modern homes. I cover Combe Down and the wider Bath area, offering a full range of painting and decorating. Many properties here have Bath stone or period features — I'm experienced in working with both and always provide a free quote.",
+    localInfo:
+      "Combe Down has a distinct character and many homes that benefit from careful preparation and quality paintwork. I'm used to working with stone, render and older building materials. Whether you're on the main road or in one of the quieter lanes, I'm local and ready to help. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting including Bath stone and render",
+      "Wallpaper hanging and feature walls",
+      "Period property decoration",
+      "Preparation and repair",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Bath city centre", "Widcombe", "Odd Down", "Southstoke", "Bathampton", "Larkhall"],
+  },
+  {
+    slug: "odd-down",
+    name: "Odd Down",
+    metaTitle: "Painter & Decorator in Odd Down, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Odd Down, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Odd Down and BANES.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Odd Down and south Bath.",
+    intro:
+      "Odd Down is a well-established area in south Bath with a mix of 1930s semis, post-war housing and newer developments. I cover Odd Down and the surrounding Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, reliable and always happy to give a free, no-obligation quote.",
+    localInfo:
+      "Odd Down has a strong community and many homes that benefit from an experienced decorator. I'm used to working with the range of property types you find here and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your street.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Bath city centre", "Combe Down", "Widcombe", "Twerton", "Whiteway", "Southdown"],
+  },
+  {
+    slug: "bathwick",
+    name: "Bathwick",
+    metaTitle: "Painter & Decorator in Bathwick, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Bathwick, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bathwick and BANES.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Bathwick and east Bath.",
+    intro:
+      "Bathwick is an attractive area on the east side of the River Avon, with Georgian terraces, Victorian villas and a mix of period and modern homes. I cover Bathwick and the wider Bath area, offering a full range of painting and decorating. Many properties here have period features — I'm experienced in working with older buildings and always provide a free quote.",
+    localInfo:
+      "Bathwick has a strong architectural character and many homes that benefit from careful preparation and quality finishes. I'm used to working with sash windows, period mouldings and the kind of surfaces you find in Bath's older housing. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for period and modern homes",
+      "Exterior painting including Bath stone",
+      "Wallpaper hanging and feature walls",
+      "Sash window and woodwork painting",
+      "Period property decoration",
+      "Preparation and repair",
+    ],
+    nearbyAreas: ["Bath city centre", "Widcombe", "Larkhall", "Bathampton", "Claverton", "Batheaston"],
+  },
+  {
+    slug: "weston",
+    name: "Weston",
+    metaTitle: "Painter & Decorator in Weston, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Weston, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Weston and BANES.",
+    heroSubtitle:
+      "Local painting and decorating for homes in Weston and north-west Bath.",
+    intro:
+      "Weston is a popular residential area in north-west Bath with a mix of Victorian and Edwardian terraces, family homes and modern housing. I cover Weston and the wider Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, tidy and always provide a free quote before starting any job.",
+    localInfo:
+      "Weston has a strong community and many homes that benefit from an experienced decorator. I'm used to working with the property types you find here and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your street.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Bath city centre", "Twerton", "Oldfield Park", "Widcombe", "Keynsham"],
+  },
+  {
+    slug: "batheaston",
+    name: "Batheaston",
+    metaTitle: "Painter & Decorator in Batheaston, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Batheaston, near Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Batheaston and BANES.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Batheaston and the eastern approach to Bath.",
+    intro:
+      "Batheaston is a village on the eastern edge of Bath with a mix of period cottages, Victorian terraces and modern homes. I cover Batheaston and the wider Bath area, offering a full range of painting and decorating. Whether you're in the village centre or on one of the surrounding lanes, I'm local and ready to help. Free, no-obligation quotes for all work.",
+    localInfo:
+      "Batheaston has a strong village character and many properties that benefit from careful preparation and quality paintwork. I'm experienced in working with older building materials and the kind of surfaces you find in this part of BANES. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting including stone and render",
+      "Wallpaper hanging and feature walls",
+      "Period property decoration",
+      "Preparation and repair",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Bath", "Bathford", "Bathampton", "Larkhall", "Widcombe", "Swainswick"],
+  },
+  {
+    slug: "bathford",
+    name: "Bathford",
+    metaTitle: "Painter & Decorator in Bathford, near Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Bathford, near Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bathford and BANES.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Bathford and the Bath approach.",
+    intro:
+      "Bathford is a village just north-east of Bath with a mix of stone cottages, Victorian housing and modern homes. I cover Bathford and the wider Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, reliable and always happy to give a free quote. Get in touch to confirm I cover your street.",
+    localInfo:
+      "Bathford has a strong sense of community and many character properties. I'm used to working with the range of building styles you find here and deliver quality finishes at fair prices. Whether you need a full redecoration or a single room refresh, I'm here to help.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting including stone and render",
+      "Wallpaper hanging and stripping",
+      "Period property decoration",
+      "Preparation and repair",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Bath", "Batheaston", "Bathampton", "Larkhall", "Bradford on Avon", "Box"],
+  },
+  {
     slug: "keynsham",
     name: "Keynsham",
     metaTitle: "Painter & Decorator in Keynsham | New Decorating",
