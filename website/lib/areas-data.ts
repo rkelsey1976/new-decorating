@@ -259,6 +259,135 @@ export const AREA_PAGES: AreaPage[] = [
     nearbyAreas: ["Saltford", "Whitchurch", "Stockwood", "Queen Charlton", "Chewton Keynsham", "Bitton"],
   },
   {
+    slug: "saltford",
+    name: "Saltford",
+    metaTitle: "Painter & Decorator in Saltford, Keynsham | New Decorating",
+    metaDescription:
+      "Painter & decorator in Saltford (BS31). Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Saltford, Keynsham and BANES.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Saltford and the Keynsham area.",
+    intro:
+      "Saltford sits between Keynsham and Bristol with a mix of period cottages, Victorian terraces and modern homes along the A4 and by the river. I cover Saltford and the surrounding area, offering a full range of painting and decorating. Whether you're in the village centre or on one of the newer developments, I'm local, reliable and always provide a free quote.",
+    localInfo:
+      "Saltford has a strong community and many properties that benefit from an experienced decorator. I'm used to working with the range of building styles you find here — from older character homes to new builds — and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Woodwork, skirting and door painting",
+      "Full house and single room projects",
+      "Preparation and repair",
+    ],
+    nearbyAreas: ["Keynsham", "Bitton", "Whitchurch", "Bristol", "Bath"],
+  },
+  {
+    slug: "bitton",
+    name: "Bitton",
+    metaTitle: "Painter & Decorator in Bitton, near Keynsham | New Decorating",
+    metaDescription:
+      "Painter & decorator in Bitton (BS30). Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bitton, Keynsham and BANES.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Bitton and the Keynsham area.",
+    intro:
+      "Bitton is a village between Keynsham and Bristol with a mix of stone cottages, Victorian housing and modern homes. I cover Bitton and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, tidy and always happy to give a free, no-obligation quote before starting any job.",
+    localInfo:
+      "Bitton has a strong village character and many homes that benefit from careful preparation and quality paintwork. I'm experienced in working with older building materials and the kind of surfaces you find in this part of BANES. Get in touch to confirm I cover your street.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Keynsham", "Saltford", "Whitchurch", "Oldland Common", "Bristol"],
+  },
+  {
+    slug: "whitchurch",
+    name: "Whitchurch",
+    metaTitle: "Painter & Decorator in Whitchurch, near Keynsham | New Decorating",
+    metaDescription:
+      "Painter & decorator in Whitchurch (BS14). Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Whitchurch, Keynsham and BANES.",
+    heroSubtitle:
+      "Local painting and decorating for homes in Whitchurch and the Keynsham area.",
+    intro:
+      "Whitchurch is a village to the north of Keynsham with a mix of period properties, family homes and modern housing. I cover Whitchurch and the surrounding area, offering a full range of painting and decorating. I've been working in the Keynsham and Bristol fringe area for years — reliable, tidy and always happy to give a free quote.",
+    localInfo:
+      "Whitchurch has a strong sense of community and many homes that benefit from an experienced decorator. I'm used to working with the property types you find here and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Keynsham", "Saltford", "Bitton", "Stockwood", "Bristol"],
+  },
+  {
+    slug: "stockwood",
+    name: "Stockwood",
+    metaTitle: "Painter & Decorator in Stockwood, near Keynsham | New Decorating",
+    metaDescription:
+      "Painter & decorator in Stockwood, near Keynsham. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. BANES.",
+    heroSubtitle:
+      "Painting and decorating for homes in Stockwood and the Keynsham area.",
+    intro:
+      "Stockwood lies near Keynsham with a mix of older and newer housing. I cover Stockwood and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local to the Keynsham area and always provide a free, no-obligation quote.",
+    localInfo:
+      "I'm used to working with the range of property types you find in and around Stockwood and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Keynsham", "Whitchurch", "Bitton", "Saltford"],
+  },
+  {
+    slug: "queen-charlton",
+    name: "Queen Charlton",
+    metaTitle: "Painter & Decorator in Queen Charlton, near Keynsham | New Decorating",
+    metaDescription:
+      "Painter & decorator in Queen Charlton, near Keynsham. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. BANES.",
+    heroSubtitle:
+      "Painting and decorating for homes in Queen Charlton and the Keynsham area.",
+    intro:
+      "Queen Charlton is a hamlet near Keynsham with a mix of period and modern homes. I cover Queen Charlton and the surrounding area, offering a full range of painting and decorating. I'm local to Keynsham and the Bristol fringe and always provide a free quote before starting any work.",
+    localInfo:
+      "I'm experienced in working with the property types you find in this part of BANES and deliver quality finishes at fair prices. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Keynsham", "Saltford", "Whitchurch", "Bitton"],
+  },
+  {
+    slug: "chewton-keynsham",
+    name: "Chewton Keynsham",
+    metaTitle: "Painter & Decorator in Chewton Keynsham | New Decorating",
+    metaDescription:
+      "Painter & decorator in Chewton Keynsham, near Keynsham. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. BANES.",
+    heroSubtitle:
+      "Painting and decorating for homes in Chewton Keynsham and the Keynsham area.",
+    intro:
+      "Chewton Keynsham is a village near Keynsham with a mix of cottages and family homes. I cover Chewton Keynsham and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, reliable and always happy to give a free, no-obligation quote.",
+    localInfo:
+      "I'm used to working with the range of building styles in this part of BANES and deliver quality finishes at fair prices. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Keynsham", "Saltford", "Bitton", "Whitchurch"],
+  },
+  {
     slug: "midsomer-norton",
     name: "Midsomer Norton",
     metaTitle: "Painter & Decorator in Midsomer Norton | New Decorating",
