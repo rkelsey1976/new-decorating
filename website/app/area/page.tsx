@@ -7,6 +7,22 @@ import { AREA_PAGES } from "@/lib/areas-data";
 
 import type { Metadata } from "next";
 
+/** Bath neighbourhoods – shown under "Local areas I cover" only, not in the main area grid */
+const BATH_LOCAL_SLUGS = [
+  "widcombe",
+  "twerton",
+  "larkhall",
+  "combe-down",
+  "odd-down",
+  "bathwick",
+  "weston",
+  "batheaston",
+  "bathford",
+];
+
+const MAIN_AREA_PAGES = AREA_PAGES.filter((a) => !BATH_LOCAL_SLUGS.includes(a.slug));
+const BATH_LOCAL_PAGES = AREA_PAGES.filter((a) => BATH_LOCAL_SLUGS.includes(a.slug));
+
 export const metadata: Metadata = {
   title: "Areas I cover | Painter & Decorator Bath | New Decorating",
   description:
@@ -55,7 +71,7 @@ export default function AreaPage() {
           </h2>
           <p className="mt-6 text-muted text-center max-w-2xl mx-auto leading-relaxed">
             I&apos;m a painting and decorating business based in Bath. I serve homes across {SERVICE_AREA_NAME}, Wiltshire and Somerset — from{" "}
-            {AREA_PAGES.map((a, i) => (
+            {MAIN_AREA_PAGES.map((a, i) => (
               <span key={a.slug}>
                 {i > 0 && ", "}
                 <Link href={`/area/${a.slug}`} className="text-accent font-medium hover:text-accent-soft transition-colors">
@@ -66,9 +82,9 @@ export default function AreaPage() {
             and surrounding villages. Get in touch with your postcode and I&apos;ll confirm I can cover your area.
           </p>
 
-          {/* Area page links */}
+          {/* Main area page links (towns only, not Bath neighbourhoods) */}
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {AREA_PAGES.map((areaPage) => (
+            {MAIN_AREA_PAGES.map((areaPage) => (
               <Link
                 key={areaPage.slug}
                 href={`/area/${areaPage.slug}`}
@@ -91,7 +107,7 @@ export default function AreaPage() {
             ))}
           </div>
 
-          {/* Area list with links to each location page */}
+          {/* Area list with links to each location page (main towns only) */}
           <ul className="mt-10 flex flex-wrap justify-center gap-4 sm:gap-6" aria-label="Towns and areas I cover">
             {AREAS_COVERED.map((area) => {
               const areaPage = AREA_PAGES.find((a) => a.name === area);
@@ -111,6 +127,28 @@ export default function AreaPage() {
               );
             })}
           </ul>
+
+          {/* Local areas I cover – Bath neighbourhoods only */}
+          <div className="mt-14 pt-12 border-t border-black/8">
+            <h3 className="font-display text-xl font-semibold text-foreground text-center tracking-tight">
+              Local areas I cover
+            </h3>
+            <p className="mt-2 text-muted text-center">
+              I work across Bath and these nearby areas:
+            </p>
+            <ul className="mt-6 flex flex-wrap justify-center gap-3 sm:gap-4" aria-label="Bath neighbourhoods and nearby areas">
+              {BATH_LOCAL_PAGES.map((area) => (
+                <li key={area.slug}>
+                  <Link
+                    href={`/area/${area.slug}`}
+                    className="inline-block rounded-lg bg-white border border-black/8 px-4 py-2.5 text-sm font-medium text-foreground hover:border-accent/30 hover:text-accent transition-colors"
+                  >
+                    {area.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -121,7 +159,7 @@ export default function AreaPage() {
           </h2>
           <p className="mt-4 text-muted text-center max-w-xl mx-auto">
             See my service area on the map below. I cover{" "}
-            {AREA_PAGES.map((a, i) => (
+            {MAIN_AREA_PAGES.map((a, i) => (
               <span key={a.slug}>
                 {i > 0 && ", "}
                 <Link href={`/area/${a.slug}`} className="text-accent font-medium hover:text-accent-soft transition-colors">
