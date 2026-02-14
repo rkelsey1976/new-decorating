@@ -410,6 +410,115 @@ export const AREA_PAGES: AreaPage[] = [
     nearbyAreas: ["Radstock", "Westfield", "Paulton", "Peasedown St John", "Chilcompton", "Stratton-on-the-Fosse"],
   },
   {
+    slug: "westfield",
+    name: "Westfield",
+    metaTitle: "Painter & Decorator in Westfield, Somer Valley | New Decorating",
+    metaDescription:
+      "Painter & decorator in Westfield, near Midsomer Norton. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Painting and decorating for homes in Westfield and the Somer Valley.",
+    intro:
+      "Westfield sits between Midsomer Norton and Radstock in the Somer Valley, with a mix of stone-built cottages, Victorian terraces and modern housing. I cover Westfield and the surrounding area, offering a full range of painting and decorating. I'm experienced in working with the local stone and older building materials found throughout the Somer Valley.",
+    localInfo:
+      "Westfield has a strong community and many properties that benefit from an experienced decorator. I'm used to working with the property types you find here and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and stonework",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Midsomer Norton", "Radstock", "Paulton", "Writhlington", "Peasedown St John"],
+  },
+  {
+    slug: "paulton",
+    name: "Paulton",
+    metaTitle: "Painter & Decorator in Paulton, Somer Valley | New Decorating",
+    metaDescription:
+      "Painter & decorator in Paulton, near Midsomer Norton. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Local painting and decorating for homes in Paulton and the Somer Valley.",
+    intro:
+      "Paulton is a village in the Somer Valley with a mix of period cottages, family homes and modern housing. I cover Paulton and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local to the Somer Valley and always provide a free, no-obligation quote before starting any job.",
+    localInfo:
+      "Paulton has a strong village character and many homes that benefit from careful preparation and quality paintwork. I'm experienced in working with stone, render and older building materials. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Midsomer Norton", "Radstock", "Peasedown St John", "Chilcompton", "Westfield"],
+  },
+  {
+    slug: "peasedown-st-john",
+    name: "Peasedown St John",
+    metaTitle: "Painter & Decorator in Peasedown St John | New Decorating",
+    metaDescription:
+      "Painter & decorator in Peasedown St John, near Midsomer Norton. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Peasedown St John and the Somer Valley.",
+    intro:
+      "Peasedown St John is a village on the edge of the Somer Valley with a mix of stone cottages, Victorian housing and modern homes. I cover Peasedown St John and the surrounding area, offering a full range of painting and decorating. I'm local to Midsomer Norton and the Somer Valley — reliable, tidy and always happy to give a free quote.",
+    localInfo:
+      "Peasedown St John has a strong sense of community and many character properties. I'm used to working with the range of building styles you find in this part of the Somer Valley and deliver quality finishes at fair prices. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and stonework",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Midsomer Norton", "Radstock", "Paulton", "Chilcompton", "Westfield"],
+  },
+  {
+    slug: "chilcompton",
+    name: "Chilcompton",
+    metaTitle: "Painter & Decorator in Chilcompton, Somer Valley | New Decorating",
+    metaDescription:
+      "Painter & decorator in Chilcompton, near Midsomer Norton. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Chilcompton and the Somer Valley.",
+    intro:
+      "Chilcompton is a village in the Somer Valley with a mix of stone-built cottages and family homes. I cover Chilcompton and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm experienced in working with the local stone and older building materials found throughout the Somer Valley.",
+    localInfo:
+      "Chilcompton has a strong village character and many properties that benefit from an experienced decorator. I deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and stonework",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Midsomer Norton", "Radstock", "Paulton", "Peasedown St John", "Stratton-on-the-Fosse"],
+  },
+  {
+    slug: "stratton-on-the-fosse",
+    name: "Stratton-on-the-Fosse",
+    metaTitle: "Painter & Decorator in Stratton-on-the-Fosse | New Decorating",
+    metaDescription:
+      "Painter & decorator in Stratton-on-the-Fosse, near Midsomer Norton. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Painting and decorating for homes in Stratton-on-the-Fosse and the Somer Valley.",
+    intro:
+      "Stratton-on-the-Fosse is a village in the Somer Valley with a mix of period and modern housing. I cover Stratton-on-the-Fosse and the surrounding area, offering a full range of painting and decorating. I'm local to Midsomer Norton and the Somer Valley and always provide a free, no-obligation quote.",
+    localInfo:
+      "I'm used to working with the property types you find in this part of the Somer Valley and deliver quality finishes at fair prices. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Midsomer Norton", "Radstock", "Chilcompton", "Paulton", "Peasedown St John"],
+  },
+  {
     slug: "radstock",
     name: "Radstock",
     metaTitle: "Painter & Decorator in Radstock | New Decorating",
@@ -432,6 +541,94 @@ export const AREA_PAGES: AreaPage[] = [
     nearbyAreas: ["Midsomer Norton", "Westfield", "Writhlington", "Kilmersdon", "Coleford", "Holcombe"],
   },
   {
+    slug: "writhlington",
+    name: "Writhlington",
+    metaTitle: "Painter & Decorator in Writhlington, Somer Valley | New Decorating",
+    metaDescription:
+      "Painter & decorator in Writhlington, near Radstock. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Painting and decorating for homes in Writhlington and the Somer Valley.",
+    intro:
+      "Writhlington is a village near Radstock in the Somer Valley, with a mix of stone cottages, family homes and modern housing. I cover Writhlington and the surrounding area, offering a full range of painting and decorating. I'm experienced in working with the local stone and older building materials found throughout the Somer Valley.",
+    localInfo:
+      "Writhlington has a strong community and many properties that benefit from an experienced decorator. I'm used to working with the property types you find here and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and stonework",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Radstock", "Midsomer Norton", "Westfield", "Kilmersdon", "Paulton"],
+  },
+  {
+    slug: "kilmersdon",
+    name: "Kilmersdon",
+    metaTitle: "Painter & Decorator in Kilmersdon, Somer Valley | New Decorating",
+    metaDescription:
+      "Painter & decorator in Kilmersdon, near Radstock. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Local painting and decorating for homes in Kilmersdon and the Somer Valley.",
+    intro:
+      "Kilmersdon is a village in the Somer Valley with a mix of period cottages, stone-built homes and family housing. I cover Kilmersdon and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local to Radstock and the Somer Valley and always provide a free, no-obligation quote.",
+    localInfo:
+      "Kilmersdon has a strong village character and many homes that benefit from careful preparation and quality paintwork. I'm experienced in working with stone and older building materials. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Radstock", "Midsomer Norton", "Coleford", "Holcombe", "Writhlington"],
+  },
+  {
+    slug: "coleford",
+    name: "Coleford",
+    metaTitle: "Painter & Decorator in Coleford, Somer Valley | New Decorating",
+    metaDescription:
+      "Painter & decorator in Coleford, near Radstock. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Coleford and the Somer Valley.",
+    intro:
+      "Coleford is a village in the Somer Valley with a mix of stone cottages, Victorian housing and modern homes. I cover Coleford and the surrounding area, offering a full range of painting and decorating. I'm local to Radstock and the Somer Valley — reliable, tidy and always happy to give a free quote.",
+    localInfo:
+      "Coleford has a strong sense of community and many character properties. I'm used to working with the range of building styles you find in this part of the Somer Valley and deliver quality finishes at fair prices. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and stonework",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Radstock", "Midsomer Norton", "Kilmersdon", "Holcombe", "Writhlington"],
+  },
+  {
+    slug: "holcombe",
+    name: "Holcombe",
+    metaTitle: "Painter & Decorator in Holcombe, Somer Valley | New Decorating",
+    metaDescription:
+      "Painter & decorator in Holcombe, near Radstock. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Holcombe and the Somer Valley.",
+    intro:
+      "Holcombe is a village in the Somer Valley with a mix of stone-built cottages and family homes. I cover Holcombe and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm experienced in working with the local stone and older building materials found throughout the Somer Valley.",
+    localInfo:
+      "Holcombe has a strong village character and many properties that benefit from an experienced decorator. I deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and stonework",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Radstock", "Midsomer Norton", "Kilmersdon", "Coleford", "Writhlington"],
+  },
+  {
     slug: "trowbridge",
     name: "Trowbridge",
     metaTitle: "Painter & Decorator in Trowbridge | New Decorating",
@@ -452,6 +649,93 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house redecoration",
     ],
     nearbyAreas: ["Bradford on Avon", "Melksham", "Westbury", "Warminster", "Hilperton", "Staverton"],
+  },
+  {
+    slug: "westbury",
+    name: "Westbury",
+    metaTitle: "Painter & Decorator in Westbury, Wiltshire | New Decorating",
+    metaDescription:
+      "Painter & decorator in Westbury, near Trowbridge. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+    heroSubtitle:
+      "Painting and decorating for homes in Westbury and the Wiltshire area.",
+    intro:
+      "Westbury is a market town in Wiltshire with a mix of period properties, Victorian terraces and modern housing. I cover Westbury and the surrounding area, offering a full range of painting and decorating. I'm based in Bath and work across into Wiltshire — reliable, tidy and always happy to give a free, no-obligation quote.",
+    localInfo:
+      "Westbury has a strong town character and many homes that benefit from an experienced decorator. I'm used to working with the property types you find here — from older cottages to newer estates — and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Period and character property decoration",
+      "Full house redecoration",
+    ],
+    nearbyAreas: ["Trowbridge", "Bradford on Avon", "Melksham", "Warminster", "Hilperton"],
+  },
+  {
+    slug: "warminster",
+    name: "Warminster",
+    metaTitle: "Painter & Decorator in Warminster, Wiltshire | New Decorating",
+    metaDescription:
+      "Painter & decorator in Warminster, near Trowbridge. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+    heroSubtitle:
+      "Local painting and decorating for homes in Warminster and the Wiltshire area.",
+    intro:
+      "Warminster is a market town in Wiltshire with a mix of stone-built cottages, Georgian and Victorian homes and modern housing. I cover Warminster and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm based in Bath and work across into Wiltshire — 25+ years of experience, free quotes and a focus on quality finishes.",
+    localInfo:
+      "Warminster has a strong sense of community and many character properties. I'm experienced in working with older building materials and the kind of surfaces you find in this part of Wiltshire. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and stonework",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Period property decoration",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Trowbridge", "Westbury", "Bradford on Avon", "Frome", "Hilperton"],
+  },
+  {
+    slug: "hilperton",
+    name: "Hilperton",
+    metaTitle: "Painter & Decorator in Hilperton, near Trowbridge | New Decorating",
+    metaDescription:
+      "Painter & decorator in Hilperton, near Trowbridge. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Hilperton and the Trowbridge area.",
+    intro:
+      "Hilperton is a village near Trowbridge with a mix of period cottages, family homes and modern housing. I cover Hilperton and the surrounding area, offering a full range of painting and decorating. I'm local to the Trowbridge area and always provide a free, no-obligation quote before starting any job.",
+    localInfo:
+      "Hilperton has a strong village character and many properties that benefit from careful preparation and quality paintwork. I'm used to working with the range of building styles you find in this part of Wiltshire. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Trowbridge", "Bradford on Avon", "Melksham", "Westbury", "Staverton"],
+  },
+  {
+    slug: "staverton",
+    name: "Staverton",
+    metaTitle: "Painter & Decorator in Staverton, near Trowbridge | New Decorating",
+    metaDescription:
+      "Painter & decorator in Staverton, near Trowbridge. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Staverton and the Trowbridge area.",
+    intro:
+      "Staverton is a village near Trowbridge with a mix of period and modern housing. I cover Staverton and the surrounding area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local to the Trowbridge area and always happy to give a free, no-obligation quote.",
+    localInfo:
+      "Staverton has a strong sense of community and many character properties. I'm used to working with the property types you find here and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Trowbridge", "Bradford on Avon", "Melksham", "Hilperton", "Westbury"],
   },
   {
     slug: "chippenham",

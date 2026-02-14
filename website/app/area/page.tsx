@@ -30,11 +30,29 @@ const KEYNSHAM_LOCAL_SLUGS = [
   "chewton-keynsham",
 ];
 
+/** Midsomer Norton / Somer Valley sub-areas – not in the main area grid */
+const MIDSOMER_NORTON_LOCAL_SLUGS = [
+  "westfield",
+  "paulton",
+  "peasedown-st-john",
+  "chilcompton",
+  "stratton-on-the-fosse",
+];
+
+/** Radstock / Somer Valley sub-areas – not in the main area grid */
+const RADSTOCK_LOCAL_SLUGS = ["writhlington", "kilmersdon", "coleford", "holcombe"];
+
+/** Trowbridge / Wiltshire sub-areas – not in the main area grid */
+const TROWBRIDGE_LOCAL_SLUGS = ["westbury", "warminster", "hilperton", "staverton"];
+
 const MAIN_AREA_PAGES = AREA_PAGES.filter(
-  (a) => !BATH_LOCAL_SLUGS.includes(a.slug) && !KEYNSHAM_LOCAL_SLUGS.includes(a.slug)
+  (a) =>
+    !BATH_LOCAL_SLUGS.includes(a.slug) &&
+    !KEYNSHAM_LOCAL_SLUGS.includes(a.slug) &&
+    !MIDSOMER_NORTON_LOCAL_SLUGS.includes(a.slug) &&
+    !RADSTOCK_LOCAL_SLUGS.includes(a.slug) &&
+    !TROWBRIDGE_LOCAL_SLUGS.includes(a.slug)
 );
-const BATH_LOCAL_PAGES = AREA_PAGES.filter((a) => BATH_LOCAL_SLUGS.includes(a.slug));
-const KEYNSHAM_LOCAL_PAGES = AREA_PAGES.filter((a) => KEYNSHAM_LOCAL_SLUGS.includes(a.slug));
 
 export const metadata: Metadata = {
   title: "Areas I cover | Painter & Decorator Bath | New Decorating",
@@ -140,50 +158,6 @@ export default function AreaPage() {
               );
             })}
           </ul>
-
-          {/* Local areas I cover – Bath neighbourhoods */}
-          <div className="mt-14 pt-12 border-t border-black/8">
-            <h3 className="font-display text-xl font-semibold text-foreground text-center tracking-tight">
-              Local areas I cover
-            </h3>
-            <p className="mt-2 text-muted text-center">
-              I work across Bath and these nearby areas:
-            </p>
-            <ul className="mt-6 flex flex-wrap justify-center gap-3 sm:gap-4" aria-label="Bath neighbourhoods and nearby areas">
-              {BATH_LOCAL_PAGES.map((area) => (
-                <li key={area.slug}>
-                  <Link
-                    href={`/area/${area.slug}`}
-                    className="inline-block rounded-lg bg-white border border-black/8 px-4 py-2.5 text-sm font-medium text-foreground hover:border-accent/30 hover:text-accent transition-colors"
-                  >
-                    {area.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Local areas I cover – Keynsham and nearby */}
-          <div className="mt-12 pt-10 border-t border-black/8">
-            <h3 className="font-display text-xl font-semibold text-foreground text-center tracking-tight">
-              Local areas I cover
-            </h3>
-            <p className="mt-2 text-muted text-center">
-              I work across Keynsham and these nearby areas:
-            </p>
-            <ul className="mt-6 flex flex-wrap justify-center gap-3 sm:gap-4" aria-label="Keynsham and nearby areas">
-              {KEYNSHAM_LOCAL_PAGES.map((area) => (
-                <li key={area.slug}>
-                  <Link
-                    href={`/area/${area.slug}`}
-                    className="inline-block rounded-lg bg-white border border-black/8 px-4 py-2.5 text-sm font-medium text-foreground hover:border-accent/30 hover:text-accent transition-colors"
-                  >
-                    {area.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </section>
 
