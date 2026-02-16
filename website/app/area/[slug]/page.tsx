@@ -233,7 +233,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
             Where I work
           </h2>
           <div className="mt-10 max-w-4xl mx-auto">
-            <GoogleMapEmbed title={`New Decorating — ${area.name}`} height="360" />
+            <GoogleMapEmbed title={`New Decorating — ${area.name}`} height="500" />
           </div>
         </div>
       </section>

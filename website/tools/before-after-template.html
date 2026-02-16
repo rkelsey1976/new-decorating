@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Before & After — New Decorating (local only)</title>
+  <style>
+    /* New Decorating theme colours */
+    :root {
+      --background: #f8f6f3;
+      --foreground: #1a1816;
+      --accent: #2d4a2d;
+      --accent-soft: #3d6b3d;
+      --muted: #494440;
+      --accent-tint: #e4e6e3;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--background);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: 24px;
+      color: var(--foreground);
+    }
+    .frame {
+      display: flex;
+      flex-direction: column;
+      max-width: 1000px;
+      width: 100%;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      border: 1px solid var(--accent-tint);
+    }
+    .row {
+      display: flex;
+      width: 100%;
+      flex: 1;
+      min-height: 360px;
+    }
+    .panel {
+      flex: 1;
+      min-height: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .panel .label {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      z-index: 2;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #fff;
+      background: var(--accent);
+      padding: 6px 12px;
+      border-radius: 6px;
+    }
+    .panel.after .label {
+      background: var(--accent-soft);
+    }
+    .panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .panel .placeholder {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      background: var(--accent-tint);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 14px;
+      padding: 24px;
+      text-align: center;
+    }
+    .divider {
+      width: 4px;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+    .brand {
+      padding: 14px 24px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--foreground);
+      text-align: center;
+      border-top: 2px solid var(--accent);
+      background: var(--accent-tint);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      padding: 8px;
+      flex: 1;
+      min-height: 200px;
+    }
+    .grid img {
+      width: 100%;
+      height: 100%;
+      min-height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid var(--accent-tint);
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="row">
+      <div class="panel before">
+        <span class="label">Before</span>
+        <img src="images/before-after/before-1.png" alt="Before – weathered metal railing" />
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <div class="panel after">
+        <span class="label">After</span>
+        <img id="afterImg" src="images/before-after/after-1.png" alt="After – restored railing" onerror="this.style.display='none'; document.getElementById('afterPlaceholder').style.display='flex';" />
+        <div id="afterPlaceholder" class="placeholder" style="display: none;">Add your after photo as<br><strong>images/before-after/after-1.png</strong></div>
+      </div>
+    </div>
+    <div class="grid">
+      <img src="images/before-after/before-2.png" alt="Before – wrought iron railings" />
+      <img src="images/before-after/before-3.png" alt="Before – exterior stone and railings" />
+    </div>
+    <p class="brand">New Decorating — Painter & Decorator, Bath</p>
+  </div>
+</body>
+</html>

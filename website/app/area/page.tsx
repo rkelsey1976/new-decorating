@@ -180,7 +180,7 @@ export default function AreaPage() {
             and surrounding villages.
           </p>
           <div className="mt-10 max-w-4xl mx-auto">
-            <GoogleMapEmbed title="" height="400" />
+            <GoogleMapEmbed title="" height="500" />
           </div>
         </div>
       </section>

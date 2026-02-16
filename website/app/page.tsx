@@ -326,7 +326,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="mt-10 max-w-4xl mx-auto">
-            <GoogleMapEmbed title="" height="280" />
+            <GoogleMapEmbed title="" height="500" />
           </div>
         </div>
       </section>

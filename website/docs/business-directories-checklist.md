@@ -55,7 +55,7 @@ These directories are **free** to list on (or have a free basic listing). Good s
 | **Checkatrade** | Very trusted by UK homeowners for trades. Paid membership, but can bring serious leads. | [checkatrade.com](https://www.checkatrade.com) |
 | **Trustatrader** | Similar to Checkatrade; another “vetted” trades option. | [trustatrader.com](https://www.trustatrader.com) |
 | **MyBuilder** | Job-post and quote style; homeowners post jobs, you quote. | [mybuilder.com](https://www.mybuilder.com) |
-| **Bark (formerly Bark.com)** | Lead/quote platform; you pay per lead or subscription. | [bark.com](https://www.bark.com) |
+| **Bark (formerly Bark.com)** | Lead/quote platform; you pay per lead or subscription. | [bark.com](https://www.bark.com) – see `bark-business-listing.md` |
 | **Rated People** | Lead generation for trades. | [ratedpeople.com](https://www.ratedpeople.com) |
 | **Trustpilot** | General review site; some customers look here. Free to create. | [business.trustpilot.com](https://business.trustpilot.com) |
 

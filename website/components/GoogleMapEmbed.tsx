@@ -11,7 +11,7 @@ type GoogleMapEmbedProps = {
 export default function GoogleMapEmbed({
   title = "",
   className = "",
-  height = "280px",
+  height = "500px",
 }: GoogleMapEmbedProps) {
   const heightCss = typeof height === "string" && /^\d+$/.test(height) ? `${height}px` : height;
 
