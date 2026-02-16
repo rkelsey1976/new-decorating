@@ -348,6 +348,56 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     ],
   },
   {
+    slug: "living-in-twerton-bath-painter-decorator-local-knowledge",
+    title: "Living in Twerton: A Painter & Decorator Who Knows the Area",
+    metaTitle: "Painter & Decorator Twerton Bath (BA2) | Local Knowledge | New Decorating",
+    metaDescription:
+      "I live and work in Twerton, Bath. Painter and decorator who knows the area — the streets, the houses, the practical side. Interior, exterior, wallpaper. Free quotes.",
+    excerpt:
+      "I live in Twerton and have been painting and decorating here for years. Here's why that matters — and what you can expect when you hire a decorator who actually knows your neighbourhood.",
+    date: "2026-02-16",
+    readTime: "4 min read",
+    image: "/services/interior.jpg",
+    imageAlt: "Painter and decorator in Twerton, Bath — quality finishes for local homes",
+    sections: [
+      {
+        heading: "Why I'm writing about Twerton — I live here",
+        body: [
+          "I live in Twerton. I've been here for years, and I've been working as a painter and decorator in the area for even longer. That might sound obvious, but it makes a real difference: I know the streets, the types of houses, where parking is straightforward and where it's tight. I know the mix of inter-war semis, post-war terraces, and the newer builds. I've painted a lot of them.",
+          "If you're in Twerton and looking for a decorator, you're dealing with someone who actually lives here — not someone who drives in from elsewhere and leaves at the end of the day. I've got skin in the game. I want to do a good job because I'm part of the community.",
+        ],
+      },
+      {
+        heading: "What Twerton's like — and what that means for decorating",
+        body: [
+          "Twerton sits on the western side of Bath, between the river and the A4. It's a mix of housing: 1930s semis with bay windows, post-war terraces, some ex-council stock, and a few newer estates. Most of what I do here is full-room or full-house repaints, exterior work on pebbledash and render, and wallpaper stripping and hanging.",
+          "The houses here are solid — they just need proper preparation and a finish that lasts. Homeowners in Twerton often want a fresh, clean look without spending a fortune. I get that. I quote honestly and I don't over-spec: I use quality paint where it matters and I prepare surfaces properly so the job holds up.",
+        ],
+      },
+      {
+        heading: "Knowing the area — parking, access, and the practical stuff",
+        body: [
+          "Because I'm local, I know where I can park, which streets are one-way, and how to get to your door without causing a fuss. I know which houses have tricky access, which have shared drives, and how to work around your routine. If you've got kids at school or you work from home, I'll work around it.",
+          "I also know the common issues — damp patches in older properties, pebbledash that needs the right treatment, walls that have had a few too many layers of wallpaper. I've seen it all in Twerton, and I come prepared.",
+        ],
+      },
+      {
+        heading: "What I offer in Twerton — interior, exterior, wallpaper",
+        body: [
+          "I offer the full range: interior painting (walls, ceilings, woodwork, doors), exterior painting (walls, windows, doors, fascias), wallpaper hanging and stripping, and preparation and repair. Whether it's a single room or a full redecoration, I quote each job individually so you know the cost upfront.",
+          "I use quality paints from brands I trust — Dulux, Farrow & Ball, Little Greene — and I'm happy to work with whatever you've chosen. The preparation is what makes the difference, and I don't cut corners.",
+        ],
+      },
+      {
+        heading: "Get in touch — free quote, no obligation",
+        body: [
+          "If you're in Twerton and need a painter and decorator who knows the area, get in touch. Tell me roughly what you need — a room, a full house, exterior work — and your postcode, and I'll arrange to come and quote.",
+          "You can reach me via my contact page or by phone. Free quote, no obligation. I'm local, I'm experienced, and I'll give you a straightforward price and honest advice.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "painting-and-restoring-wrought-iron-railings-bath",
     title: "Painting and Restoring Wrought Iron Railings in Bath",
     metaTitle: "Wrought Iron Railings Painting & Restoration Bath | New Decorating",
