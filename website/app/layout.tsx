@@ -63,8 +63,8 @@ export const metadata: Metadata = {
   keywords: [...META_KEYWORDS],
   manifest: "/manifest.json",
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 };
 
