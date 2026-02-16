@@ -8,7 +8,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Header from "@/components/Header";
 import { META_KEYWORDS } from "@/lib/seo-keywords";
 
-import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
+import { DEFAULT_META_TITLE, GBP_MAPS_URL, SITE_URL } from "@/lib/site";
 
 /*
  * Display font options (swap import + variable, then set --font-display in globals.css):
@@ -88,7 +88,14 @@ const localBusinessJsonLd = {
     { "@type": "City", name: "Keynsham" },
     { "@type": "City", name: "Midsomer Norton" },
     { "@type": "City", name: "Radstock" },
+    { "@type": "City", name: "Trowbridge" },
+    { "@type": "City", name: "Chippenham" },
+    { "@type": "City", name: "Melksham" },
+    { "@type": "City", name: "Bradford on Avon" },
+    { "@type": "City", name: "Frome" },
     { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
+    { "@type": "AdministrativeArea", name: "Wiltshire" },
+    { "@type": "AdministrativeArea", name: "Somerset" },
   ],
   geo: {
     "@type": "GeoCoordinates",
@@ -105,7 +112,10 @@ const localBusinessJsonLd = {
   openingHoursSpecification: [
     { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "07:30", closes: "16:30" },
   ],
-  sameAs: ["https://www.facebook.com/profile.php?id=61571675780751"],
+  sameAs: [
+    "https://www.facebook.com/profile.php?id=61571675780751",
+    GBP_MAPS_URL,
+  ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Painting & Decorating Services",

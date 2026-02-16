@@ -6,7 +6,7 @@ import PageHero from "@/components/PageHero";
 import BrushStroke from "@/components/BrushStroke";
 import { AREAS_COVERED, SERVICE_AREA_NAME } from "@/lib/area";
 import { AREA_PAGES } from "@/lib/areas-data";
-import AreaMap from "@/components/AreaMap";
+import GoogleMapEmbed from "@/components/GoogleMapEmbed";
 import { BLOG_ARTICLES_LATEST_FIRST } from "@/lib/blog";
 
 import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
@@ -154,7 +154,7 @@ export default function Home() {
           <p className="text-accent font-medium text-xs uppercase tracking-[0.2em] text-center mb-8">
             Why choose us
           </p>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 text-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 text-center">
             <div className="rounded-2xl bg-accent px-6 py-7 sm:py-9 shadow-xl border border-accent-soft/20">
               <span className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/20 text-white" aria-hidden>
                 <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -191,6 +191,15 @@ export default function Home() {
               </span>
               <p className="mt-4 font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-accent tracking-tight">Local</p>
               <p className="mt-2 text-xs sm:text-sm font-semibold text-muted uppercase tracking-widest">Bath & BANES</p>
+            </div>
+            <div className="rounded-2xl border border-black/8 bg-white px-6 py-7 sm:py-9 shadow-lg hover:shadow-xl hover:border-accent/30 transition-all duration-200">
+              <span className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-accent/10 text-accent" aria-hidden>
+                <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                </svg>
+              </span>
+              <p className="mt-4 font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-accent tracking-tight">Tidy</p>
+              <p className="mt-2 text-xs sm:text-sm font-semibold text-muted uppercase tracking-widest">Clean & tidy</p>
             </div>
           </div>
         </div>
@@ -317,7 +326,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="mt-10 max-w-4xl mx-auto">
-            <AreaMap title="" height="280" />
+            <GoogleMapEmbed title="" height="280" />
           </div>
         </div>
       </section>
