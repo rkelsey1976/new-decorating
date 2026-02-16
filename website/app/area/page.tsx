@@ -1,6 +1,6 @@
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
-import AreaMap from "@/components/AreaMap";
+import GoogleMapEmbed from "@/components/GoogleMapEmbed";
 import BrushStroke from "@/components/BrushStroke";
 import { AREAS_COVERED, SERVICE_AREA_NAME } from "@/lib/area";
 import { AREA_PAGES } from "@/lib/areas-data";
@@ -180,7 +180,7 @@ export default function AreaPage() {
             and surrounding villages.
           </p>
           <div className="mt-10 max-w-4xl mx-auto">
-            <AreaMap title="" height="400" />
+            <GoogleMapEmbed title="" height="400" />
           </div>
         </div>
       </section>

@@ -90,6 +90,22 @@ export default function BlogIndexPage() {
       {/* CTA */}
       <section className="py-16 sm:py-20 bg-accent text-white">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-3 font-display text-2xl font-semibold text-white hover:text-white/90 transition-colors mb-8"
+          >
+            <span className="flex-shrink-0 w-14 h-14 rounded-full overflow-hidden bg-white/20 flex items-center justify-center">
+              <Image
+                src="/logo-silhouette.jpg"
+                alt=""
+                width={46}
+                height={64}
+                className="object-contain scale-[0.55]"
+                unoptimized
+              />
+            </span>
+            <span className="tracking-tight">New Decorating</span>
+          </Link>
           <h2 className="font-display text-2xl sm:text-3xl font-semibold tracking-tight">
             Need a painter & decorator in Bath?
           </h2>

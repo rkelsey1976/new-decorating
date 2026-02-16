@@ -122,13 +122,13 @@ export default async function BlogPostPage({ params }: BlogPostProps) {
           {/* Author / CTA card */}
           <div className="mt-14 rounded-2xl bg-accent/10 border border-accent/20 p-6 sm:p-8">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-14 h-14 rounded-full bg-accent/15 flex items-center justify-center">
+              <div className="flex-shrink-0 w-14 h-14 rounded-full overflow-hidden bg-[#dcdddf] flex items-center justify-center">
                 <Image
-                  src="/logo.png"
+                  src="/logo-silhouette.jpg"
                   alt=""
-                  width={36}
-                  height={36}
-                  className="rounded-full"
+                  width={46}
+                  height={64}
+                  className="object-contain scale-[0.55]"
                   unoptimized
                 />
               </div>

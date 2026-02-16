@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHero from "@/components/PageHero";
-import AreaMap from "@/components/AreaMap";
+import GoogleMapEmbed from "@/components/GoogleMapEmbed";
 import { AREA_PAGES, getAreaBySlug, getAreaSlugs } from "@/lib/areas-data";
 import { SERVICE_PAGES } from "@/lib/services";
 
@@ -233,7 +233,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
             Where I work
           </h2>
           <div className="mt-10 max-w-4xl mx-auto">
-            <AreaMap title={`New Decorating — ${area.name}`} height="360" />
+            <GoogleMapEmbed title={`New Decorating — ${area.name}`} height="360" />
           </div>
         </div>
       </section>
