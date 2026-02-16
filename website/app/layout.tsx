@@ -116,6 +116,8 @@ const localBusinessJsonLd = {
     "https://www.facebook.com/profile.php?id=61571675780751",
     GBP_MAPS_URL,
   ],
+  /** Explicitly tell Google we have a map (our Google Maps listing) – helps entity merge and local SEO */
+  hasMap: GBP_MAPS_URL,
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Painting & Decorating Services",
