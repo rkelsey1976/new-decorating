@@ -347,6 +347,49 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       },
     ],
   },
+  {
+    slug: "painting-and-restoring-wrought-iron-railings-bath",
+    title: "Painting and Restoring Wrought Iron Railings in Bath",
+    metaTitle: "Wrought Iron Railings Painting & Restoration Bath | New Decorating",
+    metaDescription:
+      "Before and after: wrought iron railings stripped, treated and repainted in Bath. Exterior metal painting. 25+ years, free quotes. Bath and BANES.",
+    excerpt:
+      "Weathered, rusty railings stripped, treated and repainted to a clean black finish. Here's what's involved in restoring wrought iron railings — and a before and after from a recent job in Bath.",
+    date: "2026-02-16",
+    readTime: "4 min read",
+    image: "/images/before-after/before-1.png",
+    imageAlt: "Weathered wrought iron railings in Bath before restoration — rust, flaking paint and moss",
+    sections: [
+      {
+        heading: "Why wrought iron railings need regular care",
+        body: [
+          "Wrought iron railings are a common feature in Bath — on steps, balconies, and front boundaries. They look great when they're well maintained, but they take a battering from the weather. Rain, frost, and damp lead to rust; paint flakes and peels; moss and algae can build up in crevices. Left unchecked, the metal corrodes and the finish deteriorates quickly.",
+          "The good news is that with proper preparation and the right paint, railings can be restored to look as good as new. The job usually involves stripping or scraping back loose paint, treating rust, priming bare metal, and applying a durable exterior metal finish. Here's a before and after from a recent railing restoration in Bath.",
+        ],
+      },
+      {
+        heading: "Before and after — same spot",
+        body: [
+          "The photos below show the same railings before and after work. In the 'before' shots you can see the extent of the rust, flaking paint, and organic growth. After stripping back the worst of the old finish, treating the rust, and applying a metal primer and top coat, the railings are back to a clean, uniform black that will last for years with minimal upkeep.",
+          "I use quality exterior metal paints that are designed to withstand the British weather. If your railings are in a similar state, get in touch for a free quote — I cover Bath, Keynsham, Midsomer Norton and across BANES.",
+        ],
+      },
+      {
+        heading: "What's involved in railing restoration",
+        body: [
+          "Every job is different, but typically I'll scrape or strip loose and flaking paint, remove rust with a wire brush or similar, and treat any remaining rust with a suitable primer. Bare metal gets a metal primer; then two coats of exterior metal paint (gloss or satin, depending on the look you want).",
+          "For listed buildings or conservation areas, I use finishes that are in keeping with the property. I can match existing colours or recommend something that will suit the building. If you're not sure what your railings need, I'm happy to take a look and quote — no obligation.",
+        ],
+      },
+      {
+        heading: "Get a free quote for your railings",
+        body: [
+          "If you have wrought iron railings, gates, or other exterior metalwork that need painting or restoring, get in touch. Tell me where you are and what you've got, and I'll arrange to quote. I provide free, no-obligation quotes across Bath and North East Somerset.",
+          "You can reach me via my contact page or by phone. I'll give you a clear price and honest advice on what's needed to get your railings looking good again.",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Blog articles sorted by date, newest first (for homepage and blog index). */

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import GalleryGrid from "@/components/GalleryGrid";
+import BeforeAfterSection from "@/components/BeforeAfterSection";
 import BrushStroke from "@/components/BrushStroke";
 import { GALLERY_IMAGES } from "@/lib/gallery";
 import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
@@ -92,6 +93,8 @@ export default function GalleryPage() {
           </p>
 
           <GalleryGrid />
+
+          <BeforeAfterSection />
 
         </div>
       </div>

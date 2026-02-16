@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHero from "@/components/PageHero";
+import BeforeAfterSlideshow from "@/components/BeforeAfterSlideshow";
 import { BLOG_ARTICLES, getBlogBySlug, getBlogSlugs } from "@/lib/blog";
+import { BEFORE_AFTER_PROJECTS } from "@/lib/before-after";
 
 import type { Metadata } from "next";
 
@@ -115,6 +117,17 @@ export default async function BlogPostPage({ params }: BlogPostProps) {
                     {para}
                   </p>
                 ))}
+                {article.slug === "painting-and-restoring-wrought-iron-railings-bath" && i === 1 && (
+                  <div className="mt-10 -mx-4 sm:mx-0 sm:max-w-none">
+                    <BeforeAfterSlideshow
+                      projects={BEFORE_AFTER_PROJECTS}
+                      sectionLabel="Before & After"
+                      sectionTitle="Wrought iron railings, Bath"
+                      showLabels={true}
+                      showGrid={true}
+                    />
+                  </div>
+                )}
               </section>
             ))}
           </div>
