@@ -3,12 +3,12 @@ import PageHero from "@/components/PageHero";
 import GalleryGrid from "@/components/GalleryGrid";
 import BrushStroke from "@/components/BrushStroke";
 import { GALLERY_IMAGES } from "@/lib/gallery";
-import { SITE_URL } from "@/lib/site";
+import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "My Work | Painter & Decorator Bath | New Decorating",
+  title: `My Work | ${DEFAULT_META_TITLE}`,
   description:
     "My work – painter & decorator Bath. Gallery of painting and decorating projects across BANES. Interior, exterior, period properties. Free quotes.",
   alternates: { canonical: "/gallery" },

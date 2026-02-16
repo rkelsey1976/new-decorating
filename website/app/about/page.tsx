@@ -2,10 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
 
+import { DEFAULT_META_TITLE } from "@/lib/site";
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Jason New | Painter & Decorator Bath | New Decorating",
+  title: `About Jason New | ${DEFAULT_META_TITLE}`,
   description:
     "About New Decorating – painter & decorator in Bath. Quality painting and decorating across BANES. Fair prices, free quotes. 25+ years.",
   alternates: { canonical: "/about" },

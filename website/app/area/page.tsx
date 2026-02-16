@@ -4,6 +4,7 @@ import AreaMap from "@/components/AreaMap";
 import BrushStroke from "@/components/BrushStroke";
 import { AREAS_COVERED, SERVICE_AREA_NAME } from "@/lib/area";
 import { AREA_PAGES } from "@/lib/areas-data";
+import { DEFAULT_META_TITLE } from "@/lib/site";
 
 import type { Metadata } from "next";
 
@@ -55,7 +56,7 @@ const MAIN_AREA_PAGES = AREA_PAGES.filter(
 );
 
 export const metadata: Metadata = {
-  title: "Areas I cover | Painter & Decorator Bath | New Decorating",
+  title: `Areas I cover | ${DEFAULT_META_TITLE}`,
   description:
     "Painter & decorator Bath. Areas I cover: Bath, Keynsham, Midsomer Norton, Radstock, Trowbridge, Chippenham, Rode, Melksham, Bradford on Avon, Frome and surrounding areas. Free quotes. 25+ years.",
   alternates: { canonical: "/area" },

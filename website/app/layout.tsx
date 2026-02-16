@@ -8,7 +8,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Header from "@/components/Header";
 import { META_KEYWORDS } from "@/lib/seo-keywords";
 
-import { SITE_URL } from "@/lib/site";
+import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
 
 /*
  * Display font options (swap import + variable, then set --font-display in globals.css):
@@ -31,7 +31,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Painter & Decorator in Bath | New Decorating – BANES",
+  title: DEFAULT_META_TITLE,
   description:
     "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured. Get a free quote today!",
   alternates: {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "New Decorating",
-    title: "Painter & Decorator in Bath | New Decorating – BANES",
+    title: DEFAULT_META_TITLE,
     description:
       "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured.",
     url: SITE_URL,
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Painter & Decorator in Bath | New Decorating – BANES",
+    title: DEFAULT_META_TITLE,
     description:
       "Professional painter & decorator in Bath & BANES. 25+ years in interior/exterior painting, wallpaper & more. Free quotes, fully insured.",
     images: ["/og-image.jpg"],

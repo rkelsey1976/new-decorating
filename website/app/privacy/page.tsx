@@ -1,11 +1,11 @@
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
-import { SITE_URL } from "@/lib/site";
+import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Painter & Decorator Bath | New Decorating",
+  title: `Privacy Policy | ${DEFAULT_META_TITLE}`,
   description:
     "Privacy policy – New Decorating, painter & decorator Bath. How I collect, use and protect your personal information.",
   alternates: { canonical: "/privacy" },

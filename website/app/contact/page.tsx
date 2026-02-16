@@ -2,12 +2,12 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
 import BrushStroke from "@/components/BrushStroke";
-import { GBP_MAPS_URL, SITE_URL } from "@/lib/site";
+import { DEFAULT_META_TITLE, GBP_MAPS_URL, SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Painter & Decorator Bath | New Decorating",
+  title: `Contact | ${DEFAULT_META_TITLE}`,
   description:
     "Contact painter & decorator Bath. Get a free quote. Message, form or Facebook. Painting and decorating across BANES. 25+ years.",
   alternates: { canonical: "/contact" },

@@ -3,16 +3,16 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import { SERVICE_PAGES } from "@/lib/services";
 
+import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "My Services | Painter & Decorator Bath | New Decorating",
+  title: `My Services | ${DEFAULT_META_TITLE}`,
   description:
     "My services – painter & decorator Bath. Interior, exterior, wallpaper, preparation & repair. Quality work, free quotes. BANES. 25+ years.",
   alternates: { canonical: "/services" },
 };
-
-import { SITE_URL } from "@/lib/site";
 
 const serviceJsonLd = {
   "@context": "https://schema.org",

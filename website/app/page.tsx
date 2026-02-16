@@ -9,12 +9,12 @@ import { AREA_PAGES } from "@/lib/areas-data";
 import AreaMap from "@/components/AreaMap";
 import { BLOG_ARTICLES_LATEST_FIRST } from "@/lib/blog";
 
-import { SITE_URL } from "@/lib/site";
+import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Painter & Decorator in Bath | New Decorating",
+  title: DEFAULT_META_TITLE,
   description:
     "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured. Get a free quote today!",
   alternates: { canonical: "/" },

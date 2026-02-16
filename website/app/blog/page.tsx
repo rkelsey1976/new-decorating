@@ -3,10 +3,12 @@ import Link from "next/link";
 import PageHero from "@/components/PageHero";
 import { BLOG_ARTICLES_LATEST_FIRST } from "@/lib/blog";
 
+import { DEFAULT_META_TITLE } from "@/lib/site";
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Painter & Decorator Bath | New Decorating",
+  title: `Blog | ${DEFAULT_META_TITLE}`,
   description:
     "Blog – painter & decorator Bath. Painting and decorating tips, colour advice, preparation guides. 25+ years experience. Free quotes.",
   alternates: { canonical: "/blog" },

@@ -4,6 +4,12 @@
 
 export const SITE_URL = "https://new-decorating.co.uk";
 
+/** Business name for titles and branding */
+export const SITE_NAME = "New Decorating";
+
+/** Default meta title: ~65 chars to avoid truncation in search results */
+export const DEFAULT_META_TITLE = `Painter & Decorator Bath | Interior & Exterior Painting | ${SITE_NAME}`;
+
 /**
  * Google Business Profile – link for customers to leave a review (from GBP "Share review form").
  */
