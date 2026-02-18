@@ -456,15 +456,15 @@ export const AREA_PAGES: AreaPage[] = [
   {
     slug: "peasedown-st-john",
     name: "Peasedown St John",
-    metaTitle: "Painter & Decorator in Peasedown St John | New Decorating",
+    metaTitle: "Painter & Decorator in Peasedown St John | Somer Valley | New Decorating",
     metaDescription:
-      "Painter & decorator in Peasedown St John, near Midsomer Norton. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Somer Valley.",
+      "Painter & decorator in Peasedown St John and surrounding areas. Midsomer Norton, Radstock, Paulton, Chilcompton, Westfield, Stratton. Interior, exterior, wallpaper. 25+ years, free quotes. Somer Valley.",
     heroSubtitle:
-      "Professional painting and decorating for homes in Peasedown St John and the Somer Valley.",
+      "Professional painting and decorating for homes in Peasedown St John and the surrounding Somer Valley villages.",
     intro:
-      "Peasedown St John is a village on the edge of the Somer Valley with a mix of stone cottages, Victorian housing and modern homes. I cover Peasedown St John and the surrounding area, offering a full range of painting and decorating. I'm local to Midsomer Norton and the Somer Valley — reliable, tidy and always happy to give a free quote.",
+      "Peasedown St John sits on the edge of the Somer Valley with easy links to Midsomer Norton, Radstock and the surrounding villages. I cover Peasedown St John and the areas around it — Paulton, Chilcompton, Westfield, Stratton-on-the-Fosse and beyond. Whether you're in the village centre or on one of the surrounding lanes, I offer a full range of painting and decorating: interior and exterior, wallpaper, preparation and repair. I'm local to the Somer Valley, reliable and always happy to give a free quote.",
     localInfo:
-      "Peasedown St John has a strong sense of community and many character properties. I'm used to working with the range of building styles you find in this part of the Somer Valley and deliver quality finishes at fair prices. Get in touch to confirm I cover your area.",
+      "Peasedown St John has a strong community and a mix of stone cottages, Victorian housing and modern homes. The surrounding Somer Valley has plenty of character properties that benefit from careful preparation and quality paintwork. I'm used to working with local stone, render and older building materials. Get in touch with your postcode to confirm I cover your street.",
     services: [
       "Interior painting for all property types",
       "Exterior painting and stonework",
@@ -473,7 +473,7 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
       "Woodwork, skirting and door painting",
     ],
-    nearbyAreas: ["Midsomer Norton", "Radstock", "Paulton", "Chilcompton", "Westfield"],
+    nearbyAreas: ["Midsomer Norton", "Radstock", "Paulton", "Chilcompton", "Westfield", "Stratton-on-the-Fosse"],
   },
   {
     slug: "chilcompton",

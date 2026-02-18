@@ -497,6 +497,56 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       },
     ],
   },
+  {
+    slug: "areas-we-work-in-peasedown-st-john-somer-valley",
+    title: "Peasedown St John and the Areas Around It: Somer Valley Painting and Decorating",
+    metaTitle: "Peasedown St John & Surrounding Areas | Painter & Decorator Somer Valley | New Decorating",
+    metaDescription:
+      "Painter and decorator in Peasedown St John, Midsomer Norton, Radstock, Paulton, Chilcompton, Westfield, Stratton. Somer Valley. 25+ years, free quotes.",
+    excerpt:
+      "Peasedown St John and the villages around it — Midsomer Norton, Radstock, Paulton, Chilcompton, Westfield and Stratton-on-the-Fosse. Here's where we work in the Somer Valley and what you can expect.",
+    date: "2026-02-18",
+    readTime: "4 min read",
+    image: "/hero-area.jpg",
+    imageAlt: "Painter and decorator in Peasedown St John and the Somer Valley — interior and exterior painting across the area",
+    sections: [
+      {
+        heading: "Peasedown St John and the Somer Valley",
+        body: [
+          "Peasedown St John sits on the edge of the Somer Valley with easy links to Midsomer Norton, Radstock and the surrounding villages. I cover Peasedown St John and the areas around it: Midsomer Norton, Radstock, Paulton, Chilcompton, Westfield, Stratton-on-the-Fosse, Writhlington and the rest of the Somer Valley.",
+          "Whether you're in the village centre or on one of the lanes between the villages, I offer a full range of painting and decorating. I've been working in this part of BANES for years — stone cottages, Victorian terraces, modern homes and everything in between. I know the property types and the practical side of getting to your door and getting the job done properly.",
+        ],
+      },
+      {
+        heading: "Midsomer Norton and Radstock — the heart of the Somer Valley",
+        body: [
+          "Midsomer Norton and Radstock are the two main towns in the Somer Valley, and I work in both regularly. They have a mix of traditional stone-built homes, Victorian terraces and modern estates. Many properties have character features that need a careful, experienced hand — lime plaster, older woodwork, stone and render.",
+          "The jobs I do here range from single room refreshes to full house redecorations, exterior repaints and wallpaper stripping and hanging. I quote every job individually so you know the cost upfront. Access and parking are usually straightforward; I'm used to working in family homes and keeping disruption to a minimum.",
+        ],
+      },
+      {
+        heading: "Paulton, Chilcompton, Westfield and Stratton-on-the-Fosse",
+        body: [
+          "The villages around Peasedown St John — Paulton, Chilcompton, Westfield and Stratton-on-the-Fosse — have a strong community feel and a mix of period cottages, family homes and modern housing. I cover all of them and the lanes in between.",
+          "Stone and render are common in this part of the Somer Valley, and many homes benefit from careful preparation and quality paint. I'm used to working with older building materials and the kind of surfaces you find in these villages. Whether you need interior work, exterior repainting or wallpaper, I'll give you a free quote and honest advice.",
+        ],
+      },
+      {
+        heading: "Writhlington, Kilmersdon and the Radstock side",
+        body: [
+          "Towards Radstock you've got Writhlington, Kilmersdon, Coleford and Holcombe — all areas I cover. These villages have a similar mix of stone-built and period properties, and I'm often asked for full redecorations, exterior work and preparation and repair.",
+          "If you're not sure whether I cover your postcode, get in touch. I'm happy to confirm and, where it makes sense, come and quote in person so you know exactly what's included.",
+        ],
+      },
+      {
+        heading: "What I offer across the Somer Valley",
+        body: [
+          "Everywhere I work in and around Peasedown St John I offer the same: interior painting (walls, ceilings, woodwork, doors), exterior painting (walls, windows, doors, fascias), wallpaper hanging, and preparation and repair. Every job is quoted individually. I use quality paints from brands I trust and I'm happy to work with colours you've chosen yourself.",
+          "If you're in Peasedown St John or one of the surrounding villages and need a painter and decorator, get in touch. Tell me roughly what you need and where you are, and I'll arrange a visit to quote. Free, no obligation — just straightforward service from someone who knows the Somer Valley.",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Blog articles sorted by date, newest first (for homepage and blog index). */

@@ -8,6 +8,8 @@ Use these in **Google Business Profile** → **Posts** → **New post**. Choose 
 
 **Ready-to-use GBP post for Keynsham area and sub-areas:** see **`gbp-post-keynsham-area-sub-areas.md`** for copy, headline, button and step-by-step (Keynsham, Saltford, Bitton, Whitchurch, Stockwood, Queen Charlton, Chewton Keynsham).
 
+**Ready-to-use GBP post for Peasedown St John area and sub-areas:** see **`gbp-post-peasedown-st-john-area-sub-areas.md`** for copy, headline, button and step-by-step (Peasedown St John, Midsomer Norton, Radstock, Paulton, Chilcompton, Westfield, Stratton-on-the-Fosse).
+
 ---
 
 ## 1. Free quote (evergreen)
