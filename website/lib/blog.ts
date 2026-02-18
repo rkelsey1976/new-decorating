@@ -440,6 +440,63 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       },
     ],
   },
+  {
+    slug: "areas-we-work-in-bath-painter-decorator",
+    title: "The Areas We Work In: Bath and Its Neighbourhoods",
+    metaTitle: "Areas We Work In Bath | Painter & Decorator Bath | New Decorating",
+    metaDescription:
+      "Painter and decorator across Bath: city centre, Widcombe, Twerton, Larkhall, Combe Down, Odd Down, Bathwick, Weston, Batheaston, Bathford. 25+ years, free quotes.",
+    excerpt:
+      "From the city centre to Widcombe, Twerton, Larkhall, Combe Down and beyond — here are the Bath areas we work in and what you can expect from a local painter and decorator.",
+    date: "2026-02-18",
+    readTime: "5 min read",
+    image: "/hero-area.jpg",
+    imageAlt: "Painter and decorator across Bath and its neighbourhoods — interior and exterior painting, wallpaper, preparation and repair",
+    sections: [
+      {
+        heading: "Bath and the areas we cover",
+        body: [
+          "I'm a painter and decorator based in Bath, and I work right across the city and its surrounding neighbourhoods. That includes the city centre, Widcombe, Twerton, Larkhall, Combe Down, Odd Down, Bathwick, Weston, Batheaston, Bathford and the villages on the approach to Bath.",
+          "Whether you're in a Georgian terrace near the Royal Crescent, a Victorian villa in Widcombe, or a family home in Odd Down or Twerton, I'm local and ready to help. I've been working in these areas for over 25 years, so I know the property types, the practical side of access and parking, and how to get the best finish on Bath's mix of period and modern homes.",
+        ],
+      },
+      {
+        heading: "City centre and Bathwick",
+        body: [
+          "The heart of Bath has some of the most distinctive housing in the country — honey-coloured stone, sash windows, period mouldings and lime plaster. Many of the jobs I do here are in listed buildings or conservation areas, so the approach has to be sympathetic: the right products, careful preparation, and finishes that suit the building.",
+          "Bathwick, on the east side of the river, has a similar character — Georgian and Victorian terraces, villas and cottages. I'm often asked for heritage colours (Farrow & Ball, Little Greene), woodwork that's been stripped back or needs careful filling and sanding, and exterior work on Bath stone or render. Parking can be tight on some streets; I'm used to it and will work around your routine.",
+        ],
+      },
+      {
+        heading: "Widcombe, Larkhall and the south-east",
+        body: [
+          "Widcombe has a strong village feel even though it's minutes from the city centre. A lot of the housing is period — Georgian and Victorian terraces, cottages with sash windows and original cornices. I do a lot of interior and exterior work here, from full redecorations to single-room refreshes and exterior repaints.",
+          "Larkhall, to the north, has a thriving high street and a mix of Victorian and Edwardian homes. Combe Down sits on the southern edge with stunning views and stone-built cottages, Victorian villas and modern homes. Odd Down is more suburban — 1930s semis, post-war housing and newer developments. In all of these areas I offer the same thing: proper preparation, quality paint, and a finish that lasts.",
+        ],
+      },
+      {
+        heading: "Twerton, Weston and west Bath",
+        body: [
+          "Twerton and Weston sit on the western side of Bath. The housing is a mix of inter-war and post-war semis and terraces, some ex-local authority stock, and a range of sizes and ages. The jobs I do here are often full-room or full-house repaints, exterior work on pebbledash or render, and wallpaper stripping and hanging.",
+          "Homeowners in these areas are often after a fresh, clean finish that will last — good preparation and quality paint matter just as much as in period properties. Access and parking are usually straightforward, and I'm used to working in family homes where we need to keep disruption to a minimum.",
+        ],
+      },
+      {
+        heading: "Batheaston, Bathford and the approach to Bath",
+        body: [
+          "Batheaston and Bathford are villages on the eastern edge of Bath with a mix of period cottages, Victorian terraces and modern homes. I cover both and the surrounding lanes — Swainswick, Bathampton and the Bath approach. Many properties here have stone or period features; I'm experienced in working with older building materials and always provide a free quote.",
+          "If you're not sure whether I cover your street, get in touch with your postcode. I'm happy to confirm and, where it makes sense, come and quote in person so you know exactly what's included and what it will cost.",
+        ],
+      },
+      {
+        heading: "What I offer across all these areas",
+        body: [
+          "Everywhere I work in Bath — city centre or suburb, period or modern — I offer the same: interior painting (walls, ceilings, woodwork, doors), exterior painting (walls, windows, doors, fascias), wallpaper hanging, and preparation and repair. Every job is quoted individually so you know the cost upfront. I use quality paints from brands I trust and I'm happy to work with colours you've chosen yourself.",
+          "If you're looking for a painter and decorator in Bath and want someone who knows the area, get in touch. Tell me roughly what you need and where you are, and I'll arrange a visit to quote. Free, no obligation — just straightforward advice from someone who's been working in these areas for over 25 years.",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Blog articles sorted by date, newest first (for homepage and blog index). */

@@ -4,6 +4,10 @@ Use these in **Google Business Profile** → **Posts** → **New post**. Choose 
 
 **Tip:** Post regularly (e.g. weekly or every 2 weeks). Use a clear, relevant photo (job photo, before/after, or logo) — posts with images tend to get more visibility.
 
+**Ready-to-use GBP post for Bath area and sub-areas:** see **`gbp-post-bath-area-sub-areas.md`** for copy, headline, button and step-by-step (Widcombe, Twerton, Larkhall, Combe Down, Odd Down, Bathwick, Weston, Batheaston, Bathford).
+
+**Ready-to-use GBP post for Keynsham area and sub-areas:** see **`gbp-post-keynsham-area-sub-areas.md`** for copy, headline, button and step-by-step (Keynsham, Saltford, Bitton, Whitchurch, Stockwood, Queen Charlton, Chewton Keynsham).
+
 ---
 
 ## 1. Free quote (evergreen)
