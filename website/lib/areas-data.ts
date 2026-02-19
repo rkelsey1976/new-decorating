@@ -25,7 +25,7 @@ export const AREA_PAGES: AreaPage[] = [
     heroSubtitle:
       "Professional painting and decorating across Bath — from the city centre to surrounding suburbs and villages.",
     intro:
-      "I'm a Bath-based painting and decorating business with over 25 years of experience. Whether you live in the city centre, Bathwick, Larkhall, Widcombe, Combe Down, Odd Down or the surrounding villages, I'm local and ready to help. From period townhouses and Georgian terraces to modern new builds, I understand the character of Bath homes and deliver quality finishes every time.",
+      "I'm a Bath-based painting and decorating business with over 25 years of experience. Whether you live in the city centre, Bathwick, Larkhall, Widcombe, Combe Down, Odd Down, Bear Flat, Oldfield Park, Southdown, Whiteway, St Saviour's, Walcot, Bathampton or the surrounding villages, I'm local and ready to help. From period townhouses and Georgian terraces to modern new builds, I understand the character of Bath homes and deliver quality finishes every time.",
     localInfo:
       "Bath is known for its stunning Georgian architecture, honey-coloured stone and heritage properties. Many homes in Bath require a decorator who understands older buildings — from sash windows and ornate cornices to lime plaster and period mouldings. I have extensive experience working on properties of all ages across the city.",
     services: [
@@ -171,6 +171,160 @@ export const AREA_PAGES: AreaPage[] = [
     nearbyAreas: ["Bath city centre", "Widcombe", "Larkhall", "Bathampton", "Claverton", "Batheaston"],
   },
   {
+    slug: "bear-flat",
+    name: "Bear Flat",
+    metaTitle: "Painter & Decorator in Bear Flat, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Bear Flat, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bear Flat and BANES.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Bear Flat and south Bath.",
+    intro:
+      "Bear Flat is a popular residential area on the south side of Bath, with Edwardian terraces, period homes and a strong local character. I cover Bear Flat and the wider Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, reliable and always provide a free quote before starting any job.",
+    localInfo:
+      "Bear Flat has a mix of period properties that benefit from careful preparation and quality finishes. I'm used to working with the housing types you find here and deliver quality work at fair prices. Get in touch with your postcode to confirm I cover your street.",
+    services: [
+      "Interior painting for period and modern homes",
+      "Exterior painting including Bath stone and render",
+      "Wallpaper hanging and feature walls",
+      "Sash window and woodwork painting",
+      "Preparation and repair",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Bath city centre", "Widcombe", "Odd Down", "Combe Down", "Southdown", "Larkhall"],
+  },
+  {
+    slug: "oldfield-park",
+    name: "Oldfield Park",
+    metaTitle: "Painter & Decorator in Oldfield Park, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Oldfield Park, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Oldfield Park and BANES.",
+    heroSubtitle:
+      "Local painting and decorating for homes in Oldfield Park and west Bath.",
+    intro:
+      "Oldfield Park sits between the city centre and Twerton, with a mix of Victorian and Edwardian terraces and family homes. I cover Oldfield Park and the wider Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, tidy and always happy to give a free, no-obligation quote.",
+    localInfo:
+      "Oldfield Park has a strong community and many homes that benefit from an experienced decorator. I'm used to working with the property types you find here — period terraces and modern interiors — and deliver quality finishes at fair prices. Get in touch to confirm I cover your street.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and woodwork",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Bath city centre", "Twerton", "Widcombe", "Weston", "Bear Flat", "Keynsham"],
+  },
+  {
+    slug: "southdown",
+    name: "Southdown",
+    metaTitle: "Painter & Decorator in Southdown, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Southdown, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Southdown and BANES.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Southdown and south-west Bath.",
+    intro:
+      "Southdown is a well-established area in south-west Bath with a mix of Edwardian homes, 1930s housing and family-friendly streets. I cover Southdown and the surrounding Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, reliable and always provide a free quote before starting any job.",
+    localInfo:
+      "Southdown has a strong community and many homes that benefit from an experienced decorator. I'm used to working with the range of property types you find here and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your street.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Bath city centre", "Odd Down", "Bear Flat", "Combe Down", "Twerton", "Whiteway"],
+  },
+  {
+    slug: "whiteway",
+    name: "Whiteway",
+    metaTitle: "Painter & Decorator in Whiteway, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Whiteway, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Whiteway and BANES.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Whiteway and south Bath.",
+    intro:
+      "Whiteway is part of south Bath, close to Odd Down and Southdown, with a mix of family homes and residential streets. I cover Whiteway and the surrounding Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, reliable and always provide a free quote before starting any job.",
+    localInfo:
+      "Whiteway has a strong community and many homes that benefit from an experienced decorator. I'm used to working with the property types you find here and deliver quality finishes at fair prices. Get in touch with your postcode to confirm I cover your street.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting and masonry coatings",
+      "Wallpaper hanging and stripping",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Bath city centre", "Odd Down", "Southdown", "Combe Down", "Bear Flat", "Twerton"],
+  },
+  {
+    slug: "st-saviours",
+    name: "St Saviour's",
+    metaTitle: "Painter & Decorator in St Saviour's, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in St Saviour's, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. St Saviour's and BANES.",
+    heroSubtitle:
+      "Local painting and decorating for homes in St Saviour's and north Bath.",
+    intro:
+      "St Saviour's is a neighbourhood in north Bath, near Larkhall, with a mix of Victorian and Edwardian housing and a strong local character. I cover St Saviour's and the wider Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, tidy and always happy to give a free, no-obligation quote.",
+    localInfo:
+      "St Saviour's has many character properties that benefit from careful preparation and quality finishes. I'm used to working with period features and the kind of surfaces you find in this part of Bath. Get in touch to confirm I cover your street.",
+    services: [
+      "Interior painting for period and modern homes",
+      "Exterior painting including Bath stone",
+      "Wallpaper hanging and feature walls",
+      "Sash window and woodwork painting",
+      "Preparation and repair",
+      "Full house and single room projects",
+    ],
+    nearbyAreas: ["Bath city centre", "Larkhall", "Combe Down", "Batheaston", "Bathford", "Weston"],
+  },
+  {
+    slug: "walcot",
+    name: "Walcot",
+    metaTitle: "Painter & Decorator in Walcot, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Walcot, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Walcot and BANES.",
+    heroSubtitle:
+      "Professional painting and decorating for homes in Walcot and the city centre edge.",
+    intro:
+      "Walcot sits on the edge of Bath city centre, with Walcot Street and the surrounding streets known for period buildings, independent shops and character housing. I cover Walcot and the wider Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local and always provide a free quote before starting any job.",
+    localInfo:
+      "Walcot has a mix of Georgian and Victorian properties that benefit from careful preparation and quality finishes. I'm experienced in working with older buildings and the kind of surfaces you find in this part of Bath. Get in touch to confirm I cover your street.",
+    services: [
+      "Interior painting for period and modern homes",
+      "Exterior painting including Bath stone and render",
+      "Wallpaper hanging and feature walls",
+      "Sash window and woodwork painting",
+      "Period property decoration",
+      "Preparation and repair",
+    ],
+    nearbyAreas: ["Bath city centre", "Larkhall", "Widcombe", "Bathwick", "Batheaston", "Weston"],
+  },
+  {
+    slug: "bathampton",
+    name: "Bathampton",
+    metaTitle: "Painter & Decorator in Bathampton, near Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Bathampton, near Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bathampton and BANES.",
+    heroSubtitle:
+      "Trusted painter and decorator for homes in Bathampton and the eastern approach to Bath.",
+    intro:
+      "Bathampton is a village on the eastern edge of Bath, on the River Avon and the canal, with a mix of period cottages, Victorian terraces and modern homes. I cover Bathampton and the wider Bath area, offering a full range of painting and decorating. Whether you're in the village or on the approach from Bath, I'm local and ready to help. Free, no-obligation quotes for all work.",
+    localInfo:
+      "Bathampton has a strong village character and many properties that benefit from careful preparation and quality paintwork. I'm experienced in working with older building materials and the kind of surfaces you find in this part of BANES. Get in touch to confirm I cover your area.",
+    services: [
+      "Interior painting for all property types",
+      "Exterior painting including stone and render",
+      "Wallpaper hanging and feature walls",
+      "Period property decoration",
+      "Preparation and repair",
+      "Woodwork and door painting",
+    ],
+    nearbyAreas: ["Bath", "Batheaston", "Bathford", "Bathwick", "Claverton", "Larkhall"],
+  },
+  {
     slug: "weston",
     name: "Weston",
     metaTitle: "Painter & Decorator in Weston, Bath | New Decorating",
@@ -191,6 +345,28 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Twerton", "Oldfield Park", "Widcombe", "Keynsham"],
+  },
+  {
+    slug: "lansdown",
+    name: "Lansdown",
+    metaTitle: "Painter & Decorator in Lansdown, Bath | New Decorating",
+    metaDescription:
+      "Painter & decorator in Lansdown, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Lansdown and BANES.",
+    heroSubtitle:
+      "Professional painting and decorating for homes on Lansdown and north Bath.",
+    intro:
+      "Lansdown is an area to the north of Bath with a mix of period homes, larger properties and character housing along Lansdown Road and the approach to the racecourse. I cover Lansdown and the wider Bath area, offering interior and exterior painting, wallpaper hanging and preparation work. I'm local, reliable and always provide a free quote before starting any job.",
+    localInfo:
+      "Lansdown has many properties that benefit from careful preparation and quality finishes — Bath stone, period features and modern interiors. I'm used to working with the range of building types you find here and deliver quality work at fair prices. Get in touch with your postcode to confirm I cover your street.",
+    services: [
+      "Interior painting for period and modern homes",
+      "Exterior painting including Bath stone and render",
+      "Wallpaper hanging and feature walls",
+      "Preparation and repair",
+      "Full house and single room projects",
+      "Woodwork, skirting and door painting",
+    ],
+    nearbyAreas: ["Bath city centre", "Larkhall", "Weston", "Batheaston", "Bathford", "Charlcombe"],
   },
   {
     slug: "batheaston",

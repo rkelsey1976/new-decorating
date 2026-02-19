@@ -384,6 +384,114 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     ],
   },
   {
+    slug: "painter-and-decorator-in-odd-down-bath-what-to-expect",
+    title: "Painter & Decorator in Odd Down, Bath: What to Expect",
+    metaTitle: "Painter & Decorator in Odd Down, Bath | New Decorating",
+    metaDescription:
+      "What to expect when hiring a painter and decorator in Odd Down, Bath. Interior, exterior, wallpaper. 25+ years, free quotes.",
+    excerpt:
+      "Odd Down is a well-established area in south Bath with 1930s semis, post-war housing and newer developments. Here's what to expect when you hire a painter and decorator in Odd Down — and how to get a free quote.",
+    date: "2026-02-19",
+    readTime: "3 min read",
+    image: "/services/interior.jpg",
+    imageAlt: "Interior painting and decorating in Odd Down, Bath — quality finishes for local homes",
+    sections: [
+      {
+        heading: "Why use a painter and decorator in Odd Down who knows the area?",
+        body: [
+          "Odd Down is in south Bath with a mix of 1930s semis, post-war housing and newer developments. A decorator who works here regularly will know the common property types, typical surfaces (pebbledash, render, older plaster) and how to get the best finish.",
+          "I've been painting and decorating in Odd Down and the surrounding Bath area for over 25 years. I cover the full range of homes you find here and I'm happy to quote in person so you get a fixed price and clear advice.",
+        ],
+      },
+      {
+        heading: "What I offer in Odd Down — interior, exterior, wallpaper",
+        body: [
+          "I offer a full range of painting and decorating: interior painting (walls, ceilings, woodwork, doors), exterior painting (walls, windows, doors, pebbledash, render), wallpaper hanging and stripping, and preparation and repair. Whether you need a single room, a full redecoration, or exterior work, I quote each job individually so you know the cost upfront.",
+          "I use quality paints and I don't cut corners on preparation — the finish only looks as good as the surface underneath. Every job gets the same attention whether it's a full house or one room.",
+        ],
+      },
+      {
+        heading: "Getting a free quote in Odd Down",
+        body: [
+          "Tell me roughly what you need and your postcode. I'll confirm I cover your area and, where it makes sense, come and quote in person. You'll get a fixed price and honest advice — no obligation.",
+          "You can get in touch via my contact page or by phone. Free quote, no obligation — just straightforward service from a painter and decorator who's been working in Odd Down and across Bath for over 25 years.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "painter-and-decorator-in-weston-bath-what-to-expect",
+    title: "Painter & Decorator in Weston, Bath: What to Expect",
+    metaTitle: "Painter & Decorator in Weston, Bath | New Decorating",
+    metaDescription:
+      "What to expect when hiring a painter and decorator in Weston, Bath. Interior, exterior, wallpaper. 25+ years, free quotes.",
+    excerpt:
+      "Weston is a popular residential area in north-west Bath with Victorian and Edwardian terraces and family homes. Here's what to expect when you hire a painter and decorator in Weston — and how to get a free quote.",
+    date: "2026-02-19",
+    readTime: "3 min read",
+    image: "/services/interior.jpg",
+    imageAlt: "Interior painting and decorating in Weston, Bath — quality finishes for local homes",
+    sections: [
+      {
+        heading: "Why use a painter and decorator in Weston who knows the area?",
+        body: [
+          "Weston has a mix of Victorian and Edwardian terraces, family homes and modern housing. A decorator who works in Weston regularly will know the property types, access and parking, and how to get the best finish on the surfaces you have.",
+          "I've been painting and decorating in Weston and the wider Bath area for over 25 years. I cover the full range of work — full house repaints, single rooms, exterior work — and I'm happy to quote in person so you get a fixed price and clear advice.",
+        ],
+      },
+      {
+        heading: "What I offer in Weston — interior, exterior, wallpaper",
+        body: [
+          "I offer a full range of painting and decorating: interior painting (walls, ceilings, woodwork, doors), exterior painting (walls, windows, doors, fascias), wallpaper hanging and stripping, and preparation and repair. I'm local, tidy and always provide a free quote before starting any job.",
+          "Whether you need a single room or a full redecoration, I quote each job individually. I use quality paints and prepare surfaces properly so the finish looks good and lasts.",
+        ],
+      },
+      {
+        heading: "Getting a free quote in Weston",
+        body: [
+          "Tell me roughly what you need and your postcode. I'll confirm I cover your street and, where it makes sense, come and quote in person. You'll get a fixed price and honest advice — no obligation.",
+          "You can get in touch via my contact page or by phone. Free quote, no obligation — just straightforward service from a painter and decorator who's been working in Weston and across Bath for over 25 years.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "painter-and-decorator-in-lansdown-bath-what-to-expect",
+    title: "Painter & Decorator in Lansdown, Bath: What to Expect",
+    metaTitle: "Painter & Decorator in Lansdown, Bath | New Decorating",
+    metaDescription:
+      "What to expect when hiring a painter and decorator in Lansdown, Bath. Period homes, interior, exterior, wallpaper. 25+ years, free quotes.",
+    excerpt:
+      "Lansdown is an area to the north of Bath with a mix of period homes and character housing. Here's what to expect when you hire a painter and decorator in Lansdown — and how to get a free quote.",
+    date: "2026-02-19",
+    readTime: "3 min read",
+    image: "/services/interior.jpg",
+    imageAlt: "Interior painting and decorating in Lansdown, Bath — quality finishes for period and modern homes",
+    sections: [
+      {
+        heading: "Why use a painter and decorator in Lansdown who knows the area?",
+        body: [
+          "Lansdown sits to the north of Bath with a mix of period homes, larger properties and character housing along Lansdown Road and the approach to the racecourse. Many properties have Bath stone, period features or older surfaces that need a sympathetic approach.",
+          "I've been painting and decorating in Lansdown and the wider Bath area for over 25 years. I'm used to working with the property types you find here and I'm happy to quote in person so you get a fixed price and clear advice.",
+        ],
+      },
+      {
+        heading: "What I offer in Lansdown — interior, exterior, wallpaper",
+        body: [
+          "I offer a full range of painting and decorating: interior painting (walls, ceilings, woodwork, doors), exterior painting (Bath stone, render, windows, doors), wallpaper hanging and stripping, and preparation and repair. I'm experienced with period features and heritage finishes as well as modern interiors.",
+          "Whether you need a single room, a full redecoration, or exterior work, I quote each job individually. Every job gets proper preparation so the finish looks good and lasts.",
+        ],
+      },
+      {
+        heading: "Getting a free quote in Lansdown",
+        body: [
+          "Tell me roughly what you need and your postcode. I'll confirm I cover your area and, where it makes sense, come and quote in person. You'll get a fixed price and honest advice — no obligation.",
+          "You can get in touch via my contact page or by phone. Free quote, no obligation — just straightforward service from a painter and decorator who's been working in Lansdown and across Bath for over 25 years.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "living-in-twerton-bath-painter-decorator-local-knowledge",
     title: "Living in Twerton: A Painter & Decorator Who Knows the Area",
     metaTitle: "Painter & Decorator Twerton Bath (BA2) | Local Knowledge | New Decorating",

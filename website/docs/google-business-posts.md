@@ -8,9 +8,19 @@ Use these in **Google Business Profile** → **Posts** → **New post**. Choose 
 
 **Ready-to-use GBP post for Keynsham area and sub-areas:** see **`gbp-post-keynsham-area-sub-areas.md`** for copy, headline, button and step-by-step (Keynsham, Saltford, Bitton, Whitchurch, Stockwood, Queen Charlton, Chewton Keynsham).
 
+**Ready-to-use GBP post for Keynsham (map pack focus):** see **`gbp-post-keynsham-area.md`** for copy, headline, button and step-by-step — targets "painter decorator Keynsham" to boost the map pack in Keynsham.
+
 **Ready-to-use GBP post for Peasedown St John area and sub-areas:** see **`gbp-post-peasedown-st-john-area-sub-areas.md`** for copy, headline, button and step-by-step (Peasedown St John, Midsomer Norton, Radstock, Paulton, Chilcompton, Westfield, Stratton-on-the-Fosse).
 
 **Ready-to-use GBP post for Widcombe, Bath:** see **`gbp-post-widcombe-area.md`** for copy, headline, button and step-by-step — targets "painter decorator Widcombe" to boost the map pack in that area.
+
+**Ready-to-use GBP post for Odd Down, Bath:** see **`gbp-post-odd-down-area.md`** for copy, headline, button and step-by-step — targets "painter decorator Odd Down" to boost the map pack in that area.
+
+**Ready-to-use GBP post for Weston, Bath:** see **`gbp-post-weston-area.md`** for copy, headline, button and step-by-step — targets "painter decorator Weston" to boost the map pack in that area.
+
+**Ready-to-use GBP post for Lansdown, Bath:** see **`gbp-post-lansdown-area.md`** for copy, headline, button and step-by-step — targets "painter decorator Lansdown" to boost the map pack in that area.
+
+**Ready-to-use GBP post for exterior work – book now:** see **`gbp-post-exterior-work-book-now.md`** for copy, headline, button and step-by-step — "Exterior painting – book your job in now".
 
 **Ready-to-use GBP post for online estimates (use our form):** see **`gbp-post-online-estimates-form.md`** for copy, headline, button and step-by-step — “use our form and we’ll get back to you”.
 
