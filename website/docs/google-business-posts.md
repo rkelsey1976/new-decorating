@@ -10,6 +10,10 @@ Use these in **Google Business Profile** → **Posts** → **New post**. Choose 
 
 **Ready-to-use GBP post for Peasedown St John area and sub-areas:** see **`gbp-post-peasedown-st-john-area-sub-areas.md`** for copy, headline, button and step-by-step (Peasedown St John, Midsomer Norton, Radstock, Paulton, Chilcompton, Westfield, Stratton-on-the-Fosse).
 
+**Ready-to-use GBP post for Widcombe, Bath:** see **`gbp-post-widcombe-area.md`** for copy, headline, button and step-by-step — targets "painter decorator Widcombe" to boost the map pack in that area.
+
+**Ready-to-use GBP post for online estimates (use our form):** see **`gbp-post-online-estimates-form.md`** for copy, headline, button and step-by-step — “use our form and we’ll get back to you”.
+
 ---
 
 ## 1. Free quote (evergreen)

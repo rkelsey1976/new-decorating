@@ -348,6 +348,42 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     ],
   },
   {
+    slug: "painter-and-decorator-in-widcombe-bath-what-to-expect",
+    title: "Painter & Decorator in Widcombe, Bath: What to Expect",
+    metaTitle: "Painter & Decorator in Widcombe, Bath | New Decorating",
+    metaDescription:
+      "What to expect when hiring a painter and decorator in Widcombe, Bath. Period homes, interior, exterior, wallpaper. 25+ years, free quotes.",
+    excerpt:
+      "Widcombe is one of Bath's most sought-after neighbourhoods, with Georgian terraces, Victorian villas and period cottages. Here's what to expect when you hire a painter and decorator in Widcombe — and how to get a free quote.",
+    date: "2026-02-19",
+    readTime: "3 min read",
+    image: "/services/interior.jpg",
+    imageAlt: "Interior painting and decorating in Widcombe, Bath — quality finishes for period and modern homes",
+    sections: [
+      {
+        heading: "Why use a painter and decorator in Widcombe who knows the area?",
+        body: [
+          "Widcombe has a strong village feel even though it's minutes from the city centre. A lot of the housing is period: Georgian and Victorian terraces, cottages, and houses with sash windows, original cornices, and lime plaster. Many are listed or in conservation areas, so the approach has to be sympathetic — the right products, careful preparation, and finishes that suit the building.",
+          "I've been painting and decorating in Widcombe and the surrounding Bath area for over 25 years. I know the property types, the practical side of access and parking on Widcombe Hill and the valley, and how to get the best finish on Bath stone, render and period woodwork.",
+        ],
+      },
+      {
+        heading: "What I offer in Widcombe — interior, exterior, wallpaper",
+        body: [
+          "I offer a full range of painting and decorating: interior painting (walls, ceilings, woodwork, doors, sash windows), exterior painting (Bath stone, render, windows, doors, fascias), wallpaper hanging and stripping, and preparation and repair. I'm often asked for heritage colours (Farrow & Ball, Little Greene and similar) and woodwork that needs careful filling and sanding.",
+          "Whether you need a single room, a full redecoration, or exterior work, I quote each job individually so you know the cost upfront. Every job gets proper preparation so the finish looks good and lasts.",
+        ],
+      },
+      {
+        heading: "Getting a free quote in Widcombe",
+        body: [
+          "Tell me roughly what you need and your postcode. I'll confirm I cover your street and, where it makes sense, come and quote in person. You'll get a fixed price and honest advice on what's needed — no obligation.",
+          "You can get in touch via my contact page or by phone. Free quote, no obligation — just straightforward advice from a painter and decorator who's been working in Widcombe and across Bath for over 25 years.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "living-in-twerton-bath-painter-decorator-local-knowledge",
     title: "Living in Twerton: A Painter & Decorator Who Knows the Area",
     metaTitle: "Painter & Decorator Twerton Bath (BA2) | Local Knowledge | New Decorating",
