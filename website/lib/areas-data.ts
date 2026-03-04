@@ -19,9 +19,9 @@ export const AREA_PAGES: AreaPage[] = [
   {
     slug: "bath",
     name: "Bath",
-    metaTitle: "Painter & Decorator in Bath | New Decorating",
+    metaTitle: "Painters in Bath | Painter & Decorator | New Decorating",
     metaDescription:
-      "Painter & decorator in Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bath and BANES.",
+      "Painters in Bath — painter & decorator. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bath and BANES.",
     heroSubtitle:
       "Professional painting and decorating across Bath — from the city centre to surrounding suburbs and villages.",
     intro:

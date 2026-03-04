@@ -4,6 +4,8 @@ Use these in **Google Business Profile** → **Posts** → **New post**. Choose 
 
 **Tip:** Post regularly (e.g. weekly or every 2 weeks). Use a clear, relevant photo (job photo, before/after, or logo) — posts with images tend to get more visibility.
 
+**Ready-to-use GBP post for "Painters in Bath" (target this search):** see **`gbp-post-painters-in-bath.md`** for copy, headline, button and step-by-step — use so your GBP shows for "Painters in Bath" as well as "painter and decorator".
+
 **Ready-to-use GBP post for Bath area and sub-areas:** see **`gbp-post-bath-area-sub-areas.md`** for copy, headline, button and step-by-step (Widcombe, Twerton, Larkhall, Combe Down, Odd Down, Bathwick, Weston, Batheaston, Bathford).
 
 **Ready-to-use GBP post for Keynsham area and sub-areas:** see **`gbp-post-keynsham-area-sub-areas.md`** for copy, headline, button and step-by-step (Keynsham, Saltford, Bitton, Whitchurch, Stockwood, Queen Charlton, Chewton Keynsham).
@@ -20,7 +22,13 @@ Use these in **Google Business Profile** → **Posts** → **New post**. Choose 
 
 **Ready-to-use GBP post for Lansdown, Bath:** see **`gbp-post-lansdown-area.md`** for copy, headline, button and step-by-step — targets "painter decorator Lansdown" to boost the map pack in that area.
 
+**Ready-to-use GBP post for Lansdown and Bath city centre:** see **`gbp-post-lansdown-and-city-centre.md`** for copy, headline, button and step-by-step — one post covering both Lansdown and the city centre.
+
+**Ready-to-use GBP post for Lansdown, Bath – exterior/outside work:** see **`gbp-post-lansdown-exterior.md`** for copy, headline, button and step-by-step — exterior painting in the Lansdown area.
+
 **Ready-to-use GBP post for exterior work – book now:** see **`gbp-post-exterior-work-book-now.md`** for copy, headline, button and step-by-step — "Exterior painting – book your job in now".
+
+**Ready-to-use GBP post for importance of prep for decorating (Bath area):** see **`gbp-post-prep-for-decorating-bath.md`** for copy, headline, button and step-by-step — why preparation matters for decorating in the Bath area.
 
 **Ready-to-use GBP post for online estimates (use our form):** see **`gbp-post-online-estimates-form.md`** for copy, headline, button and step-by-step — “use our form and we’ll get back to you”.
 

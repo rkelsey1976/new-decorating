@@ -8,8 +8,10 @@
  * - Long-tail: "free quote", "local", "professional" + area
  */
 
-/** Primary: location + role (highest intent) */
+/** Primary: location + role (highest intent). Include "painters in Bath" for plural search. */
 export const PRIMARY_KEYWORDS = [
+  "painters in Bath",
+  "painters Bath",
   "painter Bath",
   "decorator Bath",
   "painting and decorating Bath",
@@ -46,6 +48,8 @@ export const LONG_TAIL_KEYWORDS = [
 
 /** Flat list for meta keywords (search engines may use for context) */
 export const META_KEYWORDS = [
+  "painters in Bath",
+  "painters Bath",
   "painter Bath",
   "decorator Bath",
   "painting and decorating Bath",

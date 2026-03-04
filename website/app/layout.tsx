@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: DEFAULT_META_TITLE,
   description:
-    "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured. Get a free quote today!",
+    "Professional painter & decorator in Bath, Keynsham & BANES. Interior & exterior, wallpaper. 25+ years, fully insured. Free quote. Get in touch.",
   alternates: {
     canonical: "/",
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "New Decorating",
     title: DEFAULT_META_TITLE,
     description:
-      "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured.",
+      "Professional painter & decorator in Bath, Keynsham & BANES. Interior & exterior, wallpaper. 25+ years, fully insured. Free quote. Get in touch.",
     url: SITE_URL,
     images: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DEFAULT_META_TITLE,
     description:
-      "Professional painter & decorator in Bath & BANES. 25+ years in interior/exterior painting, wallpaper & more. Free quotes, fully insured.",
+      "Professional painter & decorator in Bath, Keynsham & BANES. Interior & exterior, wallpaper. 25+ years, fully insured. Free quote. Get in touch.",
     images: ["/og-image.jpg"],
   },
   keywords: [...META_KEYWORDS],
@@ -78,7 +78,7 @@ const localBusinessJsonLd = {
   "@id": ORGANIZATION_ID,
   name: "New Decorating",
   description:
-    "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Fully insured, free quotes. 25+ years experience.",
+    "Painters in Bath. Painter & decorator — interior, exterior, wallpaper across BANES. Fully insured, free quotes. 25+ years experience.",
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
   image: `${SITE_URL}/hero.jpg`,
@@ -136,7 +136,7 @@ const websiteJsonLd = {
   "@type": "WebSite",
   name: "New Decorating",
   url: SITE_URL,
-  description: "Painter & decorator in Bath. Professional painting and decorating across BANES. Quality finishes, free quotes. 25+ years experience.",
+  description: "Painters in Bath. Painter & decorator — professional painting and decorating across BANES. Quality finishes, free quotes. 25+ years experience.",
   publisher: { "@id": ORGANIZATION_ID },
 };
 

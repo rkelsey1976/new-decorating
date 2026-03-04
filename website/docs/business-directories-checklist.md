@@ -95,6 +95,8 @@ These directories are **free** to list on (or have a free basic listing). Good s
 - **Description:** Property decorator / painter and decorator in Bath; interior & exterior painting, wallpaper, preparation & repair; 25+ years; free quotes.  
 - **Categories:** Painter, Painting & Decorating, Wallpaperer (or closest match).
 
+**Bath sub-areas and postcodes:** When a directory asks for areas served or postcodes covered, use **`directory-listing-bath-areas-postcodes.md`** — it lists all Bath sub-areas (Lansdown, Widcombe, Twerton, Combe Down, Odd Down, Bathwick, Bear Flat, Oldfield Park, Southdown, Weston, Batheaston, Bathford, etc.) with postcodes (BA1, BA2 and sectors) and copy-paste text for description fields.
+
 Use the same wording where you can so your name, address, phone and website (NAPW) are consistent everywhere – that helps local SEO.
 
 ---

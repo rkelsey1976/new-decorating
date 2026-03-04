@@ -492,6 +492,49 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     ],
   },
   {
+    slug: "invest-in-bath-jason-new-decorating",
+    title: "Invest in Bath: Why I've Built My Business Here",
+    metaTitle: "Invest in Bath | Jason, New Decorating | Painter & Decorator Bath",
+    metaDescription:
+      "Jason from New Decorating on why he's invested in Bath — running a local painter and decorator business here for over 25 years. Invest in Bath.",
+    excerpt:
+      "I'm Jason, and I've run New Decorating in Bath for over 25 years. Here's why I've invested in this city — and why I'm still here.",
+    date: "2026-02-20",
+    readTime: "3 min read",
+    image: "/services/interior.jpg",
+    imageAlt: "New Decorating — painter and decorator in Bath, investing in the local area",
+    sections: [
+      {
+        heading: "Why I'm writing this — and why Bath",
+        body: [
+          "I'm Jason, and I've been running New Decorating as a painter and decorator in Bath and the surrounding area for over 25 years. When people talk about 'investing in Bath', they often mean businesses relocating here or new developments. For me, it's simpler: I've invested my working life here. I've built my business in Bath, I work in Bath homes every week, and I'm part of the local economy.",
+          "I wanted to put down in writing why Bath has been the right place for my business — and why I'm still here. If you're thinking about investing in Bath, or you're a local business owner like me, some of this might resonate.",
+        ],
+      },
+      {
+        heading: "Bath's housing stock — and why it suits what I do",
+        body: [
+          "Bath is full of character properties — Georgian terraces, Victorian villas, period cottages, and a mix of older and newer housing. That means there's always demand for painting and decorating done properly: careful preparation, the right products, and finishes that suit the building. I've invested in learning how to work with Bath's housing, and that's paid off in repeat customers and word-of-mouth.",
+          "The city also attracts people who care about their homes and are willing to invest in them. That's good for a tradesperson who takes pride in the job. I'm not in a race to the bottom — I'm here to do the job right, and Bath's homeowners often want exactly that.",
+        ],
+      },
+      {
+        heading: "Being local — community and trust",
+        body: [
+          "Investing in Bath isn't just about the type of work. It's about being part of the place. I know the streets, the neighbourhoods, the practical side of parking and access. I've painted in Widcombe, Twerton, Larkhall, Combe Down, the city centre and the villages around Bath. Customers like knowing they're dealing with someone who's rooted here.",
+          "I also think Bath benefits when local businesses stay local. Money spent with a Bath-based painter and decorator stays in the area — it's not going to a national chain or a franchise. That's a small thing, but it matters. Invest in Bath does a lot to promote the city as a place to do business; I see my role as one of many small businesses that make that story real.",
+        ],
+      },
+      {
+        heading: "What's next — still investing in Bath",
+        body: [
+          "I'm not planning to go anywhere. I'll keep working across Bath, Keynsham, Midsomer Norton, Radstock and the rest of BANES, doing the same thing I've done for 25 years: interior and exterior painting, wallpaper, preparation and repair, with free quotes and a focus on quality.",
+          "If you're in Bath and you're thinking about investing in your home — a redecoration, a refresh, or exterior work — I'm happy to help. Get in touch for a free quote. And if you're another business thinking about investing in Bath, I'd say the same thing I've learned: it's a place that rewards people who show up, do the work, and stick around.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "living-in-twerton-bath-painter-decorator-local-knowledge",
     title: "Living in Twerton: A Painter & Decorator Who Knows the Area",
     metaTitle: "Painter & Decorator Twerton Bath (BA2) | Local Knowledge | New Decorating",

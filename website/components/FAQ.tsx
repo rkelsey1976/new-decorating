@@ -50,6 +50,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <Fragment key={index}>
               <dt className="m-0 rounded-t-2xl border border-black/8 border-b-0 bg-white overflow-hidden shadow-sm">
+                <h3 className="sr-only">{faq.question}</h3>
                 <button
                   type="button"
                   className="flex w-full items-center justify-between px-6 py-4 text-left font-display text-lg font-semibold text-foreground hover:bg-black/[0.02] transition-colors rounded-t-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-inset"

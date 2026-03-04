@@ -9,14 +9,14 @@ import { AREA_PAGES } from "@/lib/areas-data";
 import GoogleMapEmbed from "@/components/GoogleMapEmbed";
 import { BLOG_ARTICLES_LATEST_FIRST } from "@/lib/blog";
 
-import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
+import { DEFAULT_META_TITLE, GBP_MAPS_URL, GOOGLE_RATING, GOOGLE_REVIEW_COUNT, SITE_URL } from "@/lib/site";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: DEFAULT_META_TITLE,
   description:
-    "Professional painter & decorator in Bath & BANES. 25+ years experience in interior/exterior painting, wallpaper & more. Free quotes, fully insured. Get a free quote today!",
+    "Professional painter & decorator in Bath, Keynsham & BANES. Interior & exterior, wallpaper. 25+ years, fully insured. Free quote. Get in touch.",
   alternates: { canonical: "/" },
 };
 
@@ -75,13 +75,13 @@ const reviewJsonLd = {
   "@id": `${SITE_URL}#organization`,
   name: "New Decorating",
   url: SITE_URL,
-  description: "Painter & decorator in Bath. Interior, exterior, wallpaper across BANES. Quality finishes, free quotes. 25+ years experience.",
+  description: "Painters in Bath. Painter & decorator — interior, exterior, wallpaper across BANES. Quality finishes, free quotes. 25+ years experience.",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: 5,
     bestRating: 5,
-    ratingCount: 4,
-    reviewCount: 4,
+    ratingCount: 7,
+    reviewCount: 7,
   },
   review: [
     {
@@ -129,9 +129,9 @@ export default function Home() {
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Painter & Decorator for Your Properties in Bath"
-        subtitle="Professional painting and decorating across Bath and North East Somerset. 25+ years experience. Free quotes."
+        subtitle="Professional painting and decorating across Bath, Keynsham and North East Somerset. 25+ years experience. Free quotes."
         image="/hero-home.jpg"
-        imageAlt="Painter and decorator for your properties in Bath — New Decorating"
+        imageAlt="Painters in Bath — painter and decorator for your properties — New Decorating"
       >
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <Link
@@ -146,6 +146,16 @@ export default function Home() {
           >
             View my work
           </Link>
+          <a
+            href="tel:+447717772881"
+            className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/40 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+            aria-label="Call for a free quote"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            Call for a free quote
+          </a>
         </div>
       </PageHero>
 
@@ -154,6 +164,25 @@ export default function Home() {
           <p className="text-accent font-medium text-xs uppercase tracking-[0.2em] text-center mb-8">
             Why choose us
           </p>
+          <div className="mb-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-center">
+            <a
+              href={GBP_MAPS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-foreground font-semibold hover:text-accent transition-colors"
+              aria-label="See our Google reviews"
+            >
+              <span className="flex gap-0.5" aria-hidden="true">
+                {Array.from({ length: GOOGLE_RATING }).map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </span>
+              <span>Rated {GOOGLE_RATING} stars on Google</span>
+              <span className="text-muted font-normal">({GOOGLE_REVIEW_COUNT} reviews)</span>
+            </a>
+          </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 text-center">
             <div className="rounded-2xl bg-accent px-6 py-7 sm:py-9 shadow-xl border border-accent-soft/20">
               <span className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/20 text-white" aria-hidden>
@@ -404,13 +433,23 @@ export default function Home() {
           <p className="mt-5 opacity-90 max-w-xl mx-auto leading-relaxed">
             Get in touch for a free, no-obligation quote. I serve Bath, Keynsham, Midsomer Norton, Radstock and across BANES.
           </p>
-          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-xl bg-background text-foreground px-7 py-3.5 text-base font-semibold shadow-lg hover:opacity-95 transition-opacity"
             >
               Contact us
             </Link>
+            <a
+              href="tel:+447717772881"
+              className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-background/40 px-7 py-3.5 text-base font-semibold hover:bg-background/10 transition-colors"
+              aria-label="Call for a free quote"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              Call 07717 772881
+            </a>
             <a
               href="https://www.facebook.com/profile.php?id=61571675780751"
               target="_blank"
