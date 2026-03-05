@@ -474,15 +474,15 @@ export const AREA_PAGES: AreaPage[] = [
   {
     slug: "keynsham",
     name: "Keynsham",
-    metaTitle: "Painter & Decorator in Keynsham | New Decorating",
+    metaTitle: "Painter & Decorator Keynsham | Painters Keynsham | New Decorating",
     metaDescription:
-      "Painter & decorator in Keynsham (BS31). Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Keynsham, Saltford, Bitton and BANES.",
+      "Professional painter & decorator in Keynsham. Interior, exterior, wallpaper. 25+ years experience, fully insured. Free quote — call 07717 772881 or get a quote.",
     heroSubtitle:
-      "Trusted painter and decorator for homes across Keynsham, Saltford and the surrounding area.",
+      "Need a painter and decorator in Keynsham? I offer professional painting and decorating across Keynsham — from the town centre to Saltford, Bitton, Whitchurch, Queen Charlton and the surrounding villages. 25+ years experience. Fully insured. Free, no-obligation quote.",
     intro:
-      "I'm a painter and decorator covering Keynsham (BS31) and the surrounding area between Bath and Bristol. I've been decorating properties in Keynsham for years and know the mix of older character homes and newer developments well. Whether you need a full house repaint, a single room freshened up, or exterior work on your property, I deliver reliable, professional results at fair prices.",
+      "I'm a painter and decorator covering Keynsham (BS31) and the surrounding area between Bath and Bristol. I've been doing painting and decorating in Keynsham for years and know the mix of older character homes and newer developments well. Whether you need a full house repaint, a single room freshened up, or exterior work on your property, I deliver reliable, professional results at fair prices.",
     localInfo:
-      "Keynsham has grown significantly in recent years with new housing alongside its established Victorian and inter-war homes. As a local painter and decorator I work on period cottages on the High Street, 1930s semis, and new builds on the newer estates — and in Saltford, Whitchurch, Bitton and nearby. I tailor my approach to suit the property and your requirements.",
+      "Keynsham has a mix of period homes and modern houses — I work on both, from interior refreshes to exterior repaints and feature walls. I cover Saltford and Bitton regularly, plus Whitchurch, Queen Charlton and Chewton Keynsham. Keynsham has grown in recent years with new housing alongside Victorian and inter-war homes; I work on period cottages on the High Street, 1930s semis and new builds. Get in touch for a free quote.",
     services: [
       "Interior painting for all property types",
       "Exterior painting and masonry coatings",
@@ -492,6 +492,55 @@ export const AREA_PAGES: AreaPage[] = [
       "Surface preparation and repair",
     ],
     nearbyAreas: ["Saltford", "Whitchurch", "Stockwood", "Queen Charlton", "Chewton Keynsham", "Bitton"],
+    trustLine: "25+ years experience. Fully insured. Free, no-obligation quote.",
+    whyChoose: [
+      "25+ years in Keynsham & BANES — I know the area and the mix of period and modern homes.",
+      "Full range of painting and decorating — interior, exterior, wallpaper, prep and repair.",
+      "Free quote, no obligation — call or get in touch with your postcode and I'll give you a clear price.",
+      "Fully insured, clean & tidy — I cover Saltford, Bitton, Whitchurch and nearby; always leave the job spotless.",
+    ],
+    faqs: [
+      {
+        question: "How much does a painter and decorator cost in Keynsham?",
+        answer:
+          "Costs depend on the size of the job — one room, full house, interior or exterior — and the condition of surfaces. I provide a free, no-obligation quote and I'm local to Keynsham so there's no call-out charge. Get in touch with a rough idea of what you need and I'll come and give you a clear price.",
+      },
+      {
+        question: "Do you cover Saltford, Bitton and Whitchurch?",
+        answer:
+          "Yes. I cover Keynsham town centre and the surrounding areas including Saltford, Bitton, Whitchurch, Queen Charlton, Chewton Keynsham and Stockwood. Send me your postcode and I'll confirm I cover your street. I have area pages for Saltford and Bitton if you'd like more detail.",
+      },
+      {
+        question: "Are you insured for work in Keynsham?",
+        answer:
+          "Yes. I'm fully insured for all painting and decorating work in Keynsham and the surrounding area. I work to high standards, protect your property with dust sheets and coverings, and leave every job clean and tidy for your peace of mind.",
+      },
+      {
+        question: "How do I get a quote for painting and decorating in Keynsham?",
+        answer:
+          "Call me on 07717 772881 or use the contact form. Tell me roughly what you need — for example one room, full house, interior or exterior — and your postcode. I'll arrange a visit to quote in person where helpful and provide a free, no-obligation price.",
+      },
+      {
+        question: "Do you do interior and exterior painting in Keynsham?",
+        answer:
+          "Yes. I offer full interior painting (walls, ceilings, woodwork), exterior painting and masonry coatings, wallpaper hanging and feature walls, and preparation and repair. I cover Keynsham, Saltford, Bitton and nearby — get in touch or see my service pages for more detail.",
+      },
+      {
+        question: "Do you do small jobs in Keynsham?",
+        answer:
+          "Yes. Small jobs are welcome — whether it's one room, a touch-up or a full redecoration, I'm happy to quote. There's no minimum; you'll get a free quote so you know the cost before any work starts.",
+      },
+    ],
+    serviceAnchors: {
+      "interior-painting": "Interior painting in Keynsham",
+      "exterior-painting": "Exterior painting",
+      "wallpaper-hanging": "Wallpaper hanging",
+      "preparation-and-repair": "Preparation and repair",
+    },
+    introImages: [
+      { src: "/services/interior.jpg", alt: "Interior painting and decorating in Keynsham" },
+      { src: "/services/exterior.png", alt: "Exterior painting in Keynsham and surrounding area" },
+    ],
   },
   {
     slug: "saltford",
