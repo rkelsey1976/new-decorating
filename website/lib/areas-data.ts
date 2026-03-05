@@ -13,6 +13,16 @@ export interface AreaPage {
   localInfo: string;
   services: string[];
   nearbyAreas: string[];
+  /** Short trust line shown in hero (e.g. "25+ years experience. Fully insured. Free quote.") */
+  trustLine?: string;
+  /** Bullets for "Why choose" section (area-specific) */
+  whyChoose?: string[];
+  /** FAQ for snippet/rich results; each answer 40–80 words */
+  faqs?: { question: string; answer: string }[];
+  /** Custom anchor text for service page links (slug -> anchor). Omit to use service title. */
+  serviceAnchors?: Record<string, string>;
+  /** Optional images shown beside the intro/why-choose block (e.g. 1–2 project photos). */
+  introImages?: { src: string; alt: string }[];
 }
 
 export const AREA_PAGES: AreaPage[] = [
@@ -21,13 +31,13 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Bath",
     metaTitle: "Painters in Bath | Painter & Decorator | New Decorating",
     metaDescription:
-      "Painters in Bath — painter & decorator. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Bath and BANES.",
+      "Professional painter & decorator in Bath. Interior, exterior, period properties. 25+ years experience, free quote. Call 07717 772881 or get a quote.",
     heroSubtitle:
-      "Professional painting and decorating across Bath — from the city centre to surrounding suburbs and villages.",
+      "Need a painter and decorator in Bath? I offer professional painting and decorating across Bath — from the city centre to Combe Down, Larkhall, Widcombe and the surrounding villages. 25+ years experience. Free quotes.",
     intro:
-      "I'm a Bath-based painting and decorating business with over 25 years of experience. Whether you live in the city centre, Bathwick, Larkhall, Widcombe, Combe Down, Odd Down, Bear Flat, Oldfield Park, Southdown, Whiteway, St Saviour's, Walcot, Bathampton or the surrounding villages, I'm local and ready to help. From period townhouses and Georgian terraces to modern new builds, I understand the character of Bath homes and deliver quality finishes every time.",
+      "I'm a Bath-based painter and decorator with over 25 years of experience. Whether you live in the city centre, Bathwick, Larkhall, Widcombe, Combe Down, Odd Down, Bear Flat, Oldfield Park, Southdown, Whiteway, St Saviour's, Walcot, Bathampton or the surrounding villages, I'm local and ready to help. From period townhouses and Georgian terraces to modern new builds, I understand the character of Bath homes and deliver quality finishes every time.",
     localInfo:
-      "Bath is known for its stunning Georgian architecture, honey-coloured stone and heritage properties. Many homes in Bath require a decorator who understands older buildings — from sash windows and ornate cornices to lime plaster and period mouldings. I have extensive experience working on properties of all ages across the city.",
+      "Bath is known for its stunning Georgian architecture, honey-coloured stone and heritage properties. Many homes in Bath require a decorator who understands older buildings — from sash windows and ornate cornices to lime plaster and period mouldings. I have extensive experience working on properties of all ages across the city. Combe Down and Bathwick have many period and stone properties; I'm used to working with lime and traditional finishes.",
     services: [
       "Interior painting for houses, flats and apartments",
       "Exterior painting including Bath stone and render",
@@ -37,6 +47,55 @@ export const AREA_PAGES: AreaPage[] = [
       "Preparation and repair of older surfaces",
     ],
     nearbyAreas: ["Batheaston", "Bathford", "Combe Down", "Odd Down", "Larkhall", "Widcombe", "Weston", "Twerton"],
+    trustLine: "25+ years experience. Fully insured. Free, no-obligation quote.",
+    whyChoose: [
+      "25+ years in Bath & BANES — I know the houses, the materials and what lasts.",
+      "Period & Georgian specialists — Bath stone, lime, sash windows and traditional finishes done right.",
+      "Free quote, no pressure — tell me your postcode and project; I'll come and give you a clear price.",
+      "Fully insured, clean & tidy — your home is protected and I leave the job spotless.",
+    ],
+    faqs: [
+      {
+        question: "How much does a painter and decorator cost in Bath?",
+        answer:
+          "Costs depend on the size of the job, the type of work (interior, exterior, wallpaper) and the condition of surfaces. I provide a free, no-obligation quote after discussing your project — whether it's one room or a full house. Get in touch with a rough idea of what you need and I'll arrange a visit to quote in person where helpful.",
+      },
+      {
+        question: "Do you cover Combe Down, Larkhall and other Bath areas?",
+        answer:
+          "Yes. I cover Bath city centre and the surrounding neighbourhoods including Combe Down, Larkhall, Widcombe, Odd Down, Bear Flat, Oldfield Park, Bathwick, Weston, Twerton, Batheaston, Bathford, Bathampton and more. Send me your postcode and I'll confirm I cover your street.",
+      },
+      {
+        question: "Are you insured for work in Bath?",
+        answer:
+          "Yes. I'm fully insured for all painting and decorating work in Bath and BANES. I work to high standards, protect your property with dust sheets and coverings, and leave every job clean and tidy.",
+      },
+      {
+        question: "Do you do exterior painting on Bath stone?",
+        answer:
+          "Yes. I have extensive experience painting and protecting Bath stone and other stone and render finishes. I use appropriate masonry paints and primers so the finish lasts and looks good. Exterior work is quoted after assessing the condition of the surfaces.",
+      },
+      {
+        question: "How do I get a quote for painting and decorating in Bath?",
+        answer:
+          "Get in touch via my contact page or by phone. Tell me roughly what you need — for example one room, full house, interior or exterior — and your location in Bath. I'll arrange a visit to quote in person where needed and provide a clear, no-obligation price.",
+      },
+      {
+        question: "Do you work on period and Georgian properties in Bath?",
+        answer:
+          "Yes. I'm used to working on period and Georgian properties across Bath — sash windows, cornices, lime plaster, period mouldings and traditional finishes. I prepare surfaces properly and use appropriate materials so the finish suits the character of your home.",
+      },
+    ],
+    serviceAnchors: {
+      "interior-painting": "Interior painting in Bath",
+      "exterior-painting": "Exterior painting",
+      "wallpaper-hanging": "Wallpaper hanging",
+      "preparation-and-repair": "Preparation and repair",
+    },
+    introImages: [
+      { src: "/services/interior.jpg", alt: "Interior painting and decorating in Bath — quality finish" },
+      { src: "/services/exterior.png", alt: "Exterior painting on Bath stone and render" },
+    ],
   },
   {
     slug: "widcombe",
