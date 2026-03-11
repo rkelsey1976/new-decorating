@@ -1,5 +1,5 @@
 import { getAreaBySlug } from "@/lib/areas-data";
-import { getAreaLocalBusinessSchema } from "@/lib/areaSchema";
+import { getAreaLocalBusinessSchema, getAreaServiceSchema } from "@/lib/areaSchema";
 import { notFound } from "next/navigation";
 
 interface AreaLayoutProps {
@@ -18,6 +18,7 @@ export default async function AreaSlugLayout({ children, params }: AreaLayoutPro
   if (!area) notFound();
 
   const localBusinessJsonLd = getAreaLocalBusinessSchema(area, slug);
+  const serviceJsonLd = getAreaServiceSchema(area, slug);
   const faqJsonLd =
     area.faqs && area.faqs.length > 0
       ? {
@@ -37,6 +38,11 @@ export default async function AreaSlugLayout({ children, params }: AreaLayoutPro
         type="application/ld+json"
         data-new-decorating-area-ld
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        data-new-decorating-area-ld
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
       />
       {faqJsonLd && (
         <script

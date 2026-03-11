@@ -27,6 +27,10 @@ export interface AreaPage {
   postcodes?: string[];
   /** Region/county for address and schema (e.g. "Bath and North East Somerset", "Wiltshire"). Defaults to BANES. */
   region?: string;
+  /** Optional sameAs URL(s) for the area Place in schema (e.g. Wikipedia). */
+  sameAs?: string | string[];
+  /** Optional local landmarks (e.g. "the Royal Crescent", "Keynsham High Street") — used in content for local relevance. */
+  landmarks?: string[];
 }
 
 export const AREA_PAGES: AreaPage[] = [
@@ -102,6 +106,8 @@ export const AREA_PAGES: AreaPage[] = [
     ],
     postcodes: ["BA1", "BA2"],
     region: "Bath and North East Somerset",
+    sameAs: "https://en.wikipedia.org/wiki/Bath,_Somerset",
+    landmarks: ["the Royal Crescent", "the Roman Baths", "Bath Abbey"],
   },
   {
     slug: "widcombe",
@@ -124,6 +130,9 @@ export const AREA_PAGES: AreaPage[] = [
       "Preparation and repair",
     ],
     nearbyAreas: ["Bath city centre", "Bathwick", "Combe Down", "Larkhall", "Twerton", "Batheaston"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
+    landmarks: ["Widcombe Hill", "the Kennet & Avon Canal"],
   },
   {
     slug: "twerton",
@@ -146,6 +155,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Widcombe", "Oldfield Park", "Weston", "Keynsham"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "larkhall",
@@ -168,6 +179,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Bath city centre", "Widcombe", "Combe Down", "Batheaston", "Bathford", "St Saviour's"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "combe-down",
@@ -190,6 +203,9 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Widcombe", "Odd Down", "Southstoke", "Bathampton", "Larkhall"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
+    landmarks: ["Combe Down stone", "the southern slopes of Bath"],
   },
   {
     slug: "odd-down",
@@ -212,6 +228,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Combe Down", "Widcombe", "Twerton", "Whiteway", "Southdown"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "bathwick",
@@ -234,6 +252,9 @@ export const AREA_PAGES: AreaPage[] = [
       "Preparation and repair",
     ],
     nearbyAreas: ["Bath city centre", "Widcombe", "Larkhall", "Bathampton", "Claverton", "Batheaston"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
+    landmarks: ["Sydney Gardens", "the American Museum"],
   },
   {
     slug: "bear-flat",
@@ -256,6 +277,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Bath city centre", "Widcombe", "Odd Down", "Combe Down", "Southdown", "Larkhall"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "oldfield-park",
@@ -278,6 +301,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Twerton", "Widcombe", "Weston", "Bear Flat", "Keynsham"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "southdown",
@@ -300,6 +325,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Odd Down", "Bear Flat", "Combe Down", "Twerton", "Whiteway"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "whiteway",
@@ -322,6 +349,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Odd Down", "Southdown", "Combe Down", "Bear Flat", "Twerton"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "st-saviours",
@@ -344,6 +373,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Bath city centre", "Larkhall", "Combe Down", "Batheaston", "Bathford", "Weston"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "walcot",
@@ -366,6 +397,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Preparation and repair",
     ],
     nearbyAreas: ["Bath city centre", "Larkhall", "Widcombe", "Bathwick", "Batheaston", "Weston"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "bathampton",
@@ -388,6 +421,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Bath", "Batheaston", "Bathford", "Bathwick", "Claverton", "Larkhall"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "weston",
@@ -410,6 +445,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Twerton", "Oldfield Park", "Widcombe", "Keynsham"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "lansdown",
@@ -432,6 +469,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath city centre", "Larkhall", "Weston", "Batheaston", "Bathford", "Charlcombe"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "batheaston",
@@ -454,6 +493,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Bath", "Bathford", "Bathampton", "Larkhall", "Widcombe", "Swainswick"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "bathford",
@@ -476,6 +517,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Bath", "Batheaston", "Bathampton", "Larkhall", "Bradford on Avon", "Box"],
+    postcodes: ["BA1"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "keynsham",
@@ -549,6 +592,8 @@ export const AREA_PAGES: AreaPage[] = [
     ],
     postcodes: ["BS31"],
     region: "Bath and North East Somerset",
+    sameAs: "https://en.wikipedia.org/wiki/Keynsham",
+    landmarks: ["Keynsham High Street", "Keynsham Memorial Park"],
   },
   {
     slug: "saltford",
@@ -571,6 +616,9 @@ export const AREA_PAGES: AreaPage[] = [
       "Preparation and repair",
     ],
     nearbyAreas: ["Keynsham", "Bitton", "Whitchurch", "Bristol", "Bath"],
+    postcodes: ["BS31"],
+    region: "Bath and North East Somerset",
+    landmarks: ["the River Avon at Saltford", "Saltford Brass Mill"],
   },
   {
     slug: "bitton",
@@ -593,6 +641,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Keynsham", "Saltford", "Whitchurch", "Oldland Common", "Bristol"],
+    postcodes: ["BS30"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "whitchurch",
@@ -615,6 +665,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Keynsham", "Saltford", "Bitton", "Stockwood", "Bristol"],
+    postcodes: ["BS14"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "stockwood",
@@ -636,6 +688,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Keynsham", "Whitchurch", "Bitton", "Saltford"],
+    postcodes: ["BS31"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "queen-charlton",
@@ -657,6 +711,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Keynsham", "Saltford", "Whitchurch", "Bitton"],
+    postcodes: ["BS31"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "chewton-keynsham",
@@ -678,6 +734,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Keynsham", "Saltford", "Bitton", "Whitchurch"],
+    postcodes: ["BS31"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "midsomer-norton",
@@ -700,6 +758,10 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Radstock", "Westfield", "Paulton", "Peasedown St John", "Chilcompton", "Stratton-on-the-Fosse"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
+    sameAs: "https://en.wikipedia.org/wiki/Midsomer_Norton",
+    landmarks: ["Midsomer Norton town centre", "the Somer Valley"],
   },
   {
     slug: "westfield",
@@ -722,6 +784,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Midsomer Norton", "Radstock", "Paulton", "Writhlington", "Peasedown St John"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "paulton",
@@ -744,6 +808,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Midsomer Norton", "Radstock", "Peasedown St John", "Chilcompton", "Westfield"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "peasedown-st-john",
@@ -766,6 +832,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Midsomer Norton", "Radstock", "Paulton", "Chilcompton", "Westfield", "Stratton-on-the-Fosse"],
+    postcodes: ["BA2"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "chilcompton",
@@ -788,6 +856,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Midsomer Norton", "Radstock", "Paulton", "Peasedown St John", "Stratton-on-the-Fosse"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "stratton-on-the-fosse",
@@ -809,6 +879,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Midsomer Norton", "Radstock", "Chilcompton", "Paulton", "Peasedown St John"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "radstock",
@@ -831,6 +903,10 @@ export const AREA_PAGES: AreaPage[] = [
       "Preparation, filling and repair",
     ],
     nearbyAreas: ["Midsomer Norton", "Westfield", "Writhlington", "Kilmersdon", "Coleford", "Holcombe"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
+    sameAs: "https://en.wikipedia.org/wiki/Radstock",
+    landmarks: ["Radstock Museum", "the Somer Valley trail"],
   },
   {
     slug: "writhlington",
@@ -853,6 +929,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Radstock", "Midsomer Norton", "Westfield", "Kilmersdon", "Paulton"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "kilmersdon",
@@ -875,6 +953,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Radstock", "Midsomer Norton", "Coleford", "Holcombe", "Writhlington"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "coleford",
@@ -897,6 +977,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Radstock", "Midsomer Norton", "Kilmersdon", "Holcombe", "Writhlington"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "holcombe",
@@ -919,6 +1001,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Radstock", "Midsomer Norton", "Kilmersdon", "Coleford", "Writhlington"],
+    postcodes: ["BA3"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "trowbridge",
@@ -941,6 +1025,10 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house redecoration",
     ],
     nearbyAreas: ["Bradford on Avon", "Melksham", "Westbury", "Warminster", "Hilperton", "Staverton"],
+    postcodes: ["BA14"],
+    region: "Wiltshire",
+    sameAs: "https://en.wikipedia.org/wiki/Trowbridge",
+    landmarks: ["Trowbridge town centre", "the County Hall"],
   },
   {
     slug: "westbury",
@@ -963,6 +1051,9 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house redecoration",
     ],
     nearbyAreas: ["Trowbridge", "Bradford on Avon", "Melksham", "Warminster", "Hilperton"],
+    postcodes: ["BA13"],
+    region: "Wiltshire",
+    sameAs: "https://en.wikipedia.org/wiki/Westbury,_Wiltshire",
   },
   {
     slug: "warminster",
@@ -985,6 +1076,9 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Trowbridge", "Westbury", "Bradford on Avon", "Frome", "Hilperton"],
+    postcodes: ["BA12"],
+    region: "Wiltshire",
+    sameAs: "https://en.wikipedia.org/wiki/Warminster",
   },
   {
     slug: "hilperton",
@@ -1007,6 +1101,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork and door painting",
     ],
     nearbyAreas: ["Trowbridge", "Bradford on Avon", "Melksham", "Westbury", "Staverton"],
+    postcodes: ["BA14"],
+    region: "Wiltshire",
   },
   {
     slug: "staverton",
@@ -1028,6 +1124,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Trowbridge", "Bradford on Avon", "Melksham", "Hilperton", "Westbury"],
+    postcodes: ["BA14"],
+    region: "Wiltshire",
   },
   {
     slug: "chippenham",
@@ -1050,6 +1148,10 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Corsham", "Melksham", "Calne", "Malmesbury", "Box", "Lacock"],
+    postcodes: ["SN14", "SN15"],
+    region: "Wiltshire",
+    sameAs: "https://en.wikipedia.org/wiki/Chippenham,_Wiltshire",
+    landmarks: ["Chippenham High Street", "the River Avon at Chippenham"],
   },
   {
     slug: "rode",
@@ -1072,6 +1174,8 @@ export const AREA_PAGES: AreaPage[] = [
       "Full redecoration and single room projects",
     ],
     nearbyAreas: ["Frome", "Norton St Philip", "Beckington", "Woolverton", "Tellisford", "Farleigh Hungerford"],
+    postcodes: ["BA11"],
+    region: "Somerset",
   },
   {
     slug: "melksham",
@@ -1094,6 +1198,9 @@ export const AREA_PAGES: AreaPage[] = [
       "Full house and single room projects",
     ],
     nearbyAreas: ["Trowbridge", "Bradford on Avon", "Chippenham", "Broughton Gifford", "Lacock", "Shaw"],
+    postcodes: ["SN12"],
+    region: "Wiltshire",
+    sameAs: "https://en.wikipedia.org/wiki/Melksham",
   },
   {
     slug: "bradford-on-avon",
@@ -1116,6 +1223,10 @@ export const AREA_PAGES: AreaPage[] = [
       "Full redecoration and single room projects",
     ],
     nearbyAreas: ["Bath", "Melksham", "Trowbridge", "Limpley Stoke", "Winsley", "Westwood"],
+    postcodes: ["BA15"],
+    region: "Wiltshire",
+    sameAs: "https://en.wikipedia.org/wiki/Bradford-on-Avon",
+    landmarks: ["the weavers' cottages", "Bradford on Avon Tithe Barn"],
   },
   {
     slug: "frome",
@@ -1138,6 +1249,10 @@ export const AREA_PAGES: AreaPage[] = [
       "Woodwork, skirting and door painting",
     ],
     nearbyAreas: ["Rode", "Mells", "Nunney", "Beckington", "Norton St Philip", "Woolverton"],
+    postcodes: ["BA11"],
+    region: "Somerset",
+    sameAs: "https://en.wikipedia.org/wiki/Frome",
+    landmarks: ["Frome town centre", "the Black Swan and independent quarter"],
   },
 ];
 

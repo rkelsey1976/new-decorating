@@ -99,6 +99,14 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
               </h2>
               <p className="mt-6 text-muted leading-relaxed">{area.intro}</p>
               <p className="mt-4 text-muted leading-relaxed">{area.localInfo}</p>
+              {area.landmarks && area.landmarks.length > 0 && (
+                <p className="mt-4 text-muted leading-relaxed">
+                  I work across {area.name} and the surrounding area
+                  {area.landmarks.length === 1
+                    ? ` — including ${area.landmarks[0]}.`
+                    : ` — from ${area.landmarks.slice(0, 2).join(" to ")}${area.landmarks.length > 2 ? " and beyond" : "."}`}
+                </p>
+              )}
 
               {/* Why choose (area-specific) - card grid with icons */}
               {area.whyChoose && area.whyChoose.length > 0 && (
