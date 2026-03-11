@@ -68,7 +68,7 @@ export function getAreaLocalBusinessId(slug: string): string {
  * Build LocalBusiness JSON-LD for an area page.
  * - @id unique per area (#localbusiness-{slug})
  * - description: current area first, then 2–3 nearby, then region
- * - areaServed: Place for current area + Places for nearby + PostalCode for postcodes
+ * - areaServed: Place for current area + Places for nearby (postcode is in address and name only)
  * - geo: coordinates for current area
  * - serviceArea: GeoCircle (15 km) + Place for current area
  */
@@ -99,10 +99,6 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
       "@type": "Place" as const,
       name,
     })),
-    ...(area.postcodes ?? []).map((code) => ({
-      "@type": "PostalCode" as const,
-      postalCode: code,
-    })),
   ];
 
   return {
@@ -111,6 +107,7 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
     "@id": getAreaLocalBusinessId(slug),
     name: areaLocalBusinessName,
     url: SITE_URL,
+    image: `${SITE_URL}/hero-area.jpg`,
     telephone: "+447717772881",
     description,
     address: {
@@ -162,7 +159,6 @@ export function getAreaServiceSchema(area: AreaPage, slug: string): object {
         : {}),
     },
     ...area.nearbyAreas.slice(0, 2).map((name) => ({ "@type": "Place" as const, name })),
-    ...(area.postcodes ?? []).map((code) => ({ "@type": "PostalCode" as const, postalCode: code })),
   ];
   return {
     "@context": "https://schema.org",
