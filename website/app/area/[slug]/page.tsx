@@ -5,7 +5,6 @@ import PageHero from "@/components/PageHero";
 import GoogleMapEmbed from "@/components/GoogleMapEmbed";
 import AreaFAQ from "@/components/AreaFAQ";
 import { AREA_PAGES, getAreaBySlug, getAreaSlugs } from "@/lib/areas-data";
-import { getAreaLocalBusinessSchema } from "@/lib/areaSchema";
 import { SERVICE_PAGES } from "@/lib/services";
 
 import type { Metadata } from "next";
@@ -42,38 +41,11 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
   const area = getAreaBySlug(slug);
   if (!area) notFound();
 
-  const localBusinessJsonLd = getAreaLocalBusinessSchema(area, slug);
-
-  const faqJsonLd =
-    area.faqs && area.faqs.length > 0
-      ? {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: area.faqs.map((faq) => ({
-            "@type": "Question",
-            name: faq.question,
-            acceptedAnswer: { "@type": "Answer", text: faq.answer },
-          })),
-        }
-      : null;
-
   /* Other areas for cross-links */
   const otherAreas = AREA_PAGES.filter((a) => a.slug !== area.slug);
 
   return (
     <div>
-      <script
-        type="application/ld+json"
-        data-new-decorating-area-ld
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
-      />
-      {faqJsonLd && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-        />
-      )}
-
       <PageHero
         locationLine={area.nearbyAreas.length > 0 ? `${area.name}, ${area.nearbyAreas.slice(0, 3).join(", ")} & more` : area.name}
         title={`Painter & Decorator in ${area.name}`}

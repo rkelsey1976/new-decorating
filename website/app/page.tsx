@@ -9,7 +9,7 @@ import { AREA_PAGES } from "@/lib/areas-data";
 import GoogleMapEmbed from "@/components/GoogleMapEmbed";
 import { BLOG_ARTICLES_LATEST_FIRST } from "@/lib/blog";
 
-import { DEFAULT_META_TITLE, GBP_MAPS_URL, GOOGLE_RATING, GOOGLE_REVIEW_COUNT, SITE_URL } from "@/lib/site";
+import { DEFAULT_META_TITLE, GBP_MAPS_URL, GOOGLE_RATING, GOOGLE_REVIEW_COUNT } from "@/lib/site";
 
 import type { Metadata } from "next";
 
@@ -20,112 +20,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-/** FAQPage structured data (must match FAQ component text exactly) */
-const faqPageJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "How do I get a quote?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Get in touch via my contact page or Facebook. Tell me roughly what you need (e.g. one room, full house, interior or exterior) and your location. I'll arrange a visit to quote in person where needed.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you provide the paint and materials?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "I can either supply materials as part of the job or work with paint and materials you provide. I'm happy to advise on what to buy if you'd prefer to source it yourself.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How long does a typical job take?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "It depends on the size of the project. A single room might take a few days; a full interior can take several weeks. I'll give you a timeframe when I quote and work cleanly to minimise disruption.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What areas do you cover?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "I work across Bath and North East Somerset (BANES), including Bath, Keynsham, Midsomer Norton, Radstock and surrounding villages. Get in touch with your postcode and I'll confirm I cover your area.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you do small jobs?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. Whether it's a single room, a touch-up, or a full redecoration, I'm happy to quote. No job is too small.",
-      },
-    },
-  ],
-};
-
-/** AggregateRating + reviews – same @id as layout so Google merges into one entity */
-const reviewJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": `${SITE_URL}#organization`,
-  name: "New Decorating",
-  url: SITE_URL,
-  description: "Painters in Bath. Painter & decorator — interior, exterior, wallpaper across BANES. Quality finishes, free quotes. 25+ years experience.",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: 5,
-    bestRating: 5,
-    ratingCount: 7,
-    reviewCount: 7,
-  },
-  review: [
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Steve Frankham" },
-      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
-      reviewBody:
-        "New Decorating has worked on a couple of projects for me, some exterior work which needed a lot of preparation before painting. I was kept informed of what was being done all through the stages. Also some interior work where I again cannot fault the work. Jay tidy at all times. In general a good job done, really pleased and 100% will be using him again.",
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Mike Joe Coates" },
-      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
-      reviewBody:
-        "Fantastic painter and decorator. Jay got back to me straight away with a sensible price. The job was to decorate my living room and hallway. He arrived on time every day, everything was covered in dust sheets, there was no mess at the end of the day. All done in one week, and what a great job he did. I would highly recommend Jay with any decorating that needs to be done.",
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Cam New" },
-      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
-      reviewBody:
-        "Highly recommend. New Decorating paint all my bespoke units, top quality finish and fast turnover.",
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Andrew Scappaticci" },
-      reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 },
-      reviewBody:
-        "I highly recommend New Decorating having worked with him on various projects. Jay completes his work to a very high standard and always hits his deadlines. Very professional, clean and tidy and very competitive with his prices. Always happy to advise you and answer questions before any work is started. Overall 5 star service.",
-    },
-  ],
-};
-
 export default function Home() {
   return (
     <div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewJsonLd) }}
-      />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Painter & Decorator for Your Properties in Bath"
