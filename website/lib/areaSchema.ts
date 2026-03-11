@@ -4,7 +4,7 @@
  * Aligned with area-page-schema-setup pattern: @id, areaServed, geo, serviceArea.
  */
 
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, GBP_MAPS_URL } from "@/lib/site";
 import type { AreaPage } from "@/lib/areas-data";
 
 /** Geo coordinates per area slug — used for geo and serviceArea GeoCircle. Fallback to Bath if slug missing. */
@@ -134,6 +134,8 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
     ],
     priceRange: "$$",
     areaServed: areaServed.length === 1 ? areaServed[0] : areaServed,
+    sameAs: [GBP_MAPS_URL],
+    hasMap: GBP_MAPS_URL,
     serviceArea: [
       {
         "@type": "GeoCircle",
