@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 import GoogleMapEmbed from "@/components/GoogleMapEmbed";
 import AreaFAQ from "@/components/AreaFAQ";
 import { AREA_PAGES, getAreaBySlug, getAreaSlugs } from "@/lib/areas-data";
+import { getAreaLocalBusinessSchema } from "@/lib/areaSchema";
 import { SERVICE_PAGES } from "@/lib/services";
 
 import type { Metadata } from "next";
@@ -34,35 +35,14 @@ export async function generateMetadata({ params }: AreaPageProps): Promise<Metad
   };
 }
 
-import { SITE_URL, GBP_MAPS_URL, GOOGLE_RATING, GOOGLE_REVIEW_COUNT } from "@/lib/site";
+import { GBP_MAPS_URL, GOOGLE_RATING, GOOGLE_REVIEW_COUNT } from "@/lib/site";
 
 export default async function AreaDetailPage({ params }: AreaPageProps) {
   const { slug } = await params;
   const area = getAreaBySlug(slug);
   if (!area) notFound();
 
-  const localBusinessJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "PaintingContractor",
-    name: "New Decorating",
-    url: SITE_URL,
-    telephone: "+447717772881",
-    description: `Professional painter and decorator in ${area.name}. Interior and exterior painting, wallpaper hanging and preparation & repair.`,
-    areaServed: {
-      "@type": "City",
-      name: area.name,
-      containedInPlace: {
-        "@type": "AdministrativeArea",
-        name: "Bath and North East Somerset",
-      },
-    },
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: area.name,
-      addressRegion: "Bath and North East Somerset",
-      addressCountry: "GB",
-    },
-  };
+  const localBusinessJsonLd = getAreaLocalBusinessSchema(area, slug);
 
   const faqJsonLd =
     area.faqs && area.faqs.length > 0
@@ -84,6 +64,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
     <div>
       <script
         type="application/ld+json"
+        data-new-decorating-area-ld
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
       />
       {faqJsonLd && (

@@ -23,6 +23,10 @@ export interface AreaPage {
   serviceAnchors?: Record<string, string>;
   /** Optional images shown beside the intro/why-choose block (e.g. 1–2 project photos). */
   introImages?: { src: string; alt: string }[];
+  /** Optional postcodes for this area (e.g. ['BA1', 'BA2'] for Bath) — used in LocalBusiness areaServed. */
+  postcodes?: string[];
+  /** Region/county for address and schema (e.g. "Bath and North East Somerset", "Wiltshire"). Defaults to BANES. */
+  region?: string;
 }
 
 export const AREA_PAGES: AreaPage[] = [
@@ -96,6 +100,8 @@ export const AREA_PAGES: AreaPage[] = [
       { src: "/services/interior.jpg", alt: "Interior painting and decorating in Bath — quality finish" },
       { src: "/services/exterior.png", alt: "Exterior painting on Bath stone and render" },
     ],
+    postcodes: ["BA1", "BA2"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "widcombe",
@@ -541,6 +547,8 @@ export const AREA_PAGES: AreaPage[] = [
       { src: "/services/interior.jpg", alt: "Interior painting and decorating in Keynsham" },
       { src: "/services/exterior.png", alt: "Exterior painting in Keynsham and surrounding area" },
     ],
+    postcodes: ["BS31"],
+    region: "Bath and North East Somerset",
   },
   {
     slug: "saltford",
