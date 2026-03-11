@@ -17,9 +17,10 @@ export const GBP_REVIEW_URL = "https://share.google/fUJXUr6TOncvERdQA";
 
 /**
  * Google Maps – your business listing (for "View on Maps" / "Find us on Google Maps" links).
+ * Use the URL from your GBP when you Share → Copy link (same place ID: /g/11yzn6fvqr).
  */
 export const GBP_MAPS_URL =
-  "https://www.google.com/maps/place/New+Decorating/@51.3240529,-2.0967608,9z/data=!4m8!3m7!1s0x8dcb0406d73cfc5f:0xebb26563bf6fb81b!8m2!3d51.3240529!4d-2.0967608!9m1!1b1!16s%2Fg%2F11yzn6fvqr?hl=en&entry=ttu";
+  "https://www.google.com/maps/place/New+Decorating+-+Professional+Painting+and+Decorating+Services/@51.4146199,-2.6501251,11z/data=!4m10!1m2!2m1!1snew+decorating+bath!3m6!1s0x8dcb0406d73cfc5f:0xebb26563bf6fb81b!8m2!3d51.3759541!4d-2.3987877!15sChNuZXcgZGVjb3JhdGluZyBiYXRoWhUiE25ldyBkZWNvcmF0aW5nIGJhdGiSAQdwYWludGVymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0S2VVeFZjM2RsUmxJeVYycGtiRnBGTVZKaFJtTjRWVk13TW1Nell4QULgAQD6AQQILxA6!16s%2Fg%2F11yzn6fvqr?entry=ttu";
 
 /**
  * Google Maps embed – iframe src for embedding your place on the homepage.
