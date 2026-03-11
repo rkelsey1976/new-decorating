@@ -82,6 +82,10 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
       ? `Professional painter and decorator in ${area.name}. Serving ${nearbyNames.join(", ")} and the surrounding area${region ? ` in ${region}` : ""}. Interior and exterior painting, wallpaper hanging and preparation & repair.`
       : `Professional painter and decorator in ${area.name}${region ? `, ${region}` : ""}. Interior and exterior painting, wallpaper hanging and preparation & repair.`;
 
+  const postcodeLabel =
+    area.postcodes && area.postcodes.length > 0 ? ` ${area.postcodes.join(", ")}` : "";
+  const areaLocalBusinessName = `Painter and Decorator in ${area.name}${postcodeLabel} | New Decorating`;
+
   const areaServed: object[] = [
     {
       "@type": "Place",
@@ -105,7 +109,7 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
     "@context": "https://schema.org",
     "@type": "PaintingContractor",
     "@id": getAreaLocalBusinessId(slug),
-    name: "New Decorating",
+    name: areaLocalBusinessName,
     url: SITE_URL,
     telephone: "+447717772881",
     description,
@@ -114,6 +118,9 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
       addressLocality: area.name,
       addressRegion: region,
       addressCountry: "GB",
+      ...(area.postcodes && area.postcodes.length > 0
+        ? { postalCode: area.postcodes[0] }
+        : {}),
     },
     areaServed: areaServed.length === 1 ? areaServed[0] : areaServed,
     geo: {

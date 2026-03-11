@@ -9,6 +9,7 @@ import Header from "@/components/Header";
 import { META_KEYWORDS } from "@/lib/seo-keywords";
 
 import { DEFAULT_META_TITLE, GBP_MAPS_URL, SITE_URL } from "@/lib/site";
+import ConditionalOrgSchema from "@/components/ConditionalOrgSchema";
 
 /*
  * Display font options (swap import + variable, then set --font-display in globals.css):
@@ -156,13 +157,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${displayFont.variable} ${dmSans.variable}`}>
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        <ConditionalOrgSchema
+          localBusinessJson={JSON.stringify(localBusinessJsonLd)}
+          websiteJson={JSON.stringify(websiteJsonLd)}
         />
       </head>
       <body className="antialiased min-h-screen flex flex-col">
