@@ -9,7 +9,9 @@ import Header from "@/components/Header";
 import { META_KEYWORDS } from "@/lib/seo-keywords";
 
 import { DEFAULT_META_TITLE, GBP_MAPS_URL, SITE_URL } from "@/lib/site";
-import ConditionalOrgSchema from "@/components/ConditionalOrgSchema";
+import HeadSchema from "@/components/HeadSchema";
+import { getAreaSlugs, getAreaBySlug } from "@/lib/areas-data";
+import { getAreaLocalBusinessSchema, getAreaServiceSchema } from "@/lib/areaSchema";
 
 /*
  * Display font options (swap import + variable, then set --font-display in globals.css):
@@ -149,6 +151,28 @@ const websiteJsonLd = {
   publisher: { "@id": ORGANIZATION_ID },
 };
 
+/** Area page schemas for head (LocalBusiness + Service + FAQ per slug). Built at load so area JSON-LD is in <head>. */
+const areaSchemasForHead: Record<string, { localBusiness: string; service: string; faq: string | null }> = {};
+for (const slug of getAreaSlugs()) {
+  const area = getAreaBySlug(slug);
+  if (!area) continue;
+  const localBusiness = JSON.stringify(getAreaLocalBusinessSchema(area, slug));
+  const service = JSON.stringify(getAreaServiceSchema(area, slug));
+  const faq =
+    area.faqs && area.faqs.length > 0
+      ? JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: area.faqs.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        })
+      : null;
+  areaSchemasForHead[slug] = { localBusiness, service, faq };
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -157,9 +181,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${displayFont.variable} ${dmSans.variable}`}>
       <head>
-        <ConditionalOrgSchema
-          localBusinessJson={JSON.stringify(localBusinessJsonLd)}
-          websiteJson={JSON.stringify(websiteJsonLd)}
+        <HeadSchema
+          orgLocalBusinessJson={JSON.stringify(localBusinessJsonLd)}
+          orgWebsiteJson={JSON.stringify(websiteJsonLd)}
+          areaSchemasJson={JSON.stringify(areaSchemasForHead)}
         />
       </head>
       <body className="antialiased min-h-screen flex flex-col">

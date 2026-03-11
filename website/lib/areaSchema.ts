@@ -103,7 +103,7 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
 
   return {
     "@context": "https://schema.org",
-    "@type": "PaintingContractor",
+    "@type": ["LocalBusiness", "PaintingContractor"],
     "@id": getAreaLocalBusinessId(slug),
     name: areaLocalBusinessName,
     url: SITE_URL,
@@ -119,12 +119,21 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
         ? { postalCode: area.postcodes[0] }
         : {}),
     },
-    areaServed: areaServed.length === 1 ? areaServed[0] : areaServed,
     geo: {
       "@type": "GeoCoordinates",
       latitude: geo.latitude,
       longitude: geo.longitude,
     },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "07:30",
+        closes: "16:30",
+      },
+    ],
+    priceRange: "$$",
+    areaServed: areaServed.length === 1 ? areaServed[0] : areaServed,
     serviceArea: [
       {
         "@type": "GeoCircle",
