@@ -122,6 +122,16 @@ const localBusinessJsonLd = {
   ],
   /** Explicitly tell Google we have a map (our Google Maps listing) – helps entity merge and local SEO */
   hasMap: GBP_MAPS_URL,
+  serviceArea: [
+    { "@type": "City", name: "Bath" },
+    { "@type": "City", name: "Keynsham" },
+    { "@type": "City", name: "Midsomer Norton" },
+    { "@type": "City", name: "Radstock" },
+    { "@type": "City", name: "Trowbridge" },
+    { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
+    { "@type": "AdministrativeArea", name: "Wiltshire" },
+    { "@type": "AdministrativeArea", name: "Somerset" },
+  ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Painting & Decorating Services",
@@ -132,7 +142,12 @@ const localBusinessJsonLd = {
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Preparation & repair" } },
     ],
   },
-  aggregateRating: { "@type": "AggregateRating", ratingValue: 5, bestRating: 5, ratingCount: 7, reviewCount: 7 },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    bestRating: "5",
+    reviewCount: "7",
+  },
   review: [
     { "@type": "Review", author: { "@type": "Person", name: "Steve Frankham" }, reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 }, reviewBody: "New Decorating has worked on a couple of projects for me, some exterior work which needed a lot of preparation before painting. I was kept informed of what was being done all through the stages. Also some interior work where I again cannot fault the work. Jay tidy at all times. In general a good job done, really pleased and 100% will be using him again." },
     { "@type": "Review", author: { "@type": "Person", name: "Mike Joe Coates" }, reviewRating: { "@type": "Rating", ratingValue: 5, bestRating: 5 }, reviewBody: "Fantastic painter and decorator. Jay got back to me straight away with a sensible price. The job was to decorate my living room and hallway. He arrived on time every day, everything was covered in dust sheets, there was no mess at the end of the day. All done in one week, and what a great job he did. I would highly recommend Jay with any decorating that needs to be done." },
