@@ -25,6 +25,8 @@ type PageHeroProps = {
   breadcrumbs?: Breadcrumb[];
   /** Canonical path for current page (e.g. "/about") – used for BreadcrumbList schema when breadcrumbs exist */
   canonicalPath?: string;
+  /** Optional full-bleed background image (e.g. Bath architecture); accent green overlay keeps brand visible */
+  backgroundImage?: string;
   children?: React.ReactNode;
 };
 
@@ -37,6 +39,7 @@ export default function PageHero({
   imageAlt = "",
   breadcrumbs,
   canonicalPath,
+  backgroundImage = "/hero-bg-bath.png",
   children,
 }: PageHeroProps) {
   const breadcrumbListJsonLd =
@@ -56,11 +59,34 @@ export default function PageHero({
       : null;
 
   return (
-    <section className="relative bg-accent" aria-label="Hero">
+    <section
+      className="relative bg-accent"
+      aria-label="Hero"
+      style={
+        backgroundImage
+          ? {
+              backgroundImage: `url(${backgroundImage})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }
+          : undefined
+      }
+    >
       {breadcrumbListJsonLd && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbListJsonLd) }}
+        />
+      )}
+      {/* Green overlay: stronger on the left (more green), fades right so image shows through */}
+      {backgroundImage && (
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to right, rgba(45, 74, 45, 0.98) 0%, rgba(45, 74, 45, 0.95) 50%, rgba(45, 74, 45, 0.6) 75%, rgba(45, 74, 45, 0.35) 100%)",
+          }}
+          aria-hidden="true"
         />
       )}
       {/* Subtle pattern overlay */}

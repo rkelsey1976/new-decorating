@@ -46,6 +46,7 @@ export default function Home() {
         subtitle="Professional painting and decorating across Bath, Keynsham and North East Somerset. 25+ years experience. Free quotes."
         image="/hero-home.jpg"
         imageAlt="Painters in Bath — painter and decorator for your properties — New Decorating"
+        backgroundImage="/hero-bg-bath.png"
       >
         <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2">
           <a
