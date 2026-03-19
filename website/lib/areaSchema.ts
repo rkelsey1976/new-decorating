@@ -144,7 +144,7 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
           latitude: geo.latitude,
           longitude: geo.longitude,
         },
-        radius: 15000,
+        geoRadius: 15000,
       },
       {
         "@type": "Place",
