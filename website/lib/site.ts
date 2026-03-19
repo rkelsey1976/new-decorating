@@ -31,5 +31,5 @@ export const GBP_MAPS_EMBED_URL =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19898.763234!2d-2.3987877!3d51.3759541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f4.1!3m3!1m2!1s0x8dcb0406d73cfc5f%3A0xebb26563bf6fb81b!2sNew%20Decorating!5e0!3m2!1sen!2suk";
 
 /** Display review count and rating for trust bar / hero (keep in sync with reviewJsonLd on homepage) */
-export const GOOGLE_REVIEW_COUNT = 7;
+export const GOOGLE_REVIEW_COUNT = 9;
 export const GOOGLE_RATING = 5;

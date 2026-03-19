@@ -94,7 +94,7 @@ export function getProfessionalServiceSchema(): object {
       "@type": "AggregateRating",
       ratingValue: "5.0",
       bestRating: "5",
-      reviewCount: "7",
+      reviewCount: "9",
     },
     review: [
       {
