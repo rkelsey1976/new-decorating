@@ -103,7 +103,7 @@ export function getAreaLocalBusinessSchema(area: AreaPage, slug: string): object
 
   return {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "PaintingContractor"],
+    "@type": ["LocalBusiness", "HousePainter"],
     "@id": getAreaLocalBusinessId(slug),
     name: areaLocalBusinessName,
     url: SITE_URL,

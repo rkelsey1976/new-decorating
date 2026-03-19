@@ -59,12 +59,12 @@ export default async function BlogPostPage({ params }: BlogPostProps) {
     image: `${SITE_URL}${article.image}`,
     datePublished: article.date,
     author: {
-      "@type": "PaintingContractor",
+      "@type": "HousePainter",
       name: "New Decorating",
       url: SITE_URL,
     },
     publisher: {
-      "@type": "PaintingContractor",
+      "@type": "HousePainter",
       name: "New Decorating",
       url: SITE_URL,
       logo: `${SITE_URL}/logo.png`,

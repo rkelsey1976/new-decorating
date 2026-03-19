@@ -26,7 +26,7 @@ const serviceJsonLd = {
         name: "Interior painting",
         description:
           "Full interior painting including walls, ceilings, skirting boards, doors, and architraves. I use quality paints and thorough preparation for a lasting, professional finish.",
-        provider: { "@type": "PaintingContractor", name: "New Decorating", url: SITE_URL },
+        provider: { "@type": "HousePainter", name: "New Decorating", url: SITE_URL },
         areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
       },
     },
@@ -38,7 +38,7 @@ const serviceJsonLd = {
         name: "Exterior painting",
         description:
           "Exterior walls, windows, doors, and fascias. I use weather-resistant products and techniques suited to UK conditions to protect and refresh your property.",
-        provider: { "@type": "PaintingContractor", name: "New Decorating", url: SITE_URL },
+        provider: { "@type": "HousePainter", name: "New Decorating", url: SITE_URL },
         areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
       },
     },
@@ -50,7 +50,7 @@ const serviceJsonLd = {
         name: "Wallpaper hanging",
         description:
           "Standard and feature wallpaper, including textured and patterned designs. I handle preparation and finishing for a seamless result.",
-        provider: { "@type": "PaintingContractor", name: "New Decorating", url: SITE_URL },
+        provider: { "@type": "HousePainter", name: "New Decorating", url: SITE_URL },
         areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
       },
     },
@@ -62,7 +62,7 @@ const serviceJsonLd = {
         name: "Preparation & repair",
         description:
           "Filling, sanding, and making good before painting or papering so your finish looks its best and lasts longer.",
-        provider: { "@type": "PaintingContractor", name: "New Decorating", url: SITE_URL },
+        provider: { "@type": "HousePainter", name: "New Decorating", url: SITE_URL },
         areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
       },
     },

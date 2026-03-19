@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import ProfessionalServiceSchema from "@/components/ProfessionalServiceSchema";
 
 export type AreaSchemaSet = {
   localBusiness: string;
@@ -11,14 +12,14 @@ export type AreaSchemaSet = {
 /**
  * Renders JSON-LD in <head>:
  * - On /area/[slug]: area LocalBusiness + Service + FAQ (so schema is in head for crawlers).
- * - On other pages: main Organisation (LocalBusiness) + WebSite.
+ * - On other pages: main Organisation (ProfessionalService + HousePainter) + WebSite.
  */
 export default function HeadSchema({
-  orgLocalBusinessJson,
+  orgLocalBusinessSchema,
   orgWebsiteJson,
   areaSchemasJson,
 }: {
-  orgLocalBusinessJson: string;
+  orgLocalBusinessSchema: object;
   orgWebsiteJson: string;
   areaSchemasJson: string;
 }) {
@@ -52,10 +53,7 @@ export default function HeadSchema({
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: orgLocalBusinessJson }}
-      />
+      <ProfessionalServiceSchema schema={orgLocalBusinessSchema} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: orgWebsiteJson }}

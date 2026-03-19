@@ -48,7 +48,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
     name: service.title,
     description: service.intro,
     provider: {
-      "@type": "PaintingContractor",
+      "@type": "HousePainter",
       name: "New Decorating",
       url: SITE_URL,
       telephone: "+447717772881",
