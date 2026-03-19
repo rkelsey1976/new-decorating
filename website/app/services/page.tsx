@@ -4,6 +4,7 @@ import PageHero from "@/components/PageHero";
 import { SERVICE_PAGES } from "@/lib/services";
 
 import { DEFAULT_META_TITLE, SITE_URL } from "@/lib/site";
+import { getSchemaAreaServed } from "@/lib/professionalServiceSchema";
 
 import type { Metadata } from "next";
 
@@ -14,60 +15,47 @@ export const metadata: Metadata = {
   alternates: { canonical: "/services" },
 };
 
-const serviceJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  itemListElement: [
-    {
+const serviceListItems = [
+  {
+    name: "Interior painting",
+    description:
+      "Full interior painting including walls, ceilings, skirting boards, doors, and architraves. I use quality paints and thorough preparation for a lasting, professional finish.",
+  },
+  {
+    name: "Exterior painting",
+    description:
+      "Exterior walls, windows, doors, and fascias. I use weather-resistant products and techniques suited to UK conditions to protect and refresh your property.",
+  },
+  {
+    name: "Wallpaper hanging",
+    description:
+      "Standard and feature wallpaper, including textured and patterned designs. I handle preparation and finishing for a seamless result.",
+  },
+  {
+    name: "Preparation & repair",
+    description:
+      "Filling, sanding, and making good before painting or papering so your finish looks its best and lasts longer.",
+  },
+];
+
+function buildServiceJsonLd() {
+  const areaServed = getSchemaAreaServed();
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: serviceListItems.map((item, i) => ({
       "@type": "ListItem",
-      position: 1,
+      position: i + 1,
       item: {
         "@type": "Service",
-        name: "Interior painting",
-        description:
-          "Full interior painting including walls, ceilings, skirting boards, doors, and architraves. I use quality paints and thorough preparation for a lasting, professional finish.",
+        name: item.name,
+        description: item.description,
         provider: { "@type": "HousePainter", name: "New Decorating", url: SITE_URL },
-        areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
+        areaServed,
       },
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      item: {
-        "@type": "Service",
-        name: "Exterior painting",
-        description:
-          "Exterior walls, windows, doors, and fascias. I use weather-resistant products and techniques suited to UK conditions to protect and refresh your property.",
-        provider: { "@type": "HousePainter", name: "New Decorating", url: SITE_URL },
-        areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
-      },
-    },
-    {
-      "@type": "ListItem",
-      position: 3,
-      item: {
-        "@type": "Service",
-        name: "Wallpaper hanging",
-        description:
-          "Standard and feature wallpaper, including textured and patterned designs. I handle preparation and finishing for a seamless result.",
-        provider: { "@type": "HousePainter", name: "New Decorating", url: SITE_URL },
-        areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
-      },
-    },
-    {
-      "@type": "ListItem",
-      position: 4,
-      item: {
-        "@type": "Service",
-        name: "Preparation & repair",
-        description:
-          "Filling, sanding, and making good before painting or papering so your finish looks its best and lasts longer.",
-        provider: { "@type": "HousePainter", name: "New Decorating", url: SITE_URL },
-        areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
-      },
-    },
-  ],
-};
+    })),
+  };
+}
 
 const services = SERVICE_PAGES.map((sp) => ({
   slug: sp.slug,
@@ -81,7 +69,7 @@ export default function ServicesPage() {
     <div>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildServiceJsonLd()) }}
       />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"

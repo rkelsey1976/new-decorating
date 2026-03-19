@@ -25,11 +25,16 @@ const AREA_NAMES = [
   "Somerset",
 ] as const;
 
-function areaServed(): object[] {
+/** Array of AdministrativeArea for areaServed/serviceArea — reuse on services pages and org schema. */
+export function getSchemaAreaServed(): object[] {
   return AREA_NAMES.map((name) => ({
     "@type": "AdministrativeArea" as const,
     name,
   }));
+}
+
+function areaServed(): object[] {
+  return getSchemaAreaServed();
 }
 
 /** Build ProfessionalService + HousePainter JSON-LD (schema.org: HousePainter is the correct type; PaintingContractor does not exist). */

@@ -34,6 +34,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
 }
 
 import { SITE_URL } from "@/lib/site";
+import { getSchemaAreaServed } from "@/lib/professionalServiceSchema";
 const PHONE_NUMBER = "07717 772881";
 const PHONE_HREF = "tel:+447717772881";
 
@@ -42,6 +43,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
   const service = getServiceBySlug(slug);
   if (!service) notFound();
 
+  const areaServed = getSchemaAreaServed();
   const serviceJsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -52,9 +54,9 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       name: "New Decorating",
       url: SITE_URL,
       telephone: "+447717772881",
-      areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
+      areaServed,
     },
-    areaServed: { "@type": "AdministrativeArea", name: "Bath and North East Somerset" },
+    areaServed,
   };
 
   const faqJsonLd = {
