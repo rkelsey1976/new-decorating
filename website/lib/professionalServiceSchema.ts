@@ -53,7 +53,9 @@ export function getProfessionalServiceSchema(): object {
     },
     address: {
       "@type": "PostalAddress",
+      streetAddress: "23 Dominion Rd, Twerton",
       addressLocality: "Bath",
+      postalCode: "BA2 1DW",
       addressRegion: "Bath and North East Somerset",
       addressCountry: "GB",
     },
