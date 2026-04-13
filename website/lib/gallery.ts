@@ -132,6 +132,16 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     category: "Exterior",
     project: "Exterior Woodwork",
   },
+
+  // ─── Shepton Mallet exterior ───────────────────────────────────
+  {
+    filename: "exterior-painting-shepton-mallet.png",
+    alt: "House exterior with freshly painted cream masonry walls, white window frames and dark grey front door — Shepton Mallet",
+    caption: "Full exterior repaint — masonry, windows and woodwork in Shepton Mallet, Somerset.",
+    category: "Exterior",
+    project: "Shepton Mallet exterior",
+    location: "Shepton Mallet",
+  },
 ];
 
 /** All unique categories for the filter bar */
