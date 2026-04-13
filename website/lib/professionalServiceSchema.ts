@@ -48,7 +48,7 @@ export function getProfessionalServiceSchema(): object {
       "Painters in Bath. Painter & decorator — interior, exterior, wallpaper across BANES. Fully insured, free quotes. 25+ years experience.",
     url: SITE_URL,
     logo: `${SITE_URL}/logo.png`,
-    image: `${SITE_URL}/hero.jpg`,
+    image: `${SITE_URL}/exterior-painting-in-bath.png`,
     priceRange: "$$",
     areaServed: areaServed(),
     geo: {

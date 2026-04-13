@@ -44,8 +44,8 @@ export default function Home() {
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
         title="Painter & Decorator for Your Properties in Bath"
         subtitle="Professional painting and decorating across Bath, Keynsham and North East Somerset. 25+ years experience. Free quotes."
-        image="/hero-home.jpg"
-        imageAlt="Painters in Bath — painter and decorator for your properties — New Decorating"
+        image="/exterior-painting-in-bath.png"
+        imageAlt="Exterior painting in Bath — professionally finished house exterior — New Decorating"
         backgroundImage="/hero-bg-bath.png"
       >
         <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2">
@@ -356,7 +356,7 @@ export default function Home() {
         <div className="absolute inset-0 opacity-20">
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: "url(/hero.jpg)" }}
+            style={{ backgroundImage: "url(/exterior-painting-in-bath.png)" }}
             aria-hidden
           />
         </div>
