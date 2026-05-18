@@ -51,9 +51,9 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "New Decorating — Professional painting and decorating in Bath & BANES",
+        width: 2048,
+        height: 1153,
+        alt: "Freshly painted exterior — New Decorating, Bath & BANES",
       },
     ],
   },
