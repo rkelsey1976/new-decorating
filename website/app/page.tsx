@@ -42,7 +42,7 @@ export default function Home() {
       />
       <PageHero
         locationLine="Bath, Keynsham, Midsomer Norton, Radstock & BANES"
-        title="Painter & Decorator for Your Properties in Bath"
+        title="Your Local Painter & Decorator in Bath"
         subtitle="Professional painting and decorating across Bath, Keynsham and North East Somerset. 25+ years experience. Free quotes."
         image="/exterior-painting-in-bath.png"
         imageAlt="Exterior painting in Bath — professionally finished house exterior — New Decorating"
