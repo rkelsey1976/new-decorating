@@ -525,7 +525,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Keynsham",
     metaTitle: "Painter & Decorator Keynsham | Painters Keynsham | New Decorating",
     metaDescription:
-      "Professional painter & decorator in Keynsham. Interior, exterior, wallpaper. 25+ years experience, fully insured. Free quote — call 07717 772881 or get a quote.",
+      "Local painter & decorator in Keynsham (BS31). Period homes, new builds, interiors & exteriors. 25+ years experience, fully insured. Free quote — call 07717 772881.",
     heroSubtitle:
       "Need a painter and decorator in Keynsham? I offer professional painting and decorating across Keynsham — from the town centre to Saltford, Bitton, Whitchurch, Queen Charlton and the surrounding villages. 25+ years experience. Fully insured. Free, no-obligation quote.",
     intro:
