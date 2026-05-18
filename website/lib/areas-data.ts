@@ -37,7 +37,7 @@ export const AREA_PAGES: AreaPage[] = [
   {
     slug: "bath",
     name: "Bath",
-    metaTitle: "Painters in Bath | Painter & Decorator | New Decorating",
+    metaTitle: "Painter & Decorator in Bath | Period Homes & Exteriors | New Decorating",
     metaDescription:
       "Professional painter & decorator in Bath. Interior, exterior, period properties. 25+ years experience, free quote. Call 07717 772881 or get a quote.",
     heroSubtitle:
