@@ -477,7 +477,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Batheaston",
     metaTitle: "Painter & Decorator in Batheaston, Bath | New Decorating",
     metaDescription:
-      "Painter & decorator in Batheaston, near Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Batheaston and BANES.",
+      "Local painter & decorator in Batheaston, near Bath. Period cottages, Victorian terraces & village homes — interiors, exteriors & wallpaper. Free quote. 25+ years.",
     heroSubtitle:
       "Trusted painter and decorator for homes in Batheaston and the eastern approach to Bath.",
     intro:
