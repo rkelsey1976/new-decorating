@@ -114,7 +114,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Widcombe",
     metaTitle: "Painter & Decorator in Widcombe, Bath | New Decorating",
     metaDescription:
-      "Painter & decorator in Widcombe, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Widcombe and BANES.",
+      "Painter & decorator in Widcombe, Bath. Georgian terraces, Victorian villas & period cottages — interiors, exteriors & wallpaper. 25+ years local experience. Free quote.",
     heroSubtitle:
       "Professional painting and decorating for homes in Widcombe and the south-east Bath area.",
     intro:
@@ -187,7 +187,7 @@ export const AREA_PAGES: AreaPage[] = [
     name: "Combe Down",
     metaTitle: "Painter & Decorator in Combe Down, Bath | New Decorating",
     metaDescription:
-      "Painter & decorator in Combe Down, Bath. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Combe Down and BANES.",
+      "Painter & decorator in Combe Down, Bath. Stone cottages, Victorian villas & period properties — interiors, exteriors & wallpaper. 25+ years experience. Free quote.",
     heroSubtitle:
       "Professional painting and decorating for homes in Combe Down and south Bath.",
     intro:
