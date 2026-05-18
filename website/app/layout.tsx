@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image-v2.jpg",
         width: 2048,
         height: 1153,
         alt: "Freshly painted exterior — New Decorating, Bath & BANES",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: DEFAULT_META_TITLE,
     description:
       "Professional painter & decorator in Bath, Keynsham & BANES. Interior & exterior, wallpaper. 25+ years, fully insured. Free quote. Get in touch.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image-v2.jpg"],
   },
   keywords: [...META_KEYWORDS],
   manifest: "/manifest.json",
