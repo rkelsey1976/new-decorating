@@ -7,8 +7,8 @@ export const SITE_URL = "https://new-decorating.co.uk";
 /** Business name for titles and branding */
 export const SITE_NAME = "New Decorating";
 
-/** Default meta title: targets "painter & decorator bath" + 25 years USP (~70 chars) */
-export const DEFAULT_META_TITLE = `Painter & Decorator Bath | 25 Years Local Experience | ${SITE_NAME}`;
+/** Default meta title: targets "painter & decorator in bath" + 25 years USP (~60 chars) */
+export const DEFAULT_META_TITLE = `Painter & Decorator in Bath | 25+ Years Experience | ${SITE_NAME}`;
 
 /**
  * Google Business Profile – link for customers to leave a review (from GBP "Share review form").

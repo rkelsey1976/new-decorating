@@ -1130,28 +1130,52 @@ export const AREA_PAGES: AreaPage[] = [
   {
     slug: "chippenham",
     name: "Chippenham",
-    metaTitle: "Painter & Decorator in Chippenham | New Decorating",
+    metaTitle: "Painter & Decorator in Chippenham | Free Quotes | New Decorating",
     metaDescription:
-      "Painter & decorator in Chippenham. Interior, exterior, wallpaper, preparation & repair. 25+ years, free quotes. Wiltshire.",
+      "Looking for a painter and decorator in Chippenham? Jay at New Decorating covers Chippenham, Corsham, Calne and the surrounding area. 25+ years experience. Free quotes.",
     heroSubtitle:
-      "Quality painting and decorating services for homes in Chippenham and north Wiltshire.",
+      "Professional painter and decorator covering Chippenham, Corsham, Calne and north Wiltshire. 25+ years experience. Free, no-obligation quotes.",
     intro:
-      "Chippenham sits on the edge of the Cotswolds and has a great mix of Georgian and Victorian homes alongside modern developments. I cover Chippenham and the surrounding area, offering everything from interior refreshes to full exterior work. I'm based in Bath and work across into Wiltshire — 25+ years of experience, free quotes and a focus on quality finishes.",
+      "If you're looking for a painter and decorator in Chippenham, I'm Jay — a professional decorator based in Bath with over 25 years of experience. I've worked on hundreds of homes across Chippenham and the surrounding villages, from period townhouses and Victorian terraces to modern new builds and new-build estates. I cover Chippenham itself as well as Corsham, Calne, Lacock, Box and the broader north Wiltshire area. I offer a reliable, tidy service, free quotes and a focus on quality finishes that last.",
     localInfo:
-      "Chippenham's position between Bath and Swindon means many homeowners look for a decorator who can deliver a high standard. The town has plenty of period features — sash windows, cornices, period mouldings — and I'm experienced in working with older properties as well as new builds.",
+      "Chippenham has a great mix of property styles — Georgian and Victorian houses in the town centre and older parts, alongside larger modern developments on the outskirts. Many of the older properties have period features that need care: sash windows, timber frames, ornate woodwork and rendered or stone elevations. I'm experienced with all of these, using the right preparation and products for each surface type. In nearby Corsham, many homes are built from the distinctive local Bath stone, and I know how to work with it properly. In Calne and Lacock, you'll find a similar range of character properties — stone cottages, rural outbuildings and farmhouses — all areas where attention to prep and finish really matters.",
     services: [
-      "Interior and exterior painting",
-      "Wallpaper hanging and feature walls",
+      "Interior painting — feature walls, full rooms, whole-house redecorations",
+      "Exterior painting — masonry, render, stonework, weatherboarding",
+      "Wallpaper hanging and stripping",
       "Period property and character home decoration",
-      "Preparation and repair",
-      "Full house and single room projects",
-      "Woodwork, skirting and door painting",
+      "Preparation, filling, and surface repair",
+      "Woodwork, skirting boards, doors and window frames",
     ],
-    nearbyAreas: ["Corsham", "Melksham", "Calne", "Malmesbury", "Box", "Lacock"],
+    trustLine: "25+ years experience. Fully insured. Free quote.",
+    whyChoose: [
+      "Local knowledge across Chippenham, Corsham, Calne and Lacock — I know the buildings and what works.",
+      "Experienced with period properties — sash windows, stone elevations, timber and render all handled properly.",
+      "Reliable and tidy — I arrive when I say, protect your home and leave it clean every day.",
+      "Free, no-obligation quote — get in touch and I'll come out to see the job in person.",
+    ],
+    faqs: [
+      {
+        question: "Do you cover Corsham and Calne as well as Chippenham?",
+        answer:
+          "Yes — I cover Chippenham and the wider north Wiltshire area, including Corsham, Calne, Lacock, Box and Melksham. I'm based in Bath so the drive into Wiltshire is straightforward. Get in touch and I'll confirm your address is in my area.",
+      },
+      {
+        question: "Can you paint the exterior of my Chippenham home?",
+        answer:
+          "Absolutely. Exterior work is a big part of what I do — masonry, render, stonework, timber frames and weatherboarding. I use high-quality weatherproof coatings suited to north Wiltshire's climate and always start with thorough preparation so the finish lasts.",
+      },
+      {
+        question: "How do I get a quote for decorating work in Chippenham?",
+        answer:
+          "The easiest way is to call or use the contact form on this site. Tell me roughly what you need — e.g. one room, full interior, exterior — and your address, and I'll arrange to come out and quote in person. All quotes are free and no-obligation.",
+      },
+    ],
+    nearbyAreas: ["Corsham", "Calne", "Lacock", "Box", "Melksham", "Malmesbury"],
     postcodes: ["SN14", "SN15"],
     region: "Wiltshire",
     sameAs: "https://en.wikipedia.org/wiki/Chippenham,_Wiltshire",
-    landmarks: ["Chippenham High Street", "the River Avon at Chippenham"],
+    landmarks: ["Chippenham High Street", "the River Avon at Chippenham", "Lacock Abbey"],
   },
   {
     slug: "rode",
