@@ -15,6 +15,12 @@ export interface GalleryImage {
   project: string;
   /** Optional location for SEO (e.g. "Bath", "Keynsham") – used in ImageObject schema and can be shown in captions */
   location?: string;
+  /**
+   * Set for tall shots that must be seen whole. Grid cards are 4:3 by default,
+   * which centre-crops a portrait photo and loses roughly a third off each end;
+   * "portrait" renders the card at 3:4 so nothing is cut off.
+   */
+  orientation?: "portrait";
   tag?: GalleryTag;
 }
 
@@ -228,12 +234,12 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   },
   {
     filename: "front-door-black-gloss-finish-bath.webp",
-    alt: "Georgian front door finished in black high gloss, viewed from the hallway, Bath",
-    caption: "After — the panelled door finished in black high gloss.",
+    alt: "Georgian front door freshly coated in black high gloss, dust sheets still down, Bath",
+    caption: "In progress — the panelled door glossed and still drying, viewed from the hallway.",
     category: "Exterior",
     project: "Georgian Front Door",
     location: "Bath",
-    tag: "after",
+    tag: "in progress",
   },
   {
     filename: "georgian-front-door-repainted-bath.webp",
@@ -242,6 +248,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     category: "Exterior",
     project: "Georgian Front Door",
     location: "Bath",
+    orientation: "portrait",
     tag: "after",
   },
 

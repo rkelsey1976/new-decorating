@@ -55,7 +55,11 @@ export default function GalleryGrid() {
             key={img.filename}
             className="rounded-2xl border border-black/8 bg-white overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            <div className="aspect-[4/3] relative bg-muted/20">
+            <div
+              className={`relative bg-muted/20 ${
+                img.orientation === "portrait" ? "aspect-[3/4]" : "aspect-[4/3]"
+              }`}
+            >
               <Image
                 src={`/gallery/${img.filename}`}
                 alt={img.alt}
