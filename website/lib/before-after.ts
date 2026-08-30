@@ -65,19 +65,19 @@ export const BEFORE_AFTER_PROJECTS: BeforeAfterProject[] = [
     afterGridAlt: ["Panelled front door finished in black high gloss, Bath"],
   },
   {
-    id: "gates-warleigh",
-    title: "Wrought iron gates",
+    id: "ironwork-warleigh",
+    title: "Wrought iron gates & railings",
     description:
-      "Driveway gates taken back from tired light blue, treated and repainted to a deep black gloss.",
+      "Tired black ironwork sanded back to sound metal, coated in rust-inhibiting primer, then finished in black gloss.",
     location: "Warleigh",
-    beforeMain: `${GAL}/wrought-iron-gates-before-repaint.webp`,
-    afterMain: `${GAL}/wrought-iron-gate-black-gloss-after.webp`,
-    beforeMainAlt: "Pair of wrought iron driveway gates in faded light blue before repainting, Warleigh",
-    afterMainAlt: "Wrought iron gate repainted in black gloss with fleur-de-lis finials, Warleigh",
-    beforeGrid: [`${GAL}/wrought-iron-gate-repaint-in-progress.webp`],
-    afterGrid: [`${GAL}/wrought-iron-railings-black-gloss.webp`],
-    beforeGridAlt: ["Wrought iron gate part-repainted, black going on over the original blue, Warleigh"],
-    afterGridAlt: ["Wrought iron railings finished in black gloss, Warleigh"],
+    beforeMain: `${GAL}/wrought-iron-railings-sanded-back.webp`,
+    afterMain: `${GAL}/wrought-iron-railings-black-gloss.webp`,
+    beforeMainAlt: "Wrought iron railings sanded back to bare metal before priming, Warleigh",
+    afterMainAlt: "Wrought iron railings finished in black gloss, Warleigh",
+    // No grid pair: the remaining shots are the primer and topcoat stages, which
+    // would read as "before" under the Before label.
+    beforeGrid: [],
+    afterGrid: [],
   },
   {
     id: "railings-bath",
