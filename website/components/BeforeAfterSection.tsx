@@ -8,8 +8,8 @@ export default function BeforeAfterSection() {
     <BeforeAfterSlideshow
       projects={BEFORE_AFTER_PROJECTS}
       sectionLabel="Before & After"
-      sectionTitle="Wrought iron railings, Bath"
-      sectionDescription="Weathered, rusty railings stripped, treated and repainted to a clean black finish. Same spot – before and after."
+      sectionTitle="Before & after in Bath"
+      sectionDescription="Sash windows, front doors and ironwork — the same spot before the work started and after it was finished."
       className="mt-16 sm:mt-20"
     />
   );

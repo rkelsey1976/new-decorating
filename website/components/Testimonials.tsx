@@ -1,33 +1,5 @@
 import { GBP_MAPS_URL } from "@/lib/site";
-
-type Testimonial = {
-  name: string;
-  text: string;
-  stars: number;
-};
-
-const testimonials: Testimonial[] = [
-  {
-    name: "Steve Frankham",
-    text: "New Decorating has worked on a couple of projects for me, some exterior work which needed a lot of preparation before painting. I was kept informed of what was being done all through the stages. Also some interior work where I again cannot fault the work. Jay tidy at all times. In general a good job done, really pleased and 100% will be using him again.",
-    stars: 5,
-  },
-  {
-    name: "Mike Joe Coates",
-    text: "Fantastic painter and decorator. Jay got back to me straight away with a sensible price. The job was to decorate my living room and hallway. He arrived on time every day, everything was covered in dust sheets, there was no mess at the end of the day. All done in one week, and what a great job he did. I would highly recommend Jay with any decorating that needs to be done.",
-    stars: 5,
-  },
-  {
-    name: "Cam New",
-    text: "Highly recommend. New Decorating paint all my bespoke units, top quality finish and fast turnover.",
-    stars: 5,
-  },
-  {
-    name: "Andrew Scappaticci",
-    text: "I highly recommend New Decorating having worked with him on various projects. Jay completes his work to a very high standard and always hits his deadlines. Very professional, clean and tidy and very competitive with his prices. Always happy to advise you and answer questions before any work is started. Overall 5 star service.",
-    stars: 5,
-  },
-];
+import { REVIEWS } from "@/lib/reviews";
 
 function StarRating({ count }: { count: number }) {
   return (
@@ -77,13 +49,13 @@ export default function Testimonials() {
         </p>
 
         <div className="mt-12 grid sm:grid-cols-2 gap-6 lg:gap-8">
-          {testimonials.map((t) => (
+          {REVIEWS.map((t) => (
             <blockquote
               key={t.name}
               className="rounded-2xl border border-black/8 bg-white p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col"
             >
               <StarRating count={t.stars} />
-              <p className="mt-4 text-muted leading-relaxed text-sm flex-1">
+              <p className="mt-4 text-muted leading-relaxed text-sm flex-1 whitespace-pre-line">
                 &ldquo;{t.text}&rdquo;
               </p>
               <footer className="mt-5 flex items-center gap-3 pt-4 border-t border-black/5">
@@ -92,9 +64,28 @@ export default function Testimonials() {
                   <cite className="not-italic font-semibold text-foreground text-sm">
                     {t.name}
                   </cite>
-                  <p className="text-xs text-muted mt-0.5">Google review</p>
+                  <p className="text-xs text-muted mt-0.5">
+                    Google review
+                    {t.date && (
+                      <>
+                        {" · "}
+                        <time dateTime={t.date}>
+                          {new Date(t.date).toLocaleDateString("en-GB", {
+                            month: "long",
+                            year: "numeric",
+                          })}
+                        </time>
+                      </>
+                    )}
+                  </p>
                 </div>
               </footer>
+              {t.reply && (
+                <p className="mt-4 rounded-xl bg-accent/8 px-4 py-3 text-xs text-muted leading-relaxed whitespace-pre-line">
+                  <span className="font-semibold text-foreground">Jason replied:</span>{" "}
+                  {t.reply}
+                </p>
+              )}
             </blockquote>
           ))}
         </div>
