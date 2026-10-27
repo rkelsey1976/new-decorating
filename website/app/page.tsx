@@ -179,45 +179,65 @@ export default function Home() {
           <p className="mt-4 text-white/90 text-center max-w-2xl mx-auto leading-relaxed">
             Professional painting and decorating services tailored to your home and budget.
           </p>
-          <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 title: "Interior painting",
                 description: "Walls, ceilings, woodwork — I deliver a flawless finish with quality paints and careful preparation.",
                 image: "/services/interior.jpg",
                 alt: "Interior painting and decorating",
+                href: "/services/interior-painting",
               },
               {
                 title: "Exterior painting",
                 description: "Protect and refresh the outside of your property with weather-resistant finishes.",
                 image: "/services/exterior.png",
                 alt: "Exterior painting",
+                href: "/services/exterior-painting",
               },
               {
                 title: "Wallpaper & feature walls",
                 description: "From subtle textures to bold patterns, I help you create the look you want.",
                 image: "/services/wallpaper.jpg",
                 alt: "Wallpaper and feature walls",
+                href: "/services/wallpaper-hanging",
+              },
+              {
+                title: "Dustless sanding",
+                description: "Sanding with dust extraction, so the dust is captured as I work — not left all over your home.",
+                image: "/services/preparation.jpg",
+                alt: "Dustless sanding with dust extraction",
+                href: "/services/dustless-sanding",
+                badge: "New",
               },
             ].map((item) => (
-              <div
+              <Link
                 key={item.title}
-                className="rounded-2xl border border-white/20 bg-white overflow-hidden shadow-xl hover:shadow-[0_8px_30px_rgba(0,0,0,0.12)] transition-all duration-300"
+                href={item.href}
+                className="group relative block rounded-2xl border border-white/20 bg-white overflow-hidden shadow-xl hover:shadow-[0_8px_30px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300"
               >
+                {"badge" in item && item.badge ? (
+                  <span className="absolute top-3 left-3 z-10 rounded-full bg-accent px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white shadow">
+                    {item.badge}
+                  </span>
+                ) : null}
                 <div className="relative aspect-[4/3] w-full">
                   <Image
                     src={item.image}
                     alt={item.alt}
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     className="object-cover"
                   />
                 </div>
                 <div className="p-6">
                   <h3 className="font-display text-xl font-semibold text-foreground">{item.title}</h3>
                   <p className="mt-3 text-muted text-sm leading-relaxed">{item.description}</p>
+                  <span className="mt-4 inline-flex items-center text-sm font-medium text-accent group-hover:underline underline-offset-2">
+                    Find out more →
+                  </span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           <div className="mt-10 flex flex-wrap justify-center gap-6">

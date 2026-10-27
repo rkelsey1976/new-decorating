@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: `My Services | ${DEFAULT_META_TITLE}`,
   description:
-    "My services – painter & decorator Bath. Interior, exterior, wallpaper, preparation & repair. Quality work, free quotes. BANES. 25+ years.",
+    "My services – painter & decorator Bath. Interior, exterior, wallpaper, preparation & repair, dustless sanding. Quality work, free quotes. BANES. 25+ years.",
   alternates: { canonical: "/services" },
 };
 
@@ -35,6 +35,11 @@ const serviceListItems = [
     name: "Preparation & repair",
     description:
       "Filling, sanding, and making good before painting or papering so your finish looks its best and lasts longer.",
+  },
+  {
+    name: "Dustless sanding",
+    description:
+      "Sanding with dust extraction, so dust is captured at the source instead of settling around your home. Cleaner preparation and a better finish.",
   },
 ];
 

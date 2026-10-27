@@ -170,6 +170,7 @@ export default function ContactForm() {
           <option value="Interior & exterior">Interior & exterior</option>
           <option value="Wallpaper / feature wall">Wallpaper / feature wall</option>
           <option value="Preparation & repair">Preparation & repair</option>
+          <option value="Dustless sanding">Dustless sanding</option>
           <option value="Other / not sure">Other / not sure</option>
         </select>
       </div>

@@ -89,6 +89,7 @@ export function getProfessionalServiceSchema(): object {
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Contracts" } },
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Wallpaper hanging" } },
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Preparation & repair" } },
+        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Dustless sanding" } },
       ],
     },
     aggregateRating: {
