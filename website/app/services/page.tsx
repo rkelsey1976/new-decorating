@@ -27,6 +27,11 @@ const serviceListItems = [
       "Exterior walls, windows, doors, and fascias. I use weather-resistant products and techniques suited to UK conditions to protect and refresh your property.",
   },
   {
+    name: "Dustless sanding",
+    description:
+      "Sanding with dust extraction, so dust is captured at the source instead of settling around your home. Cleaner preparation and a better finish.",
+  },
+  {
     name: "Wallpaper hanging",
     description:
       "Standard and feature wallpaper, including textured and patterned designs. I handle preparation and finishing for a seamless result.",
@@ -35,11 +40,6 @@ const serviceListItems = [
     name: "Preparation & repair",
     description:
       "Filling, sanding, and making good before painting or papering so your finish looks its best and lasts longer.",
-  },
-  {
-    name: "Dustless sanding",
-    description:
-      "Sanding with dust extraction, so dust is captured at the source instead of settling around your home. Cleaner preparation and a better finish.",
   },
 ];
 
