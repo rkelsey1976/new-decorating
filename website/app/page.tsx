@@ -205,8 +205,8 @@ export default function Home() {
               {
                 title: "Dustless sanding",
                 description: "Sanding with dust extraction, so the dust is captured as I work — not left all over your home.",
-                image: "/services/preparation.jpg",
-                alt: "Dustless sanding with dust extraction",
+                image: "/services/dustless-sanding.jpg",
+                alt: "Orbital sander with dust extraction hose sanding a window sill",
                 href: "/services/dustless-sanding",
                 badge: "New",
               },

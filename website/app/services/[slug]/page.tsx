@@ -129,7 +129,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
               <Image
                 src={service.image2}
-                alt={`${service.title} by New Decorating in Bath`}
+                alt={service.image2Alt ?? `${service.title} by New Decorating in Bath`}
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -138,6 +138,29 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           </div>
         </div>
       </section>
+
+      {service.gallery && service.gallery.length > 0 ? (
+        <section className="pb-16 sm:pb-24 bg-background">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <h2 className="font-display text-2xl sm:text-3xl font-semibold text-foreground tracking-tight">
+              {service.title} in action
+            </h2>
+            <div className="mt-8 grid sm:grid-cols-2 gap-6">
+              {service.gallery.map((photo) => (
+                <div key={photo.src} className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    fill
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {/* What's Included - Checklist */}
       <section className="py-16 sm:py-24 bg-white border-y border-black/5">

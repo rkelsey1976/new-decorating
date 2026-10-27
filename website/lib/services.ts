@@ -11,6 +11,10 @@ export interface ServicePage {
   heroSubtitle: string;
   image: string;
   image2: string;
+  /** Optional alt text for image2 (defaults to "<title> by New Decorating in Bath") */
+  image2Alt?: string;
+  /** Optional extra photos shown in an "in action" strip on the service page */
+  gallery?: { src: string; alt: string }[];
   intro: string;
   extendedIntro: string;
   benefits: { heading: string; text: string }[];
@@ -251,12 +255,23 @@ export const SERVICE_PAGES: ServicePage[] = [
       "Dustless sanding in Bath – painter & decorator. Walls, ceilings, woodwork and doors sanded with dust extraction. Cleaner, faster prep. Free quotes.",
     heroSubtitle:
       "Sanding without the mess. I use sanders connected to a dust extractor, so the dust is captured at the source instead of settling all over your home.",
-    image: "/services/preparation.jpg",
-    image2: "/services/preparation-2.jpg",
+    image: "/services/dustless-sanding.jpg",
+    image2: "/services/dustless-sanding-kit.jpg",
+    image2Alt: "Dust-extracted sanders, extractor hose and sanding discs ready for a job",
+    gallery: [
+      {
+        src: "/services/dustless-sanding-walls.jpg",
+        alt: "Jason from New Decorating sanding a wall with a long-reach dust-extracted sander",
+      },
+      {
+        src: "/services/dustless-sanding-woodwork.jpg",
+        alt: "Detail sander with dust extraction hose sanding a door frame",
+      },
+    ],
     intro:
       "Sanding is the most important part of preparation, and traditionally the messiest. Fine dust gets into carpets, soft furnishings, air vents and every corner of the house, often for days after the decorator has gone. Dustless sanding changes that. My sanders are connected directly to an extraction unit that pulls the dust away as I work, so you get a properly prepared surface without the cloud of dust.",
     extendedIntro:
-      "It's ideal if you're living in the house while the work is done, have young children, pets or allergies, or simply don't want to be cleaning up dust for a week afterwards. I use dustless sanding on walls and ceilings, skirting boards, doors, architraves, window frames, kitchen cabinets and staircases. In older Bath properties, where there may be several layers of old paint, keeping dust out of the air matters even more. Because the surface stays clean, the paint goes on to a better base, which means a smoother, longer-lasting finish.",
+      "It's ideal if you're living in the house while the work is done, have young children, pets or allergies, or simply don't want to be cleaning up dust for a week afterwards. I use a long-reach sander for walls and ceilings and smaller detail sanders for woodwork, all running through the extractor. That covers walls and ceilings, skirting boards, doors, architraves, window frames, kitchen cabinets and staircases. In older Bath properties, where there may be several layers of old paint, keeping dust out of the air matters even more. Because the surface stays clean, the paint goes on to a better base, which means a smoother, longer-lasting finish.",
     benefits: [
       {
         heading: "Far less mess",
