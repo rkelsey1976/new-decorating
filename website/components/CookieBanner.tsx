@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
-const CONSENT_KEY = "new-decorating-cookie-consent";
+import { CONSENT_KEY } from "@/lib/analytics";
 
 type ConsentStatus = "pending" | "accepted" | "rejected";
 

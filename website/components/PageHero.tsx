@@ -62,6 +62,7 @@ export default function PageHero({
     <section
       className="relative bg-accent"
       aria-label="Hero"
+      data-track-location="hero"
       style={
         backgroundImage
           ? {

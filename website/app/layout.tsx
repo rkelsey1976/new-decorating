@@ -5,6 +5,7 @@ import BackToTop from "@/components/BackToTop";
 import CookieBanner from "@/components/CookieBanner";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import ClickTracking from "@/components/ClickTracking";
 import Header from "@/components/Header";
 import { META_KEYWORDS } from "@/lib/seo-keywords";
 
@@ -129,6 +130,7 @@ export default function RootLayout({
         <Footer />
         <BackToTop />
         <GoogleAnalytics />
+        <ClickTracking />
         <CookieBanner />
       </body>
     </html>
